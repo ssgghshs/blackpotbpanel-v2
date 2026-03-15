@@ -93,3 +93,6 @@ systemctl start BlackPotBPanel
 
 ## 国际化
 - 支持中文/英文/日文/韩文
+
+
+

@@ -1,5 +1,5 @@
 # app/__init__.py
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.staticfiles import StaticFiles
 from app.user.routers import router as user_router
 from app.system.routers import router as system_router
@@ -18,6 +18,7 @@ import config.settings
 def create_app():
     # 从配置中获取文档设置
     enable_docs = config.settings.settings.ENABLE_DOCS
+    demo_mode = config.settings.settings.DEMO_MODE
     
     app = FastAPI(
         title=config.settings.settings.APP_NAME,
@@ -28,6 +29,17 @@ def create_app():
         redoc_url="/api/v2/redoc" if enable_docs else None,
         openapi_url="/api/v2/openapi.json" if enable_docs else None
     )
+    
+    # 演示模式中间件：阻止非GET请求
+    @app.middleware("http")
+    async def demo_mode_middleware(request: Request, call_next):
+        if demo_mode and request.method != "GET":
+            raise HTTPException(
+                status_code=403,
+                detail="演示模式下不允许修改操作"
+            )
+        response = await call_next(request)
+        return response
     
     # API路由前缀
     api_prefix = "/api/v2"

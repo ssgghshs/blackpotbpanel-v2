@@ -48,6 +48,9 @@ class Settings(BaseSettings):
     SSL_ENABLED: bool = False
     SSL_CERT_PATH: str = "./data/ssl/ssl.crt"
     SSL_KEY_PATH: str = "./data/ssl/ssl.key"
+    
+    # 演示模式配置
+    DEMO_MODE: bool = False
 
     class Config:
         env_file = "../setting.conf"
