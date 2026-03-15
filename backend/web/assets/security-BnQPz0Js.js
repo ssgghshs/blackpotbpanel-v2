@@ -1,0 +1,1 @@
+import{L as r}from"./index-BA-cPoAP.js";function s(e){return r({url:"/service/processes",method:"get",params:e})}function o(e){return r({url:`/service/process/${e}`,method:"get"})}function n(e){return r({url:`/service/process/${e}/terminate`,method:"post"})}function c(e){return r({url:"/service/network/connections",method:"get",params:e})}export{o as a,n as b,c as n,s as p};

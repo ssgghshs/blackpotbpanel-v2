@@ -36,6 +36,11 @@ npm run build
 __init__.py.prod文件将
 __init__.py.prod改为__init__.py
 
+``` bash
+mkdir -p /opt/blackpotbpanel-v2/backend/web/
+mv ./dist /opt/blackpotbpanel-v2/backend/web/
+```
+
 ### 后端
 1. 克隆仓库
 ```bash
@@ -46,9 +51,16 @@ cd blackpotbpanel-v2/backend
 ```bash
 pip install -r requirements.txt
 ```
-3. 运行项目
+3. 临时运行项目
 ```bash
 python main.py
+```
+4. 永久运行项目
+```bash
+cp BlackPotBPanel.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable BlackPotBPanel
+systemctl start BlackPotBPanel
 ```
 
 
