@@ -1,0 +1,1855 @@
+2025-10-26 08:30:45 [INFO] root: Admin user already exists.
+2025-10-26 08:30:45 [INFO] root: Localhost SSH config already exists.
+2025-10-26 08:30:45 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-26 08:30:45 [INFO] uvicorn.error: Started server process [1069]
+2025-10-26 08:30:45 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-26 08:30:45 [INFO] uvicorn.error: Application startup complete.
+2025-10-26 08:30:45 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     2025-10-26 08:33:37 192.168.223.1:1772 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:37 192.168.223.1:12124 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:37 192.168.223.1:42778 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:37 192.168.223.1:23142 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:37 192.168.223.1:1772 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:37 192.168.223.1:16546 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:37 192.168.223.1:32216 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:37 192.168.223.1:32216 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:38 192.168.223.1:12124 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:38 192.168.223.1:42778 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:38 192.168.223.1:23142 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:38 192.168.223.1:1772 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:38 192.168.223.1:32216 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:38 192.168.223.1:32216 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:39 192.168.223.1:32216 - "OPTIONS /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:39 192.168.223.1:32216 - "GET /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:40 192.168.223.1:32216 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:40 192.168.223.1:32216 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:40 192.168.223.1:32216 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:43 192.168.223.1:32216 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:44 192.168.223.1:32216 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:44 192.168.223.1:32216 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:44 192.168.223.1:57412 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:44 192.168.223.1:26085 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:44 192.168.223.1:32216 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:44 192.168.223.1:57412 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:33:44 192.168.223.1:26085 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:58:08 192.168.223.1:4078 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 08:58:08 192.168.223.1:4078 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:12:47 192.168.223.1:15566 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:12:47 192.168.223.1:15566 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:19:49 192.168.223.1:7289 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:19:49 192.168.223.1:7289 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:12952 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:12952 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:12952 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:14446 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:24918 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:12952 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:24918 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:25 192.168.223.1:14446 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:33 192.168.223.1:12190 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:33 192.168.223.1:12190 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:33 192.168.223.1:28387 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:33 192.168.223.1:47294 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:38 192.168.223.1:13594 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:41 192.168.223.1:13594 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:41 192.168.223.1:13594 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:41 192.168.223.1:26772 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:28:41 192.168.223.1:20297 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:29:15 192.168.223.1:35235 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:29:15 192.168.223.1:11611 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:29:15 192.168.223.1:35235 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:29:15 192.168.223.1:56557 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:32:08 192.168.223.1:61085 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:32:08 192.168.223.1:30943 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:32:08 192.168.223.1:23320 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:32:08 192.168.223.1:61085 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:18 192.168.223.1:64690 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:18 192.168.223.1:64690 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:18 192.168.223.1:16640 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:18 192.168.223.1:7776 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:20 192.168.223.1:7776 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:20 192.168.223.1:7776 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:20 192.168.223.1:16640 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:33:21 192.168.223.1:64690 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:35:12 192.168.223.1:40455 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:35:13 192.168.223.1:40455 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:35:13 192.168.223.1:4516 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:35:13 192.168.223.1:58570 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:28 192.168.223.1:37773 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:28 192.168.223.1:37773 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:28 192.168.223.1:37773 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:28 192.168.223.1:37773 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:45:28 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443128:2984e51df8ce17e2c59e9e0922458349d389751b7211437d60c74421e622bded
+2025-10-26 09:45:28 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:45:29 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:45:29 [INFO] uvicorn.error: ('192.168.223.1', 58186) - "WebSocket /host/ws/terminal/1?token=1%3A1761443128%3A2984e51df8ce17e2c59e9e0922458349d389751b7211437d60c74421e622bded" [accepted]
+2025-10-26 09:45:29 [INFO] uvicorn.error: connection open
+2025-10-26 09:45:44 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 09:45:44 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:45:44 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 09:45:47 192.168.223.1:48563 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:48563 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:48563 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:22674 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:48715 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:48563 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:48715 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:22674 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:22674 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:47 192.168.223.1:22674 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:45:47 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443147:e34be22477f5259e3b674bb6b20d6b22730078d6871284081b0e4c18d77a52df
+2025-10-26 09:45:47 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:45:48 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:45:48 [INFO] uvicorn.error: ('192.168.223.1', 10521) - "WebSocket /host/ws/terminal/1?token=1%3A1761443147%3Ae34be22477f5259e3b674bb6b20d6b22730078d6871284081b0e4c18d77a52df" [accepted]
+2025-10-26 09:45:48 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 09:45:56 192.168.223.1:10010 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:57 192.168.223.1:10010 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:57 192.168.223.1:20910 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:57 192.168.223.1:60951 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:57 192.168.223.1:60951 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:45:57 192.168.223.1:60951 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:45:57 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443157:3750ddafc87497b9f035b5d1cbbb71fd689cd8ee8c71bc0b200c6a3e46749be2
+2025-10-26 09:45:57 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:45:57 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:45:57 [INFO] uvicorn.error: ('192.168.223.1', 25501) - "WebSocket /host/ws/terminal/1?token=1%3A1761443157%3A3750ddafc87497b9f035b5d1cbbb71fd689cd8ee8c71bc0b200c6a3e46749be2" [accepted]
+2025-10-26 09:45:57 [INFO] uvicorn.error: connection open
+2025-10-26 09:46:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 09:46:08 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:46:08 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 09:46:19 192.168.223.1:16037 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:19 192.168.223.1:16037 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:19 192.168.223.1:56872 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:19 192.168.223.1:24656 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:20 192.168.223.1:24656 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:20 192.168.223.1:24656 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:46:20 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443180:ac5e72ffe6299c84258f06800a333214b4a0c96a05c69300db23c00b2331c012
+2025-10-26 09:46:20 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:46:20 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:46:20 [INFO] uvicorn.error: ('192.168.223.1', 62995) - "WebSocket /host/ws/terminal/1?token=1%3A1761443180%3Aac5e72ffe6299c84258f06800a333214b4a0c96a05c69300db23c00b2331c012" [accepted]
+2025-10-26 09:46:20 [INFO] uvicorn.error: connection open
+2025-10-26 09:46:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 09:46:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:46:28 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 09:46:29 192.168.223.1:23817 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:46:29 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443189:47d9a42c970c53fdac2f843eac904cf42f3eb1d26b3ff8bab27ebd784390ec5c
+2025-10-26 09:46:29 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:46:30 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:46:30 [INFO] uvicorn.error: ('192.168.223.1', 7415) - "WebSocket /host/ws/terminal/1?token=1%3A1761443189%3A47d9a42c970c53fdac2f843eac904cf42f3eb1d26b3ff8bab27ebd784390ec5c" [accepted]
+2025-10-26 09:46:30 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 09:46:45 192.168.223.1:28069 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:46 192.168.223.1:28069 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:46 192.168.223.1:12766 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:46:46 192.168.223.1:5874 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:18 192.168.223.1:37653 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:18 192.168.223.1:21053 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:18 192.168.223.1:21053 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:18 192.168.223.1:21053 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:34 192.168.223.1:52700 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:34 192.168.223.1:1467 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:34 192.168.223.1:63680 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:34 192.168.223.1:41299 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:34 192.168.223.1:30828 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:34 192.168.223.1:52700 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:35 192.168.223.1:63680 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:35 192.168.223.1:41299 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:35 192.168.223.1:30828 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:35 192.168.223.1:1467 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:36 192.168.223.1:1467 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:36 192.168.223.1:1467 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:36 192.168.223.1:41299 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:36 192.168.223.1:30828 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:37 192.168.223.1:30828 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:37 192.168.223.1:30828 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:47:37 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443257:8c87dfc977a9e978f8d0b4ec7f9980d32483e37195662928e96bdc93b18aa8c2
+2025-10-26 09:47:37 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:47:38 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:47:38 [INFO] uvicorn.error: ('192.168.223.1', 52552) - "WebSocket /host/ws/terminal/1?token=1%3A1761443257%3A8c87dfc977a9e978f8d0b4ec7f9980d32483e37195662928e96bdc93b18aa8c2" [accepted]
+2025-10-26 09:47:38 [INFO] uvicorn.error: connection open
+2025-10-26 09:47:50 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 09:47:50 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:47:50 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 09:47:50 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:47:50 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 09:47:50 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:47:50 [INFO] uvicorn.error: connection closed
+2025-10-26 09:47:50 [INFO] uvicorn.error: connection closed
+2025-10-26 09:47:50 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 09:47:51 192.168.223.1:54304 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:51 192.168.223.1:38913 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:47:51 192.168.223.1:38913 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:47:51 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443271:c810c1bda35ffecc5b6fbae473636d59da4bc6f3f2dca7be7be8adb80b97a5b9
+2025-10-26 09:47:51 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:47:51 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:47:51 [INFO] uvicorn.error: ('192.168.223.1', 51734) - "WebSocket /host/ws/terminal/1?token=1%3A1761443271%3Ac810c1bda35ffecc5b6fbae473636d59da4bc6f3f2dca7be7be8adb80b97a5b9" [accepted]
+2025-10-26 09:47:51 [INFO] uvicorn.error: connection open
+2025-10-26 09:48:17 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 09:48:17 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:48:17 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 09:50:24 192.168.223.1:48847 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:11337 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:51370 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:23908 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:60296 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:51370 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:51370 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:51370 - "OPTIONS /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:25 192.168.223.1:51370 - "GET /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:26 192.168.223.1:51370 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:27 192.168.223.1:23908 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:27 192.168.223.1:51370 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:27 192.168.223.1:60296 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:30 192.168.223.1:60296 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:50:30 192.168.223.1:60296 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:50:30 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443430:590912bc983d0fa2b28bc3a672c32368d3c2fcd3cb7e5750cc52e69de9ef19dd
+2025-10-26 09:50:30 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:50:30 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:50:30 [INFO] uvicorn.error: ('192.168.223.1', 31149) - "WebSocket /host/ws/terminal/1?token=1%3A1761443430%3A590912bc983d0fa2b28bc3a672c32368d3c2fcd3cb7e5750cc52e69de9ef19dd" [accepted]
+2025-10-26 09:50:30 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 09:56:38 192.168.223.1:28779 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:38 192.168.223.1:28779 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:40 192.168.223.1:28779 - "OPTIONS /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-26 09:56:40 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:56:41 [INFO] paramiko.transport: Authentication (publickey) successful!
+INFO:     2025-10-26 09:56:41 192.168.223.1:28779 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-26 09:56:41 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443801:21892fd85f66fbc166df7a019b0be360dae3022a9601b1bbf63215a5e729adb2
+2025-10-26 09:56:41 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:56:41 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:56:41 [INFO] uvicorn.error: ('192.168.223.1', 1628) - "WebSocket /host/ws/terminal/1?token=1%3A1761443801%3A21892fd85f66fbc166df7a019b0be360dae3022a9601b1bbf63215a5e729adb2" [accepted]
+2025-10-26 09:56:41 [INFO] uvicorn.error: connection open
+2025-10-26 09:56:43 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 09:56:43 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 09:56:43 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 09:56:45 192.168.223.1:28779 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:45 192.168.223.1:28779 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:45 192.168.223.1:28779 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:45 192.168.223.1:30934 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:45 192.168.223.1:36406 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:45 192.168.223.1:36406 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:45 192.168.223.1:30934 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:45 192.168.223.1:28779 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:47 192.168.223.1:28779 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:47 192.168.223.1:28779 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:47 192.168.223.1:28779 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:56:47 192.168.223.1:30934 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:56:47 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443807:4df338529cc3cd6f367840b724d394158c082938f21236c924882308074eabef
+2025-10-26 09:56:47 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:56:48 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:56:48 [INFO] uvicorn.error: ('192.168.223.1', 47486) - "WebSocket /host/ws/terminal/1?token=1%3A1761443807%3A4df338529cc3cd6f367840b724d394158c082938f21236c924882308074eabef" [accepted]
+2025-10-26 09:56:48 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 09:57:13 192.168.223.1:32891 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:13 192.168.223.1:32891 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:14 192.168.223.1:32891 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:14 192.168.223.1:32891 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:16 192.168.223.1:32891 - "OPTIONS /file/list?path=%2Fopt HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:16 192.168.223.1:32891 - "GET /file/list?path=%2Fopt HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:19 192.168.223.1:32891 - "OPTIONS /file/download?path=%2Fopt&filename=blackpotbpanel-v2.zip HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:20 192.168.223.1:32891 - "GET /file/download?path=%2Fopt&filename=blackpotbpanel-v2.zip HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:47 192.168.223.1:35088 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:47 192.168.223.1:35088 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:54 192.168.223.1:48050 - "OPTIONS /logs/files HTTP/1.1" 200 OK
+2025-10-26 09:57:54 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-26 09:57:54 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-26 09:57:54 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-26 09:57:54 [INFO] app.log.routers: Found log file: ['app_2025-10-26.log', 'app_2025-10-25.log', 'app_2025-10-24.log', 'app_2025-10-23.log']
+INFO:     2025-10-26 09:57:54 192.168.223.1:48050 - "GET /logs/files HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:54 192.168.223.1:48050 - "OPTIONS /logs/content/app_2025-10-26.log HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:54 192.168.223.1:48050 - "GET /logs/content/app_2025-10-26.log HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:57:59 192.168.223.1:3802 - "GET /logs/content/app_2025-10-26.log HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:04 192.168.223.1:3802 - "GET /logs/content/app_2025-10-26.log HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:04 192.168.223.1:3802 - "OPTIONS /logs/access-config/latest HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:04 192.168.223.1:3802 - "GET /logs/access-config/latest HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:04 192.168.223.1:3802 - "OPTIONS /logs/access-content?log_type=access HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:04 192.168.223.1:3802 - "GET /logs/access-content?log_type=access HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:05 192.168.223.1:3802 - "OPTIONS /logs/operation?page=1&size=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:05 192.168.223.1:29214 - "OPTIONS /users/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:05 192.168.223.1:3802 - "GET /users/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:05 192.168.223.1:29214 - "GET /logs/operation?page=1&size=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:06 192.168.223.1:29214 - "OPTIONS /logs/login?page=1&size=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:06 192.168.223.1:3802 - "GET /users/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:06 192.168.223.1:29214 - "GET /logs/login?page=1&size=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:10 192.168.223.1:29214 - "OPTIONS /logs/login/clear HTTP/1.1" 200 OK
+2025-10-26 09:58:10 [INFO] app.log.routers: 成功清理 12 条登录日志记录
+INFO:     2025-10-26 09:58:10 192.168.223.1:29214 - "DELETE /logs/login/clear HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:10 192.168.223.1:29214 - "GET /logs/login?page=1&size=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:12 192.168.223.1:29214 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:12 192.168.223.1:29214 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:12 192.168.223.1:43674 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:12 192.168.223.1:44437 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:15 192.168.223.1:44437 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 09:58:15 192.168.223.1:44437 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 09:58:15 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761443895:52d4027b4df0d88e9c5b61643282d830b6030d7d32c1c163ed1ba464a774510d
+2025-10-26 09:58:15 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 09:58:16 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 09:58:16 [INFO] uvicorn.error: ('192.168.223.1', 43552) - "WebSocket /host/ws/terminal/1?token=1%3A1761443895%3A52d4027b4df0d88e9c5b61643282d830b6030d7d32c1c163ed1ba464a774510d" [accepted]
+2025-10-26 09:58:16 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:02:59 192.168.223.1:33302 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:02:59 192.168.223.1:33302 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:02:59 192.168.223.1:16753 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:02:59 192.168.223.1:38314 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:03:00 192.168.223.1:38314 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:03:00 192.168.223.1:38314 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:03:00 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761444180:2f88f79da684125bdc04053bedfe08d52986628ca4f3457b1e71d5ad207f3f47
+2025-10-26 10:03:00 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:03:00 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:03:00 [INFO] uvicorn.error: ('192.168.223.1', 63974) - "WebSocket /host/ws/terminal/1?token=1%3A1761444180%3A2f88f79da684125bdc04053bedfe08d52986628ca4f3457b1e71d5ad207f3f47" [accepted]
+2025-10-26 10:03:00 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:04:28 192.168.223.1:37726 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:28 192.168.223.1:37726 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:28 192.168.223.1:56600 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:28 192.168.223.1:53081 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:28 192.168.223.1:53081 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:28 192.168.223.1:53081 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:04:28 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761444268:4066bb17cb7258810a4c2a6b96bcad2505fe781688d9e60e4d15121460c22131
+2025-10-26 10:04:28 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:04:29 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:04:29 [INFO] uvicorn.error: ('192.168.223.1', 16793) - "WebSocket /host/ws/terminal/1?token=1%3A1761444268%3A4066bb17cb7258810a4c2a6b96bcad2505fe781688d9e60e4d15121460c22131" [accepted]
+2025-10-26 10:04:29 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:04:41 192.168.223.1:11221 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:41 192.168.223.1:11221 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:41 192.168.223.1:37293 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:41 192.168.223.1:46735 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:41 192.168.223.1:46735 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:04:41 192.168.223.1:46735 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:04:41 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761444281:6d7c7784313447bdfc9dbc50ef6b651f651bc238330fc8cc8c7ec82622262901
+2025-10-26 10:04:41 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:04:42 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:04:42 [INFO] uvicorn.error: ('192.168.223.1', 14130) - "WebSocket /host/ws/terminal/1?token=1%3A1761444281%3A6d7c7784313447bdfc9dbc50ef6b651f651bc238330fc8cc8c7ec82622262901" [accepted]
+2025-10-26 10:04:42 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:06:15 192.168.223.1:1314 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:06:15 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761444375:6a07293d29eb30717243a646bccefd8ab56cd0f9250c64482b956ff2fda006c5
+2025-10-26 10:06:15 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:06:16 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:06:16 [INFO] uvicorn.error: ('192.168.223.1', 18493) - "WebSocket /host/ws/terminal/1?token=1%3A1761444375%3A6a07293d29eb30717243a646bccefd8ab56cd0f9250c64482b956ff2fda006c5" [accepted]
+2025-10-26 10:06:16 [INFO] uvicorn.error: connection open
+2025-10-26 10:06:38 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:06:38 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:06:38 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:07:11 192.168.223.1:37168 - "OPTIONS /host/3/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:07:11 192.168.223.1:37168 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:07:11 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761444431:e4710132561f1d0561dcc140ac5fc501ec94c66bec8d09a35ab1459711599fa5
+2025-10-26 10:07:11 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:07:12 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:07:12 [INFO] uvicorn.error: ('192.168.223.1', 27881) - "WebSocket /host/ws/terminal/3?token=3%3A1761444431%3Ae4710132561f1d0561dcc140ac5fc501ec94c66bec8d09a35ab1459711599fa5" [accepted]
+2025-10-26 10:07:12 [INFO] uvicorn.error: connection open
+2025-10-26 10:07:19 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:07:19 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:07:19 [INFO] uvicorn.error: connection closed
+2025-10-26 10:09:01 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:09:01 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:09:01 [INFO] uvicorn.error: connection closed
+2025-10-26 10:09:10 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:09:10 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:09:10 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:09:10 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:09:10 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:09:10 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:09:10 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:09:10 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:09:10 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:09:10 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:09:10 [INFO] uvicorn.error: connection closed
+2025-10-26 10:09:10 [INFO] uvicorn.error: connection closed
+2025-10-26 10:09:10 [INFO] uvicorn.error: connection closed
+2025-10-26 10:09:10 [INFO] uvicorn.error: connection closed
+2025-10-26 10:09:10 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:09:10 192.168.223.1:39312 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:09:10 192.168.223.1:5666 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:09:10 192.168.223.1:39312 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:09:10 192.168.223.1:5666 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:09:10 192.168.223.1:5666 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:09:10 192.168.223.1:39312 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:09:10 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761444550:7de9a86e631003c8ee34b361171123d8b2c59e2ec6fde406ed693a1b5ebe1b6d
+2025-10-26 10:09:10 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:09:11 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:09:11 [INFO] uvicorn.error: ('192.168.223.1', 39271) - "WebSocket /host/ws/terminal/1?token=1%3A1761444550%3A7de9a86e631003c8ee34b361171123d8b2c59e2ec6fde406ed693a1b5ebe1b6d" [accepted]
+2025-10-26 10:09:11 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:11:18 192.168.223.1:34397 - "OPTIONS /host/2/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:11:18 192.168.223.1:34397 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:11:18 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761444678:874217a9dcc8d93f1249f92b2b337689074d8c16a4efcef085e1fd298ed4fae3
+2025-10-26 10:11:18 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:11:18 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:11:18 [INFO] uvicorn.error: ('192.168.223.1', 37441) - "WebSocket /host/ws/terminal/2?token=2%3A1761444678%3A874217a9dcc8d93f1249f92b2b337689074d8c16a4efcef085e1fd298ed4fae3" [accepted]
+2025-10-26 10:11:18 [INFO] uvicorn.error: connection open
+2025-10-26 10:11:24 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:11:24 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:11:24 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:11:41 192.168.223.1:10062 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:11:41 192.168.223.1:10062 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:11:41 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761444701:910511d75bf9de31ece9225ac3675f272bcfd0b5d284a2a1cf3663f116c19828
+2025-10-26 10:11:41 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:11:41 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:11:41 [INFO] uvicorn.error: ('192.168.223.1', 55657) - "WebSocket /host/ws/terminal/1?token=1%3A1761444701%3A910511d75bf9de31ece9225ac3675f272bcfd0b5d284a2a1cf3663f116c19828" [accepted]
+2025-10-26 10:11:41 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:17:34 192.168.223.1:49821 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:17:34 192.168.223.1:49821 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:17:34 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445054:cfebe0d3cd4087ad32d477fd9e4ebc536ddf30e99cf978d9f2952eba153d8cea
+2025-10-26 10:17:34 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:17:34 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:17:34 [INFO] uvicorn.error: ('192.168.223.1', 54723) - "WebSocket /host/ws/terminal/1?token=1%3A1761445054%3Acfebe0d3cd4087ad32d477fd9e4ebc536ddf30e99cf978d9f2952eba153d8cea" [accepted]
+2025-10-26 10:17:34 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:18:05 192.168.223.1:34231 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:18:05 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761445085:e17e10a21f86ffe2f997e279d7abb6b3bbbf9de8a1094f4e8892fd13af5e666b
+2025-10-26 10:18:05 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:18:05 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:18:05 [INFO] uvicorn.error: ('192.168.223.1', 32241) - "WebSocket /host/ws/terminal/2?token=2%3A1761445085%3Ae17e10a21f86ffe2f997e279d7abb6b3bbbf9de8a1094f4e8892fd13af5e666b" [accepted]
+2025-10-26 10:18:05 [INFO] uvicorn.error: connection open
+2025-10-26 10:18:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:18:08 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:18:08 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:18:37 192.168.223.1:42901 - "OPTIONS /host/3/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:18:37 192.168.223.1:42901 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:18:37 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761445117:87f38ee2267170f35cf04142abda06b7ada893e51e97e4be0004d0ef99581041
+2025-10-26 10:18:37 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:18:37 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:18:38 [INFO] uvicorn.error: ('192.168.223.1', 46441) - "WebSocket /host/ws/terminal/3?token=3%3A1761445117%3A87f38ee2267170f35cf04142abda06b7ada893e51e97e4be0004d0ef99581041" [accepted]
+2025-10-26 10:18:38 [INFO] uvicorn.error: connection open
+2025-10-26 10:18:46 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:18:46 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:18:46 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:18:51 192.168.223.1:16217 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:18:51 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761445131:520e92d42f895d8d12b10ee613651e3850854feb45039154fa90a15f9492c9cd
+2025-10-26 10:18:51 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:18:51 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:18:51 [INFO] uvicorn.error: ('192.168.223.1', 47094) - "WebSocket /host/ws/terminal/2?token=2%3A1761445131%3A520e92d42f895d8d12b10ee613651e3850854feb45039154fa90a15f9492c9cd" [accepted]
+2025-10-26 10:18:51 [INFO] uvicorn.error: connection open
+2025-10-26 10:18:54 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:18:54 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:18:54 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:19:46 192.168.223.1:55789 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:19:46 192.168.223.1:55789 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:19:46 192.168.223.1:55789 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:19:46 192.168.223.1:55789 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:19:46 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445186:edae6003435001e633b177dac13b06ed3d01ff575d2f6d8d2e0fb3b286347ace
+2025-10-26 10:19:46 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:19:47 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:19:47 [INFO] uvicorn.error: ('192.168.223.1', 27053) - "WebSocket /host/ws/terminal/1?token=1%3A1761445186%3Aedae6003435001e633b177dac13b06ed3d01ff575d2f6d8d2e0fb3b286347ace" [accepted]
+2025-10-26 10:19:47 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:19:52 192.168.223.1:60089 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:19:52 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445192:8717829ef447538560924daa6db6d7412751313030550d61c0555a60f10d47c5
+2025-10-26 10:19:52 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:19:52 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:19:52 [INFO] uvicorn.error: ('192.168.223.1', 53330) - "WebSocket /host/ws/terminal/1?token=1%3A1761445192%3A8717829ef447538560924daa6db6d7412751313030550d61c0555a60f10d47c5" [accepted]
+2025-10-26 10:19:52 [INFO] uvicorn.error: connection open
+2025-10-26 10:19:56 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:19:56 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:19:56 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:20:18 192.168.223.1:60316 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:18 192.168.223.1:60316 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:18 192.168.223.1:60316 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:18 192.168.223.1:25399 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:18 192.168.223.1:1335 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:18 192.168.223.1:60316 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:18 192.168.223.1:25399 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:18 192.168.223.1:1335 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:19 192.168.223.1:1335 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:19 192.168.223.1:1335 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:20:19 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445219:69f47b0350b1580138cea130959e50780aeeed529ae797aeb91ccb7d93383e9a
+2025-10-26 10:20:19 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:20:20 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:20:20 [INFO] uvicorn.error: ('192.168.223.1', 28195) - "WebSocket /host/ws/terminal/1?token=1%3A1761445219%3A69f47b0350b1580138cea130959e50780aeeed529ae797aeb91ccb7d93383e9a" [accepted]
+2025-10-26 10:20:20 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:20:29 192.168.223.1:45140 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:29 192.168.223.1:45140 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:29 192.168.223.1:45140 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:29 192.168.223.1:45140 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:34 192.168.223.1:45140 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:34 192.168.223.1:51056 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:34 192.168.223.1:45140 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:34 192.168.223.1:3231 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:36 192.168.223.1:3231 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:36 192.168.223.1:3231 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:20:36 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445236:c3d44cf38f5d4b8acac652e8b7009ed5dce1a76622e66e130180567a7ab7f602
+2025-10-26 10:20:36 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:20:36 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:20:36 [INFO] uvicorn.error: ('192.168.223.1', 52200) - "WebSocket /host/ws/terminal/1?token=1%3A1761445236%3Ac3d44cf38f5d4b8acac652e8b7009ed5dce1a76622e66e130180567a7ab7f602" [accepted]
+2025-10-26 10:20:36 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:20:42 192.168.223.1:61327 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:42 192.168.223.1:61327 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:42 192.168.223.1:2247 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:42 192.168.223.1:33819 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:42 192.168.223.1:33819 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:20:43 192.168.223.1:33819 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:20:43 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445242:bdde429e9e38bf9d0c9dd5fbf1ec2a947fa6283f5500f5dec17a1962c737f3ff
+2025-10-26 10:20:43 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:20:43 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:20:43 [INFO] uvicorn.error: ('192.168.223.1', 51424) - "WebSocket /host/ws/terminal/1?token=1%3A1761445242%3Abdde429e9e38bf9d0c9dd5fbf1ec2a947fa6283f5500f5dec17a1962c737f3ff" [accepted]
+2025-10-26 10:20:43 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:23:34 192.168.223.1:65110 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:34 192.168.223.1:15425 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:34 192.168.223.1:65110 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:34 192.168.223.1:20385 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:35 192.168.223.1:20385 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:35 192.168.223.1:20385 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:23:35 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445415:79d7efd15ca02db0bf5dddd6e33482ecfbee541caee443c1b02582d04398ba6e
+2025-10-26 10:23:35 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:23:35 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:23:35 [INFO] uvicorn.error: ('192.168.223.1', 18456) - "WebSocket /host/ws/terminal/1?token=1%3A1761445415%3A79d7efd15ca02db0bf5dddd6e33482ecfbee541caee443c1b02582d04398ba6e" [accepted]
+2025-10-26 10:23:35 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:23:37 192.168.223.1:20385 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:37 192.168.223.1:20385 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:23:37 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445417:1372161b9c59ceb1e4e3ad80fee979cabecb671013a113cfb20eb105a467024b
+2025-10-26 10:23:37 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:23:38 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:23:38 [INFO] uvicorn.error: ('192.168.223.1', 31879) - "WebSocket /host/ws/terminal/1?token=1%3A1761445417%3A1372161b9c59ceb1e4e3ad80fee979cabecb671013a113cfb20eb105a467024b" [accepted]
+2025-10-26 10:23:38 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:23:39 192.168.223.1:20385 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:39 192.168.223.1:20385 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:23:39 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445419:9187ee17b744609e1475707b8a81313b1a36dd13fda969bb8cdaac519a6d8c6d
+2025-10-26 10:23:39 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:23:39 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:23:40 [INFO] uvicorn.error: ('192.168.223.1', 55659) - "WebSocket /host/ws/terminal/1?token=1%3A1761445419%3A9187ee17b744609e1475707b8a81313b1a36dd13fda969bb8cdaac519a6d8c6d" [accepted]
+2025-10-26 10:23:40 [INFO] uvicorn.error: connection open
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:23:47 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+2025-10-26 10:23:47 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:23:48 192.168.223.1:60086 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:48 192.168.223.1:50444 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:23:48 192.168.223.1:50444 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:23:48 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445428:e8326503d5969f7bcd1726357a4ba4c4d3b724d562c2b71aa01cb12c20058f85
+2025-10-26 10:23:48 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:23:48 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:23:48 [INFO] uvicorn.error: ('192.168.223.1', 31178) - "WebSocket /host/ws/terminal/1?token=1%3A1761445428%3Ae8326503d5969f7bcd1726357a4ba4c4d3b724d562c2b71aa01cb12c20058f85" [accepted]
+2025-10-26 10:23:48 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:24:46 192.168.223.1:23228 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:24:46 192.168.223.1:23228 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:24:46 192.168.223.1:51507 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:24:46 192.168.223.1:7728 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:24:47 192.168.223.1:7728 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:24:47 192.168.223.1:7728 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:24:47 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445487:c8dce731cdd60227337d0304403a497dd6d9a4129c916f05dce567ab6cd54f7f
+2025-10-26 10:24:47 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:24:47 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:24:47 [INFO] uvicorn.error: ('192.168.223.1', 43502) - "WebSocket /host/ws/terminal/1?token=1%3A1761445487%3Ac8dce731cdd60227337d0304403a497dd6d9a4129c916f05dce567ab6cd54f7f" [accepted]
+2025-10-26 10:24:47 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:24:48 192.168.223.1:7728 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:24:48 192.168.223.1:7728 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:24:48 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445488:83846ee5ace06750059cacaeca6bbecbfc67453942e867712d3130b03ec47ebc
+2025-10-26 10:24:48 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:24:49 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:24:49 [INFO] uvicorn.error: ('192.168.223.1', 41871) - "WebSocket /host/ws/terminal/1?token=1%3A1761445488%3A83846ee5ace06750059cacaeca6bbecbfc67453942e867712d3130b03ec47ebc" [accepted]
+2025-10-26 10:24:49 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:25:01 192.168.223.1:64066 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:25:01 192.168.223.1:64066 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:25:01 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445501:93caeecae6f24d7e1643a19a3d3b5e39e4b36cf71704fff31f1161ccb73a8d32
+2025-10-26 10:25:01 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:25:01 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:25:01 [INFO] uvicorn.error: ('192.168.223.1', 17771) - "WebSocket /host/ws/terminal/1?token=1%3A1761445501%3A93caeecae6f24d7e1643a19a3d3b5e39e4b36cf71704fff31f1161ccb73a8d32" [accepted]
+2025-10-26 10:25:01 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:26:51 192.168.223.1:3926 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:26:51 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761445611:f97dfea5bc14f951c8438ea8d378b6240a175d582981a012cafbd77036f9742c
+2025-10-26 10:26:51 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:26:51 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:26:52 [INFO] uvicorn.error: ('192.168.223.1', 52839) - "WebSocket /host/ws/terminal/3?token=3%3A1761445611%3Af97dfea5bc14f951c8438ea8d378b6240a175d582981a012cafbd77036f9742c" [accepted]
+2025-10-26 10:26:52 [INFO] uvicorn.error: connection open
+2025-10-26 10:27:00 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:27:00 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:27:00 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:27:04 192.168.223.1:52857 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:27:04 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445624:5b8692d74f54c196467b0b978f1da157569a060adea18a31f36787321866a4cf
+2025-10-26 10:27:04 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:27:05 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:27:05 [INFO] uvicorn.error: ('192.168.223.1', 28036) - "WebSocket /host/ws/terminal/1?token=1%3A1761445624%3A5b8692d74f54c196467b0b978f1da157569a060adea18a31f36787321866a4cf" [accepted]
+2025-10-26 10:27:05 [INFO] uvicorn.error: connection open
+2025-10-26 10:27:06 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:27:06 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:27:06 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:27:57 192.168.223.1:18710 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:27:57 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761445677:59f8b210fb40f969d46218493af354a3533c0d4cf9a40641c107da8e766822b0
+2025-10-26 10:27:57 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:27:57 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:27:57 [INFO] uvicorn.error: ('192.168.223.1', 9731) - "WebSocket /host/ws/terminal/3?token=3%3A1761445677%3A59f8b210fb40f969d46218493af354a3533c0d4cf9a40641c107da8e766822b0" [accepted]
+2025-10-26 10:27:57 [INFO] uvicorn.error: connection open
+2025-10-26 10:28:01 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:28:01 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:28:01 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:29:16 192.168.223.1:58447 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:29:16 192.168.223.1:58447 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:29:16 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445756:d02922e6865714333395806af0624763e46d0efe62b7d0a360e84af7973cea8e
+2025-10-26 10:29:16 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:29:17 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:29:17 [INFO] uvicorn.error: ('192.168.223.1', 45341) - "WebSocket /host/ws/terminal/1?token=1%3A1761445756%3Ad02922e6865714333395806af0624763e46d0efe62b7d0a360e84af7973cea8e" [accepted]
+2025-10-26 10:29:17 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:29:21 192.168.223.1:58447 - "OPTIONS /host/3/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:29:21 192.168.223.1:58447 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:29:21 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761445761:24890913a2f14bea2ed8552f2866937f116e9d06664e6f034f180b6e210dc6ce
+2025-10-26 10:29:21 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:29:22 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:29:22 [INFO] uvicorn.error: ('192.168.223.1', 60729) - "WebSocket /host/ws/terminal/3?token=3%3A1761445761%3A24890913a2f14bea2ed8552f2866937f116e9d06664e6f034f180b6e210dc6ce" [accepted]
+2025-10-26 10:29:22 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:29:23 192.168.223.1:58447 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:29:23 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761445763:9898fe6422c205a6ad0a968dbe0816f47a7b1ef3b5d6cc88e25d6d8a74695f0a
+2025-10-26 10:29:23 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:29:24 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:29:24 [INFO] uvicorn.error: ('192.168.223.1', 30945) - "WebSocket /host/ws/terminal/3?token=3%3A1761445763%3A9898fe6422c205a6ad0a968dbe0816f47a7b1ef3b5d6cc88e25d6d8a74695f0a" [accepted]
+2025-10-26 10:29:24 [INFO] uvicorn.error: connection open
+2025-10-26 10:29:32 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:29:32 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:29:32 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:29:36 192.168.223.1:60006 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:29:36 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445776:4c2678e2355a93135f3f95c44071a3f2efb4b2587ef6e83e2e98b9bde9dba123
+2025-10-26 10:29:36 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:29:36 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:29:36 [INFO] uvicorn.error: ('192.168.223.1', 4218) - "WebSocket /host/ws/terminal/1?token=1%3A1761445776%3A4c2678e2355a93135f3f95c44071a3f2efb4b2587ef6e83e2e98b9bde9dba123" [accepted]
+2025-10-26 10:29:36 [INFO] uvicorn.error: connection open
+2025-10-26 10:30:03 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:30:03 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:30:03 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:30:14 192.168.223.1:9128 - "OPTIONS /host/2/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:30:14 192.168.223.1:9128 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:30:14 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761445814:0d048bac95630dae83c3e63b89ac770999b35567a7e7576cb0a7c417755cfa49
+2025-10-26 10:30:15 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:30:15 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:30:15 [INFO] uvicorn.error: ('192.168.223.1', 1520) - "WebSocket /host/ws/terminal/2?token=2%3A1761445814%3A0d048bac95630dae83c3e63b89ac770999b35567a7e7576cb0a7c417755cfa49" [accepted]
+2025-10-26 10:30:15 [INFO] uvicorn.error: connection open
+2025-10-26 10:31:09 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:31:09 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:31:09 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:31:11 192.168.223.1:39912 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:31:11 192.168.223.1:39912 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:31:11 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445871:1b32608bcadf7ae131aa574a0f584e95cef269e75938332c131213928b943284
+2025-10-26 10:31:11 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:31:12 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:31:12 [INFO] uvicorn.error: ('192.168.223.1', 3005) - "WebSocket /host/ws/terminal/1?token=1%3A1761445871%3A1b32608bcadf7ae131aa574a0f584e95cef269e75938332c131213928b943284" [accepted]
+2025-10-26 10:31:12 [INFO] uvicorn.error: connection open
+2025-10-26 10:31:15 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:31:15 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:31:15 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:31:43 192.168.223.1:31311 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:31:43 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761445903:e1ee7704a0c412fee22e741e068f434d782f1d44c79d7566def58d5f992a10c7
+2025-10-26 10:31:43 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:31:44 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:31:44 [INFO] uvicorn.error: ('192.168.223.1', 51156) - "WebSocket /host/ws/terminal/1?token=1%3A1761445903%3Ae1ee7704a0c412fee22e741e068f434d782f1d44c79d7566def58d5f992a10c7" [accepted]
+2025-10-26 10:31:44 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:32:39 192.168.223.1:38883 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:32:39 192.168.223.1:4811 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:32:39 192.168.223.1:4811 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:32:39 192.168.223.1:4811 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:33:40 192.168.223.1:41142 - "OPTIONS /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-26 10:33:40 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:33:40 [INFO] paramiko.transport: Authentication (publickey) successful!
+INFO:     2025-10-26 10:33:41 192.168.223.1:41142 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-26 10:33:41 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446021:1beb61eeee690a57b7e9c8dfcc0f95b16eecc95979b0b949f9e184a95f810e17
+2025-10-26 10:33:41 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:33:41 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:33:41 [INFO] uvicorn.error: ('192.168.223.1', 17132) - "WebSocket /host/ws/terminal/1?token=1%3A1761446021%3A1beb61eeee690a57b7e9c8dfcc0f95b16eecc95979b0b949f9e184a95f810e17" [accepted]
+2025-10-26 10:33:41 [INFO] uvicorn.error: connection open
+2025-10-26 10:34:06 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:34:06 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:34:06 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:34:08 192.168.223.1:2022 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:08 192.168.223.1:2022 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:08 192.168.223.1:2022 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:08 192.168.223.1:43216 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:08 192.168.223.1:62879 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:08 192.168.223.1:62879 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:08 192.168.223.1:43216 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:08 192.168.223.1:2022 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:10 192.168.223.1:2022 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:10 192.168.223.1:2022 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:10 192.168.223.1:2022 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:34:10 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446050:2d3ee1bf54eb3901aad09e7c92dddd7e968e1939a1d54e97da6217b837d0d704
+2025-10-26 10:34:10 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:34:11 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:34:11 [INFO] uvicorn.error: ('192.168.223.1', 60153) - "WebSocket /host/ws/terminal/1?token=1%3A1761446050%3A2d3ee1bf54eb3901aad09e7c92dddd7e968e1939a1d54e97da6217b837d0d704" [accepted]
+2025-10-26 10:34:11 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:34:41 192.168.223.1:30712 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:41 192.168.223.1:30712 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:34:41 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446081:e6633c2e2ec3a3f1a38408652ecd81537a9214e8d9583697577f6222d4d36511
+2025-10-26 10:34:41 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:34:42 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:34:42 [INFO] uvicorn.error: ('192.168.223.1', 12313) - "WebSocket /host/ws/terminal/1?token=1%3A1761446081%3Ae6633c2e2ec3a3f1a38408652ecd81537a9214e8d9583697577f6222d4d36511" [accepted]
+2025-10-26 10:34:42 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:34:45 192.168.223.1:30712 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:45 192.168.223.1:30712 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:45 192.168.223.1:63894 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:45 192.168.223.1:57408 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:46 192.168.223.1:57408 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:34:46 192.168.223.1:57408 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:34:46 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446086:fc2fe417833aefd4c3897aa187424bc6bccc2d9b5691d7d6381f3f498eb20686
+2025-10-26 10:34:46 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:34:46 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:34:46 [INFO] uvicorn.error: ('192.168.223.1', 56786) - "WebSocket /host/ws/terminal/1?token=1%3A1761446086%3Afc2fe417833aefd4c3897aa187424bc6bccc2d9b5691d7d6381f3f498eb20686" [accepted]
+2025-10-26 10:34:46 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:35:24 192.168.223.1:51266 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:35:24 192.168.223.1:58047 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:35:24 192.168.223.1:51266 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:35:24 192.168.223.1:5872 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:35:26 192.168.223.1:5872 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:35:26 192.168.223.1:5872 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:35:26 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446126:a1d370ffd362d739cea46f3c44bb9b7f8bae83556e3c058c35c9b5de66b5f7a5
+2025-10-26 10:35:26 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:35:26 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:35:26 [INFO] uvicorn.error: ('192.168.223.1', 55474) - "WebSocket /host/ws/terminal/1?token=1%3A1761446126%3Aa1d370ffd362d739cea46f3c44bb9b7f8bae83556e3c058c35c9b5de66b5f7a5" [accepted]
+2025-10-26 10:35:26 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:35:33 192.168.223.1:62793 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:35:33 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761446133:204854bf8cf5543558cd12c4a0665134e53e8aadaa2604dd5fcdfee6a83d7a61
+2025-10-26 10:35:33 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:35:33 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:35:33 [INFO] uvicorn.error: ('192.168.223.1', 52223) - "WebSocket /host/ws/terminal/2?token=2%3A1761446133%3A204854bf8cf5543558cd12c4a0665134e53e8aadaa2604dd5fcdfee6a83d7a61" [accepted]
+2025-10-26 10:35:33 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:36:12 192.168.223.1:40857 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:36:12 192.168.223.1:40857 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:36:12 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446172:706be4e37ea7d4c1c936b9ebba526ebd0685babbf881bef0a255d73148bccd6a
+2025-10-26 10:36:12 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:36:12 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:36:12 [INFO] uvicorn.error: ('192.168.223.1', 46273) - "WebSocket /host/ws/terminal/1?token=1%3A1761446172%3A706be4e37ea7d4c1c936b9ebba526ebd0685babbf881bef0a255d73148bccd6a" [accepted]
+2025-10-26 10:36:12 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:36:17 192.168.223.1:10136 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:36:17 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446177:9efc51053c70bcad0c4c0880dd19374fc6d92b82bd1a41c7df7700d05e3fcaaa
+2025-10-26 10:36:17 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:36:17 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:36:18 [INFO] uvicorn.error: ('192.168.223.1', 7466) - "WebSocket /host/ws/terminal/1?token=1%3A1761446177%3A9efc51053c70bcad0c4c0880dd19374fc6d92b82bd1a41c7df7700d05e3fcaaa" [accepted]
+2025-10-26 10:36:18 [INFO] uvicorn.error: connection open
+2025-10-26 10:36:20 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:36:20 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:36:20 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:36:22 192.168.223.1:57571 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:36:23 192.168.223.1:57571 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:36:23 192.168.223.1:13463 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:36:23 192.168.223.1:36337 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:36:25 192.168.223.1:36337 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:36:25 192.168.223.1:36337 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:36:25 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446185:5e76731ad69a388eb47bb1339f9cc16a22ed175215dfc4cad69236305639cdfa
+2025-10-26 10:36:25 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:36:25 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:36:25 [INFO] uvicorn.error: ('192.168.223.1', 38987) - "WebSocket /host/ws/terminal/1?token=1%3A1761446185%3A5e76731ad69a388eb47bb1339f9cc16a22ed175215dfc4cad69236305639cdfa" [accepted]
+2025-10-26 10:36:25 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:36:42 192.168.223.1:55555 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:36:42 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446202:05a77f18f94c8015bdaa0db899ca870af93de7a6f9c3cbd4dc6affef48cf51c9
+2025-10-26 10:36:42 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:36:43 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:36:43 [INFO] uvicorn.error: ('192.168.223.1', 11122) - "WebSocket /host/ws/terminal/1?token=1%3A1761446202%3A05a77f18f94c8015bdaa0db899ca870af93de7a6f9c3cbd4dc6affef48cf51c9" [accepted]
+2025-10-26 10:36:43 [INFO] uvicorn.error: connection open
+2025-10-26 10:36:51 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:36:51 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:36:51 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:37:09 192.168.223.1:21082 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:37:09 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761446229:cbcf1da771b6c9a62390efc5ab434b38f9d71ffb6dd76f68f0843e8fc3306890
+2025-10-26 10:37:09 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:37:09 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:37:09 [INFO] uvicorn.error: ('192.168.223.1', 7903) - "WebSocket /host/ws/terminal/2?token=2%3A1761446229%3Acbcf1da771b6c9a62390efc5ab434b38f9d71ffb6dd76f68f0843e8fc3306890" [accepted]
+2025-10-26 10:37:09 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:37:21 192.168.223.1:38121 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:37:21 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761446241:46edf49fd3904324b6b98a76f781bd23a103488b0744037301f51d587d71628b
+2025-10-26 10:37:22 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:37:22 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:37:22 [INFO] uvicorn.error: ('192.168.223.1', 57938) - "WebSocket /host/ws/terminal/2?token=2%3A1761446241%3A46edf49fd3904324b6b98a76f781bd23a103488b0744037301f51d587d71628b" [accepted]
+2025-10-26 10:37:22 [INFO] uvicorn.error: connection open
+2025-10-26 10:37:25 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:37:25 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:37:25 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:37:26 192.168.223.1:38121 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:37:26 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761446246:78a91caf6f32b09fddc3581b19e2adcdb66bdefe63001d5a93a5495bd99c194a
+2025-10-26 10:37:26 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:37:26 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:37:26 [INFO] uvicorn.error: ('192.168.223.1', 15041) - "WebSocket /host/ws/terminal/2?token=2%3A1761446246%3A78a91caf6f32b09fddc3581b19e2adcdb66bdefe63001d5a93a5495bd99c194a" [accepted]
+2025-10-26 10:37:26 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:38:59 192.168.223.1:40819 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:38:59 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761446339:e7450a3e319af6781a1484d1e4b51253e3461661c85487d34fbd1dd27e4a24e4
+2025-10-26 10:38:59 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:39:00 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:39:00 [INFO] uvicorn.error: ('192.168.223.1', 61085) - "WebSocket /host/ws/terminal/3?token=3%3A1761446339%3Ae7450a3e319af6781a1484d1e4b51253e3461661c85487d34fbd1dd27e4a24e4" [accepted]
+2025-10-26 10:39:00 [INFO] uvicorn.error: connection open
+2025-10-26 10:39:05 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:39:05 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:39:05 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:39:35 192.168.223.1:25227 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:39:35 192.168.223.1:25227 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:39:35 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446375:15b83cac46e4df503aaeb80122e8c8ffaa57825177d0357fc464545ea5068562
+2025-10-26 10:39:35 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:39:36 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:39:36 [INFO] uvicorn.error: ('192.168.223.1', 8728) - "WebSocket /host/ws/terminal/1?token=1%3A1761446375%3A15b83cac46e4df503aaeb80122e8c8ffaa57825177d0357fc464545ea5068562" [accepted]
+2025-10-26 10:39:36 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:39:38 192.168.223.1:25227 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:39:38 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446378:8616e7d8698a21612f67d02012db7747da6059bad6af0ca41d2b1101feebc5b0
+2025-10-26 10:39:38 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:39:38 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:39:38 [INFO] uvicorn.error: ('192.168.223.1', 30327) - "WebSocket /host/ws/terminal/1?token=1%3A1761446378%3A8616e7d8698a21612f67d02012db7747da6059bad6af0ca41d2b1101feebc5b0" [accepted]
+2025-10-26 10:39:38 [INFO] uvicorn.error: connection open
+2025-10-26 10:39:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:39:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:39:42 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:39:44 192.168.223.1:36993 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:39:45 192.168.223.1:36993 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:39:45 192.168.223.1:38081 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:39:45 192.168.223.1:55857 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:39:47 192.168.223.1:55857 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:39:47 192.168.223.1:55857 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:39:47 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446387:2da0dd4b85b9dbec4e9f2fa27e3696b9f26d1ceaa4e41c2142f8a47f316d2b18
+2025-10-26 10:39:47 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:39:47 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:39:47 [INFO] uvicorn.error: ('192.168.223.1', 51103) - "WebSocket /host/ws/terminal/1?token=1%3A1761446387%3A2da0dd4b85b9dbec4e9f2fa27e3696b9f26d1ceaa4e41c2142f8a47f316d2b18" [accepted]
+2025-10-26 10:39:47 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:40:24 192.168.223.1:56361 - "OPTIONS /host/2/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:40:24 192.168.223.1:56361 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:40:24 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761446424:40b4b44e1d3dbe9231c1e0ef09dab4a3b5749acbac7cdfb528b1af320a494ae0
+2025-10-26 10:40:25 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:40:25 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:40:25 [INFO] uvicorn.error: ('192.168.223.1', 50195) - "WebSocket /host/ws/terminal/2?token=2%3A1761446424%3A40b4b44e1d3dbe9231c1e0ef09dab4a3b5749acbac7cdfb528b1af320a494ae0" [accepted]
+2025-10-26 10:40:25 [INFO] uvicorn.error: connection open
+2025-10-26 10:40:27 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:40:27 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:40:27 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:43:33 192.168.223.1:52842 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:43:34 192.168.223.1:52842 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:43:34 192.168.223.1:37712 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:43:34 192.168.223.1:42872 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:43:39 192.168.223.1:42872 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:43:39 192.168.223.1:42872 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:43:39 192.168.223.1:52842 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:43:39 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446619:1f1be1dab9e8e92af4c769f75dc896d78cb3bb23c93124b90b69f034a50841d7
+2025-10-26 10:43:39 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:43:39 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:43:39 [INFO] uvicorn.error: ('192.168.223.1', 16747) - "WebSocket /host/ws/terminal/1?token=1%3A1761446619%3A1f1be1dab9e8e92af4c769f75dc896d78cb3bb23c93124b90b69f034a50841d7" [accepted]
+2025-10-26 10:43:39 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:44:13 192.168.223.1:54673 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:13 192.168.223.1:54673 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:14 192.168.223.1:54673 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:14 192.168.223.1:62549 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:14 192.168.223.1:65494 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:14 192.168.223.1:54673 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:14 192.168.223.1:65494 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:14 192.168.223.1:62549 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:16 192.168.223.1:62549 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:16 192.168.223.1:62549 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:44:16 192.168.223.1:62549 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:44:16 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446656:0d29a33e8b4d790953c34208a0c7b2dc85b59d50d2aa80a77cb2738e2921aaa4
+2025-10-26 10:44:16 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:44:16 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:44:16 [INFO] uvicorn.error: ('192.168.223.1', 61970) - "WebSocket /host/ws/terminal/1?token=1%3A1761446656%3A0d29a33e8b4d790953c34208a0c7b2dc85b59d50d2aa80a77cb2738e2921aaa4" [accepted]
+2025-10-26 10:44:16 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:45:12 192.168.223.1:10175 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:45:12 192.168.223.1:10175 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:45:12 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446712:b85f62bbe08d3b0e051ce43e1ca0333df2c5dd3eb9f7e3f4be5a20be538141a8
+2025-10-26 10:45:12 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:45:12 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:45:12 [INFO] uvicorn.error: ('192.168.223.1', 23425) - "WebSocket /host/ws/terminal/1?token=1%3A1761446712%3Ab85f62bbe08d3b0e051ce43e1ca0333df2c5dd3eb9f7e3f4be5a20be538141a8" [accepted]
+2025-10-26 10:45:12 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:45:50 192.168.223.1:22539 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:45:50 192.168.223.1:22539 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:45:50 192.168.223.1:29547 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:45:50 192.168.223.1:44624 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:45:50 192.168.223.1:44624 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:45:50 192.168.223.1:44624 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:45:50 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446750:25cedcda1860ca72fb307c3d96815e83f41a05254d06a40421241fc7bcc855ac
+2025-10-26 10:45:50 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:45:51 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:45:51 [INFO] uvicorn.error: ('192.168.223.1', 10505) - "WebSocket /host/ws/terminal/1?token=1%3A1761446750%3A25cedcda1860ca72fb307c3d96815e83f41a05254d06a40421241fc7bcc855ac" [accepted]
+2025-10-26 10:45:51 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:46:01 192.168.223.1:7824 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:46:01 192.168.223.1:7824 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:46:01 192.168.223.1:59883 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:46:01 192.168.223.1:62488 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:46:02 192.168.223.1:62488 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:46:02 192.168.223.1:62488 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:46:02 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446762:50eda1c0f92a06912b160ce729b7c83183accf5fd7e69065f8119758a8a010b1
+2025-10-26 10:46:02 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:46:02 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:46:02 [INFO] uvicorn.error: ('192.168.223.1', 54596) - "WebSocket /host/ws/terminal/1?token=1%3A1761446762%3A50eda1c0f92a06912b160ce729b7c83183accf5fd7e69065f8119758a8a010b1" [accepted]
+2025-10-26 10:46:02 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:47:39 192.168.223.1:41279 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:40 192.168.223.1:41279 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:40 192.168.223.1:56133 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:40 192.168.223.1:48582 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:40 192.168.223.1:48582 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:40 192.168.223.1:48582 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:47:40 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446860:5b708f6651ff653b0c53d1b76444702c9eb60494293fe704f98ae86678a34b94
+2025-10-26 10:47:40 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:47:41 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:47:41 [INFO] uvicorn.error: ('192.168.223.1', 8552) - "WebSocket /host/ws/terminal/1?token=1%3A1761446860%3A5b708f6651ff653b0c53d1b76444702c9eb60494293fe704f98ae86678a34b94" [accepted]
+2025-10-26 10:47:41 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:47:41 192.168.223.1:48582 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:41 192.168.223.1:48582 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:41 192.168.223.1:56133 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:41 192.168.223.1:41279 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:42 192.168.223.1:41279 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:47:42 192.168.223.1:41279 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:47:42 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446862:e9807ed8288ebee3f3caad1a9d7a85cae24c7fe9f7a5c49c829dc165a25c00a8
+2025-10-26 10:47:42 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:47:42 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:47:42 [INFO] uvicorn.error: ('192.168.223.1', 48528) - "WebSocket /host/ws/terminal/1?token=1%3A1761446862%3Ae9807ed8288ebee3f3caad1a9d7a85cae24c7fe9f7a5c49c829dc165a25c00a8" [accepted]
+2025-10-26 10:47:42 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:48:05 192.168.223.1:48759 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:05 192.168.223.1:48759 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:48:05 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446885:71eecb57d788643ae96277347873a3c38e0cc227930c15536f5be16ea263cab9
+2025-10-26 10:48:05 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:48:05 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:48:05 [INFO] uvicorn.error: ('192.168.223.1', 63350) - "WebSocket /host/ws/terminal/1?token=1%3A1761446885%3A71eecb57d788643ae96277347873a3c38e0cc227930c15536f5be16ea263cab9" [accepted]
+2025-10-26 10:48:05 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:48:06 192.168.223.1:48759 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:07 192.168.223.1:48759 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:07 192.168.223.1:13503 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:07 192.168.223.1:1888 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:08 192.168.223.1:1888 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:08 192.168.223.1:1888 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:48:08 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761446888:81bbc4650d749b5b19df8819556c48034b62ed4911f581bdc3ce99f0526e0f70
+2025-10-26 10:48:08 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:48:08 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:48:09 [INFO] uvicorn.error: ('192.168.223.1', 54907) - "WebSocket /host/ws/terminal/1?token=1%3A1761446888%3A81bbc4650d749b5b19df8819556c48034b62ed4911f581bdc3ce99f0526e0f70" [accepted]
+2025-10-26 10:48:09 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:48:35 192.168.223.1:30114 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:35 192.168.223.1:30114 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:35 192.168.223.1:30114 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:35 192.168.223.1:30114 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:40 192.168.223.1:22230 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:41 192.168.223.1:22230 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:41 192.168.223.1:36483 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:48:41 192.168.223.1:47347 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:50:17 192.168.223.1:58754 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:50:17 192.168.223.1:58754 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:50:17 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447017:f3fef0a8791bed090c74fa3c715e1b74062bd813fe175ce1d04dc512e9966bd2
+2025-10-26 10:50:17 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:50:18 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:50:18 [INFO] uvicorn.error: ('192.168.223.1', 39299) - "WebSocket /host/ws/terminal/1?token=1%3A1761447017%3Af3fef0a8791bed090c74fa3c715e1b74062bd813fe175ce1d04dc512e9966bd2" [accepted]
+2025-10-26 10:50:18 [INFO] uvicorn.error: connection open
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 10:53:28 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+2025-10-26 10:53:28 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:53:28 192.168.223.1:22174 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:53:28 192.168.223.1:38682 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:53:28 192.168.223.1:38682 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:53:28 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447208:5a89defab218d7cc4cbc8dea996b9ee659c9f595ee2bb605b57ef7cc122b3dfa
+2025-10-26 10:53:28 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:53:29 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:53:29 [INFO] uvicorn.error: ('192.168.223.1', 35159) - "WebSocket /host/ws/terminal/1?token=1%3A1761447208%3A5a89defab218d7cc4cbc8dea996b9ee659c9f595ee2bb605b57ef7cc122b3dfa" [accepted]
+2025-10-26 10:53:29 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:54:52 192.168.223.1:33096 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:54:52 192.168.223.1:33096 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:54:58 192.168.223.1:52039 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:54:58 192.168.223.1:46829 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:54:58 192.168.223.1:52039 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:54:58 192.168.223.1:52039 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:00 192.168.223.1:52039 - "OPTIONS /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:00 192.168.223.1:52039 - "GET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:00 192.168.223.1:52039 - "OPTIONS /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:00 192.168.223.1:52039 - "GET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:09 192.168.223.1:44954 - "OPTIONS /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=installurl.txt HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:09 192.168.223.1:44954 - "GET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=installurl.txt HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:09 192.168.223.1:44954 - "GET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:8878 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:8878 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:8878 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:9088 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:8878 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:8889 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:9088 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:18 192.168.223.1:8878 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:20 192.168.223.1:8878 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:20 192.168.223.1:8878 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:20 192.168.223.1:8878 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:20 192.168.223.1:9088 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:55:20 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447320:c10636967feb9f9d16386d0cfde8541808bc09839d04a5f5359fcbabd25a51e6
+2025-10-26 10:55:20 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:55:21 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:55:21 [INFO] uvicorn.error: ('192.168.223.1', 16183) - "WebSocket /host/ws/terminal/1?token=1%3A1761447320%3Ac10636967feb9f9d16386d0cfde8541808bc09839d04a5f5359fcbabd25a51e6" [accepted]
+2025-10-26 10:55:21 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 10:55:23 192.168.223.1:9088 - "OPTIONS /host/3/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:55:23 192.168.223.1:8878 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:55:23 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761447323:1c2824da1ca339c71fc9bb8d7cf080ca0c8b16f2129689c6c27b83d8831e5210
+2025-10-26 10:55:23 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:55:23 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 10:55:24 [INFO] uvicorn.error: ('192.168.223.1', 25358) - "WebSocket /host/ws/terminal/3?token=3%3A1761447323%3A1c2824da1ca339c71fc9bb8d7cf080ca0c8b16f2129689c6c27b83d8831e5210" [accepted]
+2025-10-26 10:55:24 [INFO] uvicorn.error: connection open
+2025-10-26 10:55:25 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:55:25 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 10:55:25 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:58:00 192.168.223.1:32535 - "OPTIONS /host/2/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:58:00 192.168.223.1:32535 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:58:00 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761447480:bcdb38579a117e8702b0926f159e7e3822f48aafc0e2e7d0ff4ee8093b7be2e0
+2025-10-26 10:58:01 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:58:01 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:58:01 [INFO] uvicorn.error: ('192.168.223.1', 62255) - "WebSocket /host/ws/terminal/2?token=2%3A1761447480%3Abcdb38579a117e8702b0926f159e7e3822f48aafc0e2e7d0ff4ee8093b7be2e0" [accepted]
+2025-10-26 10:58:01 [INFO] uvicorn.error: connection open
+2025-10-26 10:58:17 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 10:58:17 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 10:58:17 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 10:58:55 192.168.223.1:29056 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 10:58:55 192.168.223.1:29056 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 10:58:55 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447535:e7c26a7450f5d81dd9e50511656b0665f3172845fddd25bba2decaa4954a2b84
+2025-10-26 10:58:55 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 10:58:55 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 10:58:55 [INFO] uvicorn.error: ('192.168.223.1', 17592) - "WebSocket /host/ws/terminal/1?token=1%3A1761447535%3Ae7c26a7450f5d81dd9e50511656b0665f3172845fddd25bba2decaa4954a2b84" [accepted]
+2025-10-26 10:58:55 [INFO] uvicorn.error: connection open
+2025-10-26 11:00:19 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:00:19 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:00:19 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:00:19 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:00:19 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:00:19 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:00:19 [INFO] uvicorn.error: connection closed
+2025-10-26 11:00:19 [INFO] uvicorn.error: connection closed
+2025-10-26 11:00:19 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:00:19 192.168.223.1:60438 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:00:19 192.168.223.1:17342 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:00:19 192.168.223.1:60438 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:00:19 192.168.223.1:17342 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:00:19 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447619:b19f24622a4455431ccf8796a9b0312e043cc2cd9a82ed25fe398aba50c56022
+2025-10-26 11:00:19 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:00:20 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:00:20 [INFO] uvicorn.error: ('192.168.223.1', 22928) - "WebSocket /host/ws/terminal/1?token=1%3A1761447619%3Ab19f24622a4455431ccf8796a9b0312e043cc2cd9a82ed25fe398aba50c56022" [accepted]
+2025-10-26 11:00:20 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:01:55 192.168.223.1:15905 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:01:55 192.168.223.1:15905 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:01:55 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447715:7a2b1fa3b85188c9bef7bd175f03c22041fe8a1fe40f9586c2b0bde9679b0de8
+2025-10-26 11:01:55 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+INFO:     2025-10-26 11:01:56 192.168.223.1:15905 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+2025-10-26 11:01:56 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:01:56 [INFO] uvicorn.error: ('192.168.223.1', 52892) - "WebSocket /host/ws/terminal/1?token=1%3A1761447715%3A7a2b1fa3b85188c9bef7bd175f03c22041fe8a1fe40f9586c2b0bde9679b0de8" [accepted]
+2025-10-26 11:01:56 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:01:56 192.168.223.1:34980 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:01:56 192.168.223.1:15905 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:01:56 192.168.223.1:42877 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:01:56 192.168.223.1:42877 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:01:56 192.168.223.1:42877 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:01:56 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447716:6633e682903dc0058d45a3c697d45af9ba5f1b77e214b0dc99d742ac16c1d4e8
+2025-10-26 11:01:56 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:01:57 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:01:57 [INFO] uvicorn.error: ('192.168.223.1', 59019) - "WebSocket /host/ws/terminal/1?token=1%3A1761447716%3A6633e682903dc0058d45a3c697d45af9ba5f1b77e214b0dc99d742ac16c1d4e8" [accepted]
+2025-10-26 11:01:57 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:02:04 192.168.223.1:31125 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:04 192.168.223.1:16508 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:04 192.168.223.1:31125 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:04 192.168.223.1:31866 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:05 192.168.223.1:31866 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:05 192.168.223.1:31866 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:02:05 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447725:9ad5e07753052c5ec676cbd37da74f8ae6e7752b0d81bcadd66906e56f34126d
+2025-10-26 11:02:05 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:02:06 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:02:06 [INFO] uvicorn.error: ('192.168.223.1', 1374) - "WebSocket /host/ws/terminal/1?token=1%3A1761447725%3A9ad5e07753052c5ec676cbd37da74f8ae6e7752b0d81bcadd66906e56f34126d" [accepted]
+2025-10-26 11:02:06 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:02:07 192.168.223.1:31866 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:07 192.168.223.1:31866 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:02:07 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447727:fb92a60fa5b83071f65838550fd92f29038306368e784f6c465d02a14abd4f25
+2025-10-26 11:02:07 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+INFO:     2025-10-26 11:02:07 192.168.223.1:31866 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+2025-10-26 11:02:07 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:02:07 [INFO] uvicorn.error: ('192.168.223.1', 35618) - "WebSocket /host/ws/terminal/1?token=1%3A1761447727%3Afb92a60fa5b83071f65838550fd92f29038306368e784f6c465d02a14abd4f25" [accepted]
+2025-10-26 11:02:07 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:02:07 192.168.223.1:31866 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:07 192.168.223.1:31125 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:07 192.168.223.1:16508 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:30 192.168.223.1:64589 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:02:30 192.168.223.1:64589 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:02:30 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447750:0d1c36f2e5552602b7c082f90fb2e29999dca14dc8f5b71a714ad1cdfd19ef3c
+2025-10-26 11:02:30 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:02:31 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:02:31 [INFO] uvicorn.error: ('192.168.223.1', 43957) - "WebSocket /host/ws/terminal/1?token=1%3A1761447750%3A0d1c36f2e5552602b7c082f90fb2e29999dca14dc8f5b71a714ad1cdfd19ef3c" [accepted]
+2025-10-26 11:02:31 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:03:23 192.168.223.1:58312 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:03:23 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447803:6bab0bd9f65d29fc556fdb2433d5b0d22726bddcd2c80e0866f3dd90b16cb35a
+2025-10-26 11:03:23 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:03:24 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:03:24 [INFO] uvicorn.error: ('192.168.223.1', 44097) - "WebSocket /host/ws/terminal/1?token=1%3A1761447803%3A6bab0bd9f65d29fc556fdb2433d5b0d22726bddcd2c80e0866f3dd90b16cb35a" [accepted]
+2025-10-26 11:03:24 [INFO] uvicorn.error: connection open
+2025-10-26 11:03:25 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:03:25 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:03:25 [INFO] uvicorn.error: connection closed
+2025-10-26 11:04:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:04:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:04:58 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:04:59 192.168.223.1:2040 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:04:59 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761447899:50107dfd76ff5de221d982b9c8c78d17ff45fce4f4e640ee36c6f86b5bab892b
+2025-10-26 11:04:59 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:05:00 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:05:00 [INFO] uvicorn.error: ('192.168.223.1', 1402) - "WebSocket /host/ws/terminal/1?token=1%3A1761447899%3A50107dfd76ff5de221d982b9c8c78d17ff45fce4f4e640ee36c6f86b5bab892b" [accepted]
+2025-10-26 11:05:00 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:09:27 192.168.223.1:4922 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:09:27 192.168.223.1:4922 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:09:27 192.168.223.1:4922 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:09:27 192.168.223.1:4922 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:09:27 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761448167:fe3309c5e06d50d7e0d0b438cf5e0bb27084fa32af33a97b4a8440fc0ce65845
+2025-10-26 11:09:27 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:09:28 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:09:28 [INFO] uvicorn.error: ('192.168.223.1', 42777) - "WebSocket /host/ws/terminal/1?token=1%3A1761448167%3Afe3309c5e06d50d7e0d0b438cf5e0bb27084fa32af33a97b4a8440fc0ce65845" [accepted]
+2025-10-26 11:09:28 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:10:12 192.168.223.1:15941 - "OPTIONS /host/2/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:10:12 192.168.223.1:15941 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:10:12 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761448212:2e63f83eef994984f81c8c6c47e560559ece38abc12432b3a7ba86865b324ed7
+2025-10-26 11:10:12 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:10:12 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:10:13 [INFO] uvicorn.error: ('192.168.223.1', 43182) - "WebSocket /host/ws/terminal/2?token=2%3A1761448212%3A2e63f83eef994984f81c8c6c47e560559ece38abc12432b3a7ba86865b324ed7" [accepted]
+2025-10-26 11:10:13 [INFO] uvicorn.error: connection open
+2025-10-26 11:10:15 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:10:15 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 11:10:15 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:14:56 192.168.223.1:6269 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:14:56 192.168.223.1:6269 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:14:56 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761448496:d873ebb9f24a075cdce5261f78c9166248ca30f80c0c1905b6c3137ff90e7b4f
+2025-10-26 11:14:56 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:14:57 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:14:57 [INFO] uvicorn.error: ('192.168.223.1', 25122) - "WebSocket /host/ws/terminal/1?token=1%3A1761448496%3Ad873ebb9f24a075cdce5261f78c9166248ca30f80c0c1905b6c3137ff90e7b4f" [accepted]
+2025-10-26 11:14:57 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:18:05 192.168.223.1:20363 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:18:05 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761448685:4c933a0cead239d41f081754c43329f957be4e4376d5d05603032b3d9f5db573
+2025-10-26 11:18:06 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:18:06 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:18:06 [INFO] uvicorn.error: ('192.168.223.1', 3255) - "WebSocket /host/ws/terminal/2?token=2%3A1761448685%3A4c933a0cead239d41f081754c43329f957be4e4376d5d05603032b3d9f5db573" [accepted]
+2025-10-26 11:18:06 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:18:07 192.168.223.1:20363 - "OPTIONS /host/3/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:18:08 192.168.223.1:20363 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:18:08 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761448687:8f169acbd0a0351e34e4aea7dbca24e102f04c754afb52d11dc925b10ac979f6
+2025-10-26 11:18:08 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:18:08 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 11:18:08 [INFO] uvicorn.error: ('192.168.223.1', 8681) - "WebSocket /host/ws/terminal/3?token=3%3A1761448687%3A8f169acbd0a0351e34e4aea7dbca24e102f04c754afb52d11dc925b10ac979f6" [accepted]
+2025-10-26 11:18:08 [INFO] uvicorn.error: connection open
+2025-10-26 11:18:14 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:18:14 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 11:18:14 [INFO] uvicorn.error: connection closed
+2025-10-26 11:18:15 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:18:15 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 11:18:15 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:24:01 192.168.223.1:19367 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:01 192.168.223.1:19367 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:01 192.168.223.1:19367 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:01 192.168.223.1:19367 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:06 192.168.223.1:45327 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:06 192.168.223.1:45327 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:45327 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:45327 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:45327 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:30163 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:37775 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:45327 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:30163 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:11 192.168.223.1:37775 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:19 192.168.223.1:44175 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:19 192.168.223.1:44175 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:19 192.168.223.1:44175 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:24:19 192.168.223.1:44175 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:24:19 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449059:a877b40165d1ce0e17ae1bed78c930a51abe2b1707862121739bd05489124c0e
+2025-10-26 11:24:19 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:24:20 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:24:20 [INFO] uvicorn.error: ('192.168.223.1', 27741) - "WebSocket /host/ws/terminal/1?token=1%3A1761449059%3Aa877b40165d1ce0e17ae1bed78c930a51abe2b1707862121739bd05489124c0e" [accepted]
+2025-10-26 11:24:20 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:27:01 192.168.223.1:12039 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:27:01 192.168.223.1:12039 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:27:01 192.168.223.1:46928 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:27:01 192.168.223.1:62841 - "GET /host/3/status HTTP/1.1" 200 OK
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:27:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+2025-10-26 11:27:58 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:27:58 192.168.223.1:29404 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:27:58 192.168.223.1:27251 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:27:58 192.168.223.1:29404 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:27:58 192.168.223.1:27251 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:27:58 192.168.223.1:60596 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:02 192.168.223.1:60596 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:02 192.168.223.1:60596 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:28:02 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449282:af5c9e235e493ec410ac9c5b25207cc6b7ab2a406d947a8f5d1dc178d21dd128
+2025-10-26 11:28:02 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:28:03 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:28:03 [INFO] uvicorn.error: ('192.168.223.1', 29070) - "WebSocket /host/ws/terminal/1?token=1%3A1761449282%3Aaf5c9e235e493ec410ac9c5b25207cc6b7ab2a406d947a8f5d1dc178d21dd128" [accepted]
+2025-10-26 11:28:03 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:28:05 192.168.223.1:60596 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:05 192.168.223.1:15061 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:05 192.168.223.1:41011 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:05 192.168.223.1:3385 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:05 192.168.223.1:60596 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:06 192.168.223.1:34804 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:06 192.168.223.1:3385 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:06 192.168.223.1:15061 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:06 192.168.223.1:41011 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:07 192.168.223.1:41011 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:07 192.168.223.1:41011 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:28:07 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449287:adc82f77d6006200d02b6c297b405b61df7ee4ab02235f053f22cc5b6ea33407
+2025-10-26 11:28:07 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:28:07 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:28:07 [INFO] uvicorn.error: ('192.168.223.1', 14945) - "WebSocket /host/ws/terminal/1?token=1%3A1761449287%3Aadc82f77d6006200d02b6c297b405b61df7ee4ab02235f053f22cc5b6ea33407" [accepted]
+2025-10-26 11:28:07 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:28:30 192.168.223.1:57991 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:30 192.168.223.1:57991 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:30 192.168.223.1:12859 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:30 192.168.223.1:38760 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:31 192.168.223.1:38760 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:31 192.168.223.1:38760 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:28:31 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449311:d11b7cd35b9e485578580833c6bb651cc5dfe8efbfd77b706eb20902d9d24417
+2025-10-26 11:28:31 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:28:31 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:28:31 [INFO] uvicorn.error: ('192.168.223.1', 63826) - "WebSocket /host/ws/terminal/1?token=1%3A1761449311%3Ad11b7cd35b9e485578580833c6bb651cc5dfe8efbfd77b706eb20902d9d24417" [accepted]
+2025-10-26 11:28:31 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:28:31 192.168.223.1:38760 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:32 192.168.223.1:38760 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:32 192.168.223.1:12859 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:32 192.168.223.1:57991 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:36 192.168.223.1:57991 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:28:36 192.168.223.1:57991 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:28:36 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449316:d0c4fd930667ff5ed7c7ad659011ec8b70c53ebd4836d1dff12786286a237f49
+2025-10-26 11:28:36 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:28:36 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:28:36 [INFO] uvicorn.error: ('192.168.223.1', 15644) - "WebSocket /host/ws/terminal/1?token=1%3A1761449316%3Ad0c4fd930667ff5ed7c7ad659011ec8b70c53ebd4836d1dff12786286a237f49" [accepted]
+2025-10-26 11:28:36 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:28:39 192.168.223.1:57991 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:28:39 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449319:7ba2127f65a5a4d9514eb19988bf59c6672bed724bcc75a53169021dbc23b561
+2025-10-26 11:28:39 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:28:40 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:28:40 [INFO] uvicorn.error: ('192.168.223.1', 37896) - "WebSocket /host/ws/terminal/1?token=1%3A1761449319%3A7ba2127f65a5a4d9514eb19988bf59c6672bed724bcc75a53169021dbc23b561" [accepted]
+2025-10-26 11:28:40 [INFO] uvicorn.error: connection open
+2025-10-26 11:28:41 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:28:41 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:28:41 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:29:40 192.168.223.1:12710 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:29:40 192.168.223.1:12710 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:29:40 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449380:367e5081ed55f7852f746840782d018a44f59859ec5a88e2e9c408ba826acd19
+2025-10-26 11:29:40 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:29:40 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:29:40 [INFO] uvicorn.error: ('192.168.223.1', 45727) - "WebSocket /host/ws/terminal/1?token=1%3A1761449380%3A367e5081ed55f7852f746840782d018a44f59859ec5a88e2e9c408ba826acd19" [accepted]
+2025-10-26 11:29:40 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:29:59 192.168.223.1:35184 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:29:59 192.168.223.1:35184 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:30:04 192.168.223.1:35184 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:30:04 192.168.223.1:35184 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:30:04 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449404:68d2e8216ee7cf10761e4739e8ea12b8f62fe9c768dd9fd1d6e91d5e92621ed8
+2025-10-26 11:30:04 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:30:04 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:30:04 [INFO] uvicorn.error: ('192.168.223.1', 12875) - "WebSocket /host/ws/terminal/1?token=1%3A1761449404%3A68d2e8216ee7cf10761e4739e8ea12b8f62fe9c768dd9fd1d6e91d5e92621ed8" [accepted]
+2025-10-26 11:30:04 [INFO] uvicorn.error: connection open
+2025-10-26 11:31:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:31:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:31:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:31:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:31:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:31:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:31:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:31:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:31:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:31:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:31:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:31:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:31:42 [INFO] uvicorn.error: connection closed
+2025-10-26 11:31:42 [INFO] uvicorn.error: connection closed
+2025-10-26 11:31:42 [INFO] uvicorn.error: connection closed
+2025-10-26 11:31:42 [INFO] uvicorn.error: connection closed
+2025-10-26 11:31:42 [INFO] uvicorn.error: connection closed
+2025-10-26 11:31:42 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:34:24 192.168.223.1:3764 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:34:24 192.168.223.1:34590 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:34:24 192.168.223.1:3764 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:34:24 192.168.223.1:34590 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:34:24 192.168.223.1:34590 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:34:24 192.168.223.1:3764 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:34:24 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449664:3d7622a6010544854cefeea481d9453c2360bb230afc8b0840b14259700df15d
+2025-10-26 11:34:24 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:34:25 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:34:25 [INFO] uvicorn.error: ('192.168.223.1', 41558) - "WebSocket /host/ws/terminal/1?token=1%3A1761449664%3A3d7622a6010544854cefeea481d9453c2360bb230afc8b0840b14259700df15d" [accepted]
+2025-10-26 11:34:25 [INFO] uvicorn.error: connection open
+2025-10-26 11:35:03 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:35:03 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:35:03 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:35:03 192.168.223.1:8367 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:35:03 192.168.223.1:13641 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:35:03 192.168.223.1:8367 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:35:03 192.168.223.1:13641 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:35:03 192.168.223.1:13641 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:35:03 192.168.223.1:8367 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:35:03 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449703:62e1c8b5071f52e46ad7aecc837418a75e364d5ae8c23ddeafc258603bccc8c0
+2025-10-26 11:35:03 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:35:04 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:35:04 [INFO] uvicorn.error: ('192.168.223.1', 64227) - "WebSocket /host/ws/terminal/1?token=1%3A1761449703%3A62e1c8b5071f52e46ad7aecc837418a75e364d5ae8c23ddeafc258603bccc8c0" [accepted]
+2025-10-26 11:35:04 [INFO] uvicorn.error: connection open
+2025-10-26 11:36:46 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:36:46 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:36:46 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:36:46 192.168.223.1:36515 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:46 192.168.223.1:13695 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:46 192.168.223.1:36515 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:46 192.168.223.1:13695 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:46 192.168.223.1:13695 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:46 192.168.223.1:36515 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:36:46 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449806:146418f3d84d1d46cf598f07c92e168f88e9f6e4c4ad07aae760f9f3697f534c
+2025-10-26 11:36:46 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:36:47 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:36:47 [INFO] uvicorn.error: ('192.168.223.1', 58603) - "WebSocket /host/ws/terminal/1?token=1%3A1761449806%3A146418f3d84d1d46cf598f07c92e168f88e9f6e4c4ad07aae760f9f3697f534c" [accepted]
+2025-10-26 11:36:47 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:36:50 192.168.223.1:36515 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:50 192.168.223.1:36515 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:50 192.168.223.1:36515 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:50 192.168.223.1:13695 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:50 192.168.223.1:37064 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:50 192.168.223.1:37064 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:50 192.168.223.1:13695 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:50 192.168.223.1:36515 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:52 192.168.223.1:36515 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:52 192.168.223.1:36515 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:52 192.168.223.1:13695 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:52 192.168.223.1:37064 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:52 192.168.223.1:37064 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:52 192.168.223.1:37064 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:36:52 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449812:03dae1a3dd8c82fbb02423141802929bb5e10ac973e1cf224c9d0ca97ded47a5
+2025-10-26 11:36:52 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:36:53 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:36:53 [INFO] uvicorn.error: ('192.168.223.1', 56674) - "WebSocket /host/ws/terminal/1?token=1%3A1761449812%3A03dae1a3dd8c82fbb02423141802929bb5e10ac973e1cf224c9d0ca97ded47a5" [accepted]
+2025-10-26 11:36:53 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:36:57 192.168.223.1:37064 - "OPTIONS /logs/files HTTP/1.1" 200 OK
+2025-10-26 11:36:57 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-26 11:36:57 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-26 11:36:57 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-26 11:36:57 [INFO] app.log.routers: Found log file: ['app_2025-10-26.log', 'app_2025-10-25.log', 'app_2025-10-24.log', 'app_2025-10-23.log']
+INFO:     2025-10-26 11:36:57 192.168.223.1:37064 - "GET /logs/files HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:57 192.168.223.1:37064 - "OPTIONS /logs/content/app_2025-10-26.log HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:57 192.168.223.1:37064 - "GET /logs/content/app_2025-10-26.log HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:59 192.168.223.1:37064 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:36:59 192.168.223.1:37064 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:36:59 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449819:4261c32c1d0c7867062dd1b6fc2221b206d5e68fc7480c9c0f7761f09f44f1f1
+2025-10-26 11:36:59 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:37:00 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:37:00 [INFO] uvicorn.error: ('192.168.223.1', 34165) - "WebSocket /host/ws/terminal/1?token=1%3A1761449819%3A4261c32c1d0c7867062dd1b6fc2221b206d5e68fc7480c9c0f7761f09f44f1f1" [accepted]
+2025-10-26 11:37:00 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:38:54 192.168.223.1:43405 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:38:54 192.168.223.1:43405 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:38:54 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761449934:f63908b83ce76efa50c0c29c94a03c0898e39d47adde12990369ff0f20d220e0
+2025-10-26 11:38:54 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:38:55 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:38:55 [INFO] uvicorn.error: ('192.168.223.1', 9027) - "WebSocket /host/ws/terminal/1?token=1%3A1761449934%3Af63908b83ce76efa50c0c29c94a03c0898e39d47adde12990369ff0f20d220e0" [accepted]
+2025-10-26 11:38:55 [INFO] uvicorn.error: connection open
+2025-10-26 11:42:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:42:08 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:42:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:42:08 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:42:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:42:08 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:42:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 11:42:08 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:42:08 [INFO] uvicorn.error: connection closed
+2025-10-26 11:42:08 [INFO] uvicorn.error: connection closed
+2025-10-26 11:42:08 [INFO] uvicorn.error: connection closed
+2025-10-26 11:42:08 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:43:00 192.168.223.1:58103 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:43:00 192.168.223.1:4318 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:43:00 192.168.223.1:58103 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:43:00 192.168.223.1:4318 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:43:00 192.168.223.1:4318 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:43:00 192.168.223.1:58103 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:43:00 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450180:de136f07d2aabe78926443cf2936c99f0eba5d955eec77340fca5750cc63c49b
+2025-10-26 11:43:00 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:43:01 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:43:01 [INFO] uvicorn.error: ('192.168.223.1', 36662) - "WebSocket /host/ws/terminal/1?token=1%3A1761450180%3Ade136f07d2aabe78926443cf2936c99f0eba5d955eec77340fca5750cc63c49b" [accepted]
+2025-10-26 11:43:01 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:48:28 192.168.223.1:16424 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:28 192.168.223.1:16424 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:16424 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:31040 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:47819 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:31040 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:47819 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:16424 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:16424 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:29 192.168.223.1:16424 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:48:29 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450509:02684739a1613cc80f5e64ba9e57608487059d06a35fc3d50f365ab3f8611224
+2025-10-26 11:48:29 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:48:30 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:48:30 [INFO] uvicorn.error: ('192.168.223.1', 16157) - "WebSocket /host/ws/terminal/1?token=1%3A1761450509%3A02684739a1613cc80f5e64ba9e57608487059d06a35fc3d50f365ab3f8611224" [accepted]
+2025-10-26 11:48:30 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:48:30 192.168.223.1:16424 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:30 192.168.223.1:16424 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:30 192.168.223.1:47819 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:30 192.168.223.1:31040 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:32 192.168.223.1:31040 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:32 192.168.223.1:31040 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:32 192.168.223.1:47819 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:32 192.168.223.1:16424 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:32 192.168.223.1:16424 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:32 192.168.223.1:16424 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:48:32 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450512:7d0550b12ea4c4b9008fc2a339d133f0d12a17695c1692dc26d5c1450a51a18e
+2025-10-26 11:48:32 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:48:32 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:48:33 [INFO] uvicorn.error: ('192.168.223.1', 10120) - "WebSocket /host/ws/terminal/1?token=1%3A1761450512%3A7d0550b12ea4c4b9008fc2a339d133f0d12a17695c1692dc26d5c1450a51a18e" [accepted]
+2025-10-26 11:48:33 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:48:39 192.168.223.1:56139 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:39 192.168.223.1:56139 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:39 192.168.223.1:56139 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:39 192.168.223.1:56139 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:39 192.168.223.1:54483 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:39 192.168.223.1:54483 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:39 192.168.223.1:31715 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:39 192.168.223.1:56139 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:40 192.168.223.1:56139 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:40 192.168.223.1:56139 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:40 192.168.223.1:56139 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:40 192.168.223.1:31715 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:48:40 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450520:17710d3e2948d24bb12d182ca6bd93bf37afe243fe3259ec6629272f45f8217a
+2025-10-26 11:48:40 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:48:40 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:48:40 [INFO] uvicorn.error: ('192.168.223.1', 42921) - "WebSocket /host/ws/terminal/1?token=1%3A1761450520%3A17710d3e2948d24bb12d182ca6bd93bf37afe243fe3259ec6629272f45f8217a" [accepted]
+2025-10-26 11:48:40 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:48:40 192.168.223.1:31715 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:40 192.168.223.1:31715 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:41 192.168.223.1:31715 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:41 192.168.223.1:56139 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:41 192.168.223.1:54483 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:41 192.168.223.1:56139 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:41 192.168.223.1:31715 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:41 192.168.223.1:54483 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:54483 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:54483 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:54483 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:31715 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:56139 - "OPTIONS /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:31715 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:54483 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:56139 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:56139 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:56139 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:56139 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:43 192.168.223.1:54483 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:48:43 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450523:3a61c59e74d11b2f84cc5be1a7b19ce915d0a036540ab3acf20d7bfc8e16c9ed
+2025-10-26 11:48:43 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:48:44 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:48:44 [INFO] uvicorn.error: ('192.168.223.1', 18874) - "WebSocket /host/ws/terminal/1?token=1%3A1761450523%3A3a61c59e74d11b2f84cc5be1a7b19ce915d0a036540ab3acf20d7bfc8e16c9ed" [accepted]
+2025-10-26 11:48:44 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:48:49 192.168.223.1:30102 - "OPTIONS /host/2/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:48:49 192.168.223.1:30102 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:48:49 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761450529:6ae08b90e39121580767d6a2e116ca99012ea29fffc1eea7d10a40e7f24f568d
+2025-10-26 11:48:50 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:48:50 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:48:50 [INFO] uvicorn.error: ('192.168.223.1', 29532) - "WebSocket /host/ws/terminal/2?token=2%3A1761450529%3A6ae08b90e39121580767d6a2e116ca99012ea29fffc1eea7d10a40e7f24f568d" [accepted]
+2025-10-26 11:48:50 [INFO] uvicorn.error: connection open
+2025-10-26 11:48:51 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:48:51 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:48:51 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:49:11 192.168.223.1:58194 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:49:11 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761450551:cc24096f8dd990e9ecd725dcf1fd85a15d8aa4f5869f8d18462db9570228b530
+2025-10-26 11:49:11 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:49:12 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:49:12 [INFO] uvicorn.error: ('192.168.223.1', 38912) - "WebSocket /host/ws/terminal/2?token=2%3A1761450551%3Acc24096f8dd990e9ecd725dcf1fd85a15d8aa4f5869f8d18462db9570228b530" [accepted]
+2025-10-26 11:49:12 [INFO] uvicorn.error: connection open
+2025-10-26 11:49:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:49:13 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 11:49:13 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:49:14 192.168.223.1:58194 - "OPTIONS /host/3/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:14 192.168.223.1:58194 - "POST /host/3/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:49:14 [INFO] app.host.routers: WebSocket连接请求，host_id: 3, token: 3:1761450554:3f0819167cf277b68898e1d79e7d76321eaad6e383b38255b00ca679c0e29b02
+2025-10-26 11:49:14 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:49:15 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-26 11:49:15 [INFO] uvicorn.error: ('192.168.223.1', 1295) - "WebSocket /host/ws/terminal/3?token=3%3A1761450554%3A3f0819167cf277b68898e1d79e7d76321eaad6e383b38255b00ca679c0e29b02" [accepted]
+2025-10-26 11:49:15 [INFO] uvicorn.error: connection open
+2025-10-26 11:49:17 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:49:17 [INFO] app.host.websocket_terminal: 连接 3_unknown 已清理
+2025-10-26 11:49:17 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:49:45 192.168.223.1:54673 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:45 192.168.223.1:52536 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:45 192.168.223.1:60300 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:45 192.168.223.1:26550 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:45 192.168.223.1:60300 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:45 192.168.223.1:52536 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:46 192.168.223.1:54673 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:46 192.168.223.1:65470 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:46 192.168.223.1:26550 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:48 192.168.223.1:26550 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:48 192.168.223.1:26550 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:48 192.168.223.1:26550 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:52 192.168.223.1:26550 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:52 192.168.223.1:30120 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:52 192.168.223.1:19452 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:52 192.168.223.1:47772 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:52 192.168.223.1:9925 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:56 192.168.223.1:9925 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:49:56 192.168.223.1:9925 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:49:56 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450596:02b9efda0ebc128e9dfdd9f17e22e60e966f76e057aa6a57f1a0e578dba6c0c1
+2025-10-26 11:49:56 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:49:57 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:49:57 [INFO] uvicorn.error: ('192.168.223.1', 21854) - "WebSocket /host/ws/terminal/1?token=1%3A1761450596%3A02b9efda0ebc128e9dfdd9f17e22e60e966f76e057aa6a57f1a0e578dba6c0c1" [accepted]
+2025-10-26 11:49:57 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:50:16 192.168.223.1:27401 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:16 192.168.223.1:27401 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:22 192.168.223.1:26143 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:22 192.168.223.1:26143 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:50:22 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450622:39c8ca1a309d3ca478718c1418ee62e9bc5ba493d340b6e148afc965e41c294b
+2025-10-26 11:50:22 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:50:22 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:50:22 [INFO] uvicorn.error: ('192.168.223.1', 63112) - "WebSocket /host/ws/terminal/1?token=1%3A1761450622%3A39c8ca1a309d3ca478718c1418ee62e9bc5ba493d340b6e148afc965e41c294b" [accepted]
+2025-10-26 11:50:22 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:50:24 192.168.223.1:26143 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:24 192.168.223.1:54656 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:24 192.168.223.1:26143 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:24 192.168.223.1:38151 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:27 192.168.223.1:38151 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:50:27 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450627:333fea37fac5e062d16af83c9512c6466e5d4ce27518b83942570b3dcd2dd1d0
+2025-10-26 11:50:27 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:50:28 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:50:28 [INFO] uvicorn.error: ('192.168.223.1', 11436) - "WebSocket /host/ws/terminal/1?token=1%3A1761450627%3A333fea37fac5e062d16af83c9512c6466e5d4ce27518b83942570b3dcd2dd1d0" [accepted]
+2025-10-26 11:50:28 [INFO] uvicorn.error: connection open
+2025-10-26 11:50:29 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:50:29 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:50:29 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:50:37 192.168.223.1:47896 - "OPTIONS /host/1 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:37 192.168.223.1:47896 - "PUT /host/1 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:38 192.168.223.1:47896 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:38 192.168.223.1:47896 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:38 192.168.223.1:59093 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:38 192.168.223.1:56711 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:50:47 192.168.223.1:22550 - "OPTIONS /host/1/ssh_test HTTP/1.1" 200 OK
+2025-10-26 11:50:47 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:50:51 [INFO] paramiko.transport: Authentication (password) failed.
+INFO:     2025-10-26 11:50:51 192.168.223.1:22550 - "POST /host/1/ssh_test HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:51:01 192.168.223.1:20914 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:51:01 192.168.223.1:20914 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:51:01 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450661:e69c69ccbdc00f46a2ec84d5ab05ec564cc104849fb89eec4c99cea8629f1e98
+2025-10-26 11:51:01 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:51:05 [INFO] paramiko.transport: Authentication (password) failed.
+2025-10-26 11:51:05 [ERROR] app.host.websocket_terminal: SSH连接创建失败: Authentication failed.
+2025-10-26 11:51:05 [ERROR] app.host.websocket_terminal: SSH连接失败: Authentication failed.
+2025-10-26 11:51:05 [INFO] uvicorn.error: ('192.168.223.1', 58186) - "WebSocket /host/ws/terminal/1?token=1%3A1761450661%3Ae69c69ccbdc00f46a2ec84d5ab05ec564cc104849fb89eec4c99cea8629f1e98" 403
+2025-10-26 11:51:05 [INFO] uvicorn.error: connection rejected (403 Forbidden)
+2025-10-26 11:51:05 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:51:33 192.168.223.1:22605 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:51:33 192.168.223.1:1349 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:51:33 192.168.223.1:1349 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:51:33 192.168.223.1:1349 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:51:35 192.168.223.1:1349 - "OPTIONS /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-26 11:51:35 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:51:37 [INFO] paramiko.transport: Authentication (password) failed.
+INFO:     2025-10-26 11:51:37 192.168.223.1:22605 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:52:04 192.168.223.1:23250 - "PUT /host/1 HTTP/1.1" 200 OK
+2025-10-26 11:52:04 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:52:05 [INFO] paramiko.transport: Authentication (publickey) successful!
+INFO:     2025-10-26 11:52:05 192.168.223.1:23250 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-26 11:52:05 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450725:263dd9929d01c60434cf5f577e6182ad08e63401c07a6f79b03c35bdf4682018
+2025-10-26 11:52:05 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:52:05 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:52:05 [INFO] uvicorn.error: ('192.168.223.1', 40150) - "WebSocket /host/ws/terminal/1?token=1%3A1761450725%3A263dd9929d01c60434cf5f577e6182ad08e63401c07a6f79b03c35bdf4682018" [accepted]
+2025-10-26 11:52:05 [INFO] uvicorn.error: connection open
+2025-10-26 11:52:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:52:08 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:52:08 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:52:09 192.168.223.1:23250 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:52:09 192.168.223.1:23250 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:52:09 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450729:e80a00c997467d0b7ea5ae8aed696754da0c0c859e2b2fa02e41aef045cd0327
+2025-10-26 11:52:09 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:52:09 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:52:09 [INFO] uvicorn.error: ('192.168.223.1', 57689) - "WebSocket /host/ws/terminal/1?token=1%3A1761450729%3Ae80a00c997467d0b7ea5ae8aed696754da0c0c859e2b2fa02e41aef045cd0327" [accepted]
+2025-10-26 11:52:09 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:52:15 192.168.223.1:38531 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:52:15 192.168.223.1:38531 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:52:15 192.168.223.1:52060 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:52:15 192.168.223.1:29136 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:52:23 192.168.223.1:33753 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:52:23 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450743:3bfb8506ed2264424e578c6914f65150abec0e3886939953c2e163c8526554e9
+2025-10-26 11:52:23 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:52:23 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:52:23 [INFO] uvicorn.error: ('192.168.223.1', 16452) - "WebSocket /host/ws/terminal/1?token=1%3A1761450743%3A3bfb8506ed2264424e578c6914f65150abec0e3886939953c2e163c8526554e9" [accepted]
+2025-10-26 11:52:23 [INFO] uvicorn.error: connection open
+2025-10-26 11:52:25 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-26 11:52:25 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 11:52:25 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 11:52:26 192.168.223.1:33753 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:52:26 192.168.223.1:33753 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:52:26 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761450746:1da14c6a7f30296b15faadf0814cb5c9a7e0b85c06530c168b97acf5e8fee12a
+2025-10-26 11:52:26 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:52:27 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:52:27 [INFO] uvicorn.error: ('192.168.223.1', 41590) - "WebSocket /host/ws/terminal/1?token=1%3A1761450746%3A1da14c6a7f30296b15faadf0814cb5c9a7e0b85c06530c168b97acf5e8fee12a" [accepted]
+2025-10-26 11:52:27 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:57:45 192.168.223.1:42124 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:57:45 192.168.223.1:42124 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:57:45 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451065:9dbf6f4de5cde9b72f85d01669bd0b7c2314750fb3fcab7a803e991b0510835e
+2025-10-26 11:57:45 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:57:46 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:57:46 [INFO] uvicorn.error: ('192.168.223.1', 53587) - "WebSocket /host/ws/terminal/1?token=1%3A1761451065%3A9dbf6f4de5cde9b72f85d01669bd0b7c2314750fb3fcab7a803e991b0510835e" [accepted]
+2025-10-26 11:57:46 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:58:01 192.168.223.1:27905 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:01 192.168.223.1:27905 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:58:01 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451081:be621dd51873da08c64f6d7c3edfa722ade4b43e85d684c228091dc35da14012
+2025-10-26 11:58:01 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:58:01 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:58:02 [INFO] uvicorn.error: ('192.168.223.1', 47974) - "WebSocket /host/ws/terminal/1?token=1%3A1761451081%3Abe621dd51873da08c64f6d7c3edfa722ade4b43e85d684c228091dc35da14012" [accepted]
+2025-10-26 11:58:02 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:58:11 192.168.223.1:53010 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:11 192.168.223.1:53010 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:11 192.168.223.1:53010 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:18 192.168.223.1:33242 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:18 192.168.223.1:33242 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:58:18 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451098:6a2fb7bce9580bbc50982ca15b3870f8b11513a1e6471f170f75263d4c6e5530
+2025-10-26 11:58:18 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:58:19 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:58:19 [INFO] uvicorn.error: ('192.168.223.1', 4295) - "WebSocket /host/ws/terminal/1?token=1%3A1761451098%3A6a2fb7bce9580bbc50982ca15b3870f8b11513a1e6471f170f75263d4c6e5530" [accepted]
+2025-10-26 11:58:19 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 11:58:20 192.168.223.1:33242 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:20 192.168.223.1:33242 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:20 192.168.223.1:2621 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:20 192.168.223.1:22132 - "GET /host/3/status HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:27 192.168.223.1:41559 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 11:58:27 192.168.223.1:41559 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 11:58:27 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451107:b47d86101342153a5e915c6012e0f92b61f95b980f0fb0449c4628b5f192e298
+2025-10-26 11:58:27 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 11:58:27 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 11:58:27 [INFO] uvicorn.error: ('192.168.223.1', 3160) - "WebSocket /host/ws/terminal/1?token=1%3A1761451107%3Ab47d86101342153a5e915c6012e0f92b61f95b980f0fb0449c4628b5f192e298" [accepted]
+2025-10-26 11:58:27 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 12:01:18 192.168.223.1:44860 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:01:18 192.168.223.1:44860 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:01:18 192.168.223.1:44860 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:01:21 192.168.223.1:44860 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:01:21 192.168.223.1:44860 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:01:21 192.168.223.1:44860 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:01:21 192.168.223.1:44860 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 12:01:21 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451281:e877a634b8f391a23c2d7d1e652429cb441e63d791c0ba78a87c1aa97999dc0b
+2025-10-26 12:01:21 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 12:01:21 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 12:01:21 [INFO] uvicorn.error: ('192.168.223.1', 22230) - "WebSocket /host/ws/terminal/1?token=1%3A1761451281%3Ae877a634b8f391a23c2d7d1e652429cb441e63d791c0ba78a87c1aa97999dc0b" [accepted]
+2025-10-26 12:01:21 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 12:02:44 192.168.223.1:60930 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:02:44 192.168.223.1:60930 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:02:52 192.168.223.1:30296 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:02:52 192.168.223.1:30296 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 12:02:52 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451372:b8a473dda2b2c66d5800c9b62126766a174f711ccedd6c2b352de42e7467e99b
+2025-10-26 12:02:52 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 12:02:52 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 12:02:52 [INFO] uvicorn.error: ('192.168.223.1', 65010) - "WebSocket /host/ws/terminal/1?token=1%3A1761451372%3Ab8a473dda2b2c66d5800c9b62126766a174f711ccedd6c2b352de42e7467e99b" [accepted]
+2025-10-26 12:02:52 [INFO] uvicorn.error: connection open
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:13 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+2025-10-26 12:03:13 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 12:03:13 192.168.223.1:6867 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:03:13 192.168.223.1:32339 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:03:13 192.168.223.1:32339 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 12:03:13 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451393:4d8403d7cd6186b303c1a99da72c6734d82f28a62929728e81b8ca6f8eda7947
+2025-10-26 12:03:13 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 12:03:14 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 12:03:14 [INFO] uvicorn.error: ('192.168.223.1', 32442) - "WebSocket /host/ws/terminal/1?token=1%3A1761451393%3A4d8403d7cd6186b303c1a99da72c6734d82f28a62929728e81b8ca6f8eda7947" [accepted]
+2025-10-26 12:03:14 [INFO] uvicorn.error: connection open
+2025-10-26 12:03:41 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-26 12:03:41 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:03:41 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-26 12:03:41 192.168.223.1:54810 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:03:41 192.168.223.1:31763 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:03:41 192.168.223.1:31763 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 12:03:41 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451421:df6875b8691a41bd900ab4daa1c195a207e69985d1ec569e21e147e29a07c348
+2025-10-26 12:03:41 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 12:03:41 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 12:03:41 [INFO] uvicorn.error: ('192.168.223.1', 21845) - "WebSocket /host/ws/terminal/1?token=1%3A1761451421%3Adf6875b8691a41bd900ab4daa1c195a207e69985d1ec569e21e147e29a07c348" [accepted]
+2025-10-26 12:03:41 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 12:12:03 192.168.223.1:64393 - "GET / HTTP/1.1" 404 Not Found
+INFO:     2025-10-26 12:12:03 192.168.223.1:64393 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     2025-10-26 12:12:08 192.168.223.1:64393 - "GET /docs HTTP/1.1" 404 Not Found
+INFO:     2025-10-26 12:12:11 192.168.223.1:61746 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:11 192.168.223.1:61746 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:11 192.168.223.1:61746 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:11 192.168.223.1:61746 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:15 192.168.223.1:61746 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:15 192.168.223.1:61746 - "PUT /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:15 192.168.223.1:61746 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:16 192.168.223.1:61746 - "OPTIONS /system/restart HTTP/1.1" 200 OK
+2025-10-26 12:12:16 [INFO] app.system.service: 开始重启服务...
+2025-10-26 12:12:16 [WARNING] app.system.service: systemctl命令未找到，使用模拟重启
+2025-10-26 12:12:17 [INFO] app.system.service: 服务重启完成（模拟）
+2025-10-26 12:12:17 [INFO] app.system.routers: 服务已成功重启，结果: {'status': 'success', 'message': '服务已成功重启（模拟）'}
+INFO:     2025-10-26 12:12:17 192.168.223.1:61746 - "POST /system/restart HTTP/1.1" 200 OK
+2025-10-26 12:12:40 [INFO] uvicorn.error: Shutting down
+2025-10-26 12:12:40 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1012
+2025-10-26 12:12:40 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-26 12:12:40 [INFO] uvicorn.error: connection closed
+2025-10-26 12:12:40 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-26 12:12:40 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-26 12:12:40 [INFO] uvicorn.error: Finished server process [1069]
+2025-10-26 12:12:42 [INFO] root: Admin user already exists.
+2025-10-26 12:12:42 [INFO] root: Localhost SSH config already exists.
+2025-10-26 12:12:42 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-26 12:12:42 [INFO] uvicorn.error: Started server process [42643]
+2025-10-26 12:12:42 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-26 12:12:42 [INFO] uvicorn.error: Application startup complete.
+2025-10-26 12:12:42 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     2025-10-26 12:12:46 192.168.223.1:37108 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:46 192.168.223.1:37108 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:46 192.168.223.1:37108 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:48 192.168.223.1:53486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:53 192.168.223.1:41134 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:53 192.168.223.1:41134 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:53 192.168.223.1:41134 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:12:53 192.168.223.1:41134 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 12:12:53 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761451973:2095c02a4cc946e964a27f1f1b0530df637398c29af68770448efc31aa10d6c2
+2025-10-26 12:12:53 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 12:12:54 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 12:12:54 [INFO] uvicorn.error: ('192.168.223.1', 59152) - "WebSocket /host/ws/terminal/1?token=1%3A1761451973%3A2095c02a4cc946e964a27f1f1b0530df637398c29af68770448efc31aa10d6c2" [accepted]
+2025-10-26 12:12:54 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 12:13:43 192.168.223.1:5116 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:13:43 192.168.223.1:5116 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:15 192.168.223.1:14483 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:15 192.168.223.1:3729 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:15 192.168.223.1:36308 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:15 192.168.223.1:44144 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:15 192.168.223.1:52064 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:15 192.168.223.1:14483 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:16 192.168.223.1:44144 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:16 192.168.223.1:3729 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:16 192.168.223.1:36308 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:21 192.168.223.1:3729 - "GET /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:15:21 192.168.223.1:3729 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-26 12:15:21 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761452121:f9b6555b14c9ba61af59deec4eae8e08034993c7a88da3fbf00fa62e0b37f394
+2025-10-26 12:15:21 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-26 12:15:21 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-10-26 12:15:21 [INFO] uvicorn.error: ('192.168.223.1', 18553) - "WebSocket /host/ws/terminal/1?token=1%3A1761452121%3Af9b6555b14c9ba61af59deec4eae8e08034993c7a88da3fbf00fa62e0b37f394" [accepted]
+2025-10-26 12:15:21 [INFO] uvicorn.error: connection open
+INFO:     2025-10-26 12:15:29 192.168.223.1:8359 - "GET /docs HTTP/1.1" 200 OK
+INFO:     2025-10-26 12:16:04 192.168.223.1:42480 - "GET /openapi.json HTTP/1.1" 200 OK

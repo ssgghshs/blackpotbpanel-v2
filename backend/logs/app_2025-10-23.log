@@ -1,0 +1,1471 @@
+2025-10-23 19:54:15 [INFO] root: Admin user already exists.
+2025-10-23 19:54:15 [INFO] root: Localhost SSH config already exists.
+2025-10-23 19:54:15 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 19:54:15 [INFO] uvicorn.error: Started server process [27312]
+2025-10-23 19:54:15 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 19:54:15 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 19:54:15 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[0m:     2025-10-23 19:54:19 192.168.223.1:63398 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:19 192.168.223.1:63398 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 19:54:20 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 19:54:20 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 19:54:20 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 19:54:20 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 19:54:20 192.168.223.1:63398 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:20 192.168.223.1:63398 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:25 192.168.223.1:37426 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:30 192.168.223.1:26002 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:35 192.168.223.1:49668 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:40 192.168.223.1:49668 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:45 192.168.223.1:22702 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:50 192.168.223.1:22702 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:54:55 192.168.223.1:14549 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:00 192.168.223.1:14549 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:05 192.168.223.1:31677 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:10 192.168.223.1:31677 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:15 192.168.223.1:10376 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:20 192.168.223.1:10376 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:25 192.168.223.1:10376 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:30 192.168.223.1:10376 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:35 192.168.223.1:21859 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:40 192.168.223.1:21859 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:45 192.168.223.1:21859 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:50 192.168.223.1:21859 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:55:55 192.168.223.1:21859 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:56:00 192.168.223.1:26728 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:56:05 192.168.223.1:26728 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:56:10 192.168.223.1:26728 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:57:10 192.168.223.1:49852 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:57:43 192.168.223.1:15998 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:57:45 192.168.223.1:15998 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:57:50 192.168.223.1:15998 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:57:55 192.168.223.1:34279 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:00 192.168.223.1:21774 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:05 192.168.223.1:21774 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:10 192.168.223.1:21774 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:15 192.168.223.1:36592 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:20 192.168.223.1:36592 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:25 192.168.223.1:36592 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:30 192.168.223.1:36592 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:35 192.168.223.1:46255 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:40 192.168.223.1:11889 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:45 192.168.223.1:11889 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:50 192.168.223.1:11889 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:58:58 192.168.223.1:56204 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:00 192.168.223.1:56204 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:05 192.168.223.1:35665 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:10 192.168.223.1:12018 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:15 192.168.223.1:12018 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:20 192.168.223.1:12018 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:25 192.168.223.1:12018 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:30 192.168.223.1:56602 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:35 192.168.223.1:56602 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:40 192.168.223.1:14625 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:45 192.168.223.1:14625 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:50 192.168.223.1:42432 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 19:59:55 192.168.223.1:42432 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:00:00 192.168.223.1:42432 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:00:05 192.168.223.1:53197 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:00:10 192.168.223.1:53197 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:00:15 192.168.223.1:53197 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:00:20 192.168.223.1:53197 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:00:25 192.168.223.1:9134 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:10 192.168.223.1:58034 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:42 192.168.223.1:9982 - "[1mOPTIONS /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:42 192.168.223.1:9982 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:45 192.168.223.1:9982 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:45 192.168.223.1:9982 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:45 192.168.223.1:9982 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:46 192.168.223.1:9982 - "[1mOPTIONS /logs/files HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:01:46 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:01:46 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:01:46 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:01:46 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:01:46 192.168.223.1:9982 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:46 192.168.223.1:9982 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:47 192.168.223.1:9982 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:47 192.168.223.1:9982 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:52 192.168.223.1:41684 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:01:57 192.168.223.1:41684 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:02:00 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:02:00 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:02:00 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:02:00 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:02:00 192.168.223.1:41684 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:00 192.168.223.1:41684 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:05 192.168.223.1:46540 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:10 192.168.223.1:46540 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:15 192.168.223.1:36912 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:20 192.168.223.1:36912 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:25 192.168.223.1:36912 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:30 192.168.223.1:53064 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:02:35 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:02:35 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:02:35 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:02:35 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:02:35 192.168.223.1:53064 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:35 192.168.223.1:53064 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:40 192.168.223.1:30419 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:45 192.168.223.1:52273 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:50 192.168.223.1:61517 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:02:55 192.168.223.1:20876 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:00 192.168.223.1:20876 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:05 192.168.223.1:40778 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:10 192.168.223.1:40778 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:15 192.168.223.1:64322 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:20 192.168.223.1:64322 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:22 192.168.223.1:64322 - "[1mOPTIONS /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:22 192.168.223.1:64322 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:22 192.168.223.1:64322 - "[1mOPTIONS /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:22 192.168.223.1:64322 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:03:23 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:03:23 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:03:23 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:03:23 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:03:23 192.168.223.1:64322 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:23 192.168.223.1:64322 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:28 192.168.223.1:65251 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:33 192.168.223.1:65251 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:38 192.168.223.1:65251 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:43 192.168.223.1:65251 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:48 192.168.223.1:57069 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:53 192.168.223.1:57069 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:03:58 192.168.223.1:35049 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:03 192.168.223.1:59675 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:08 192.168.223.1:8439 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:13 192.168.223.1:8439 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:18 192.168.223.1:8439 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:23 192.168.223.1:7177 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:28 192.168.223.1:7177 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:33 192.168.223.1:7177 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:36 192.168.223.1:7177 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:37 192.168.223.1:7177 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:04:41 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:04:41 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:04:41 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:04:41 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:04:41 192.168.223.1:7177 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:41 192.168.223.1:7177 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:46 192.168.223.1:5975 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:51 192.168.223.1:32714 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:04:56 192.168.223.1:32714 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:01 192.168.223.1:32714 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:01 192.168.223.1:32714 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:01 192.168.223.1:32714 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:05 192.168.223.1:32714 - "[1mOPTIONS /logs/access-content?log_type=error HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:05 192.168.223.1:32714 - "[1mGET /logs/access-content?log_type=error HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:06 192.168.223.1:32714 - "[1mGET /logs/access-content?log_type=error HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:10 192.168.223.1:32714 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:05:11 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:05:11 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:05:11 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:05:11 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:05:11 192.168.223.1:32714 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:11 192.168.223.1:32714 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:16 192.168.223.1:32714 - "[1mOPTIONS /logs/operation?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:16 192.168.223.1:7216 - "[1mOPTIONS /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:16 192.168.223.1:32714 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:16 192.168.223.1:7216 - "[1mGET /logs/operation?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:17 192.168.223.1:7216 - "[1mOPTIONS /logs/login?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:17 192.168.223.1:32714 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:17 192.168.223.1:7216 - "[1mGET /logs/login?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:19 192.168.223.1:32714 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:19 192.168.223.1:7216 - "[1mGET /logs/operation?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:21 192.168.223.1:7216 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:21 192.168.223.1:7216 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:05:22 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:05:22 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:05:22 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:05:22 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:05:22 192.168.223.1:7216 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:22 192.168.223.1:7216 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:25 192.168.223.1:7216 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:25 192.168.223.1:7216 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:26 192.168.223.1:7216 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:26 192.168.223.1:7216 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:30 192.168.223.1:7216 - "[1mOPTIONS /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:30 192.168.223.1:7216 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:05:30 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761221130:61df9596fe7b6b729a5f5b942719ec750f8f92124aeea4c8c52ce2a1e1d5ab01
+2025-10-23 20:05:30 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:05:30 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:05:30 [INFO] uvicorn.error: ('192.168.223.1', 7661) - "WebSocket /host/ws/terminal/1?token=1%3A1761221130%3A61df9596fe7b6b729a5f5b942719ec750f8f92124aeea4c8c52ce2a1e1d5ab01" [accepted]
+2025-10-23 20:05:30 [INFO] uvicorn.error: connection open
+2025-10-23 20:05:41 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:05:41 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:05:41 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 20:05:43 192.168.223.1:7528 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:43 192.168.223.1:47448 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:43 192.168.223.1:7528 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:43 192.168.223.1:7528 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:45 192.168.223.1:7528 - "[1mOPTIONS /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:05:45 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:05:45 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:05:45 192.168.223.1:47448 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:05:45 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761221145:1fb3289547373e9aaf5e545f48749cd3c53559875789a2121a7f6a8cb2fce6bf
+2025-10-23 20:05:45 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:05:45 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:05:45 [INFO] uvicorn.error: ('192.168.223.1', 62696) - "WebSocket /host/ws/terminal/1?token=1%3A1761221145%3A1fb3289547373e9aaf5e545f48749cd3c53559875789a2121a7f6a8cb2fce6bf" [accepted]
+2025-10-23 20:05:45 [INFO] uvicorn.error: connection open
+2025-10-23 20:05:52 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:05:52 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:05:52 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 20:05:55 192.168.223.1:24427 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:55 192.168.223.1:24427 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:59 192.168.223.1:24427 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:05:59 192.168.223.1:24427 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:04 192.168.223.1:24427 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:04 192.168.223.1:24427 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:05 192.168.223.1:24427 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:05 192.168.223.1:24427 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:06 192.168.223.1:24427 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:06 192.168.223.1:24427 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:06:21 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:06:21 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:06:21 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:06:21 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:06:21 192.168.223.1:19565 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:21 192.168.223.1:19565 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:26 192.168.223.1:60795 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:31 192.168.223.1:60795 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:36 192.168.223.1:16986 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:41 192.168.223.1:16986 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:41 192.168.223.1:16986 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:06:45 192.168.223.1:16986 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:06:45 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761221205:bbf72eda8d71f1d15f3f4808d3a1479b265cf98e69f8b494e0e8656099c82b9c
+2025-10-23 20:06:45 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:06:45 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:06:45 [INFO] uvicorn.error: ('192.168.223.1', 46249) - "WebSocket /host/ws/terminal/1?token=1%3A1761221205%3Abbf72eda8d71f1d15f3f4808d3a1479b265cf98e69f8b494e0e8656099c82b9c" [accepted]
+2025-10-23 20:06:45 [INFO] uvicorn.error: connection open
+2025-10-23 20:06:50 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:06:50 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:06:50 [INFO] uvicorn.error: connection closed
+2025-10-23 20:08:22 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:08:22 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:08:22 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:08:22 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:08:22 192.168.223.1:22319 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:22 192.168.223.1:22319 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:26 192.168.223.1:22319 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:26 192.168.223.1:22319 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:28 192.168.223.1:34868 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:28 192.168.223.1:22319 - "[1mGET /logs/operation?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:29 192.168.223.1:22319 - "[1mGET /logs/login?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:29 192.168.223.1:34868 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:30 192.168.223.1:22319 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:30 192.168.223.1:34868 - "[1mGET /logs/operation?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:31 192.168.223.1:34868 - "[1mGET /logs/login?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:08:31 192.168.223.1:34868 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:08 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:08 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:08 192.168.223.1:0 - "[1mGET /monitor/host-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:08 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:08 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:08 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:08 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:09 192.168.223.1:0 - "[1mGET /logs/login/me?limit=1 HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:22:10 192.168.223.1:0 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.0[0m" [32m200 OK[0m
+2025-10-23 20:22:19 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:22:19 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:22:19 192.168.223.1:0 - "[1mPOST /host/connect_localhost HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:49 192.168.223.1:27005 - "[1mOPTIONS /logs/login?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:49 192.168.223.1:3066 - "[1mOPTIONS /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:49 192.168.223.1:38038 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:49 192.168.223.1:38038 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:49 192.168.223.1:3066 - "[1mGET /logs/login?page=1&size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:49 192.168.223.1:27005 - "[1mGET /users/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:51 192.168.223.1:27005 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:51 192.168.223.1:3066 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:51 192.168.223.1:3066 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:51 192.168.223.1:3066 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:24:57 192.168.223.1:7896 - "[1mOPTIONS /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:24:57 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:24:57 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:24:57 192.168.223.1:7896 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:27:51 192.168.223.1:45900 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:27:51 192.168.223.1:58991 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:27:51 192.168.223.1:1549 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:27:51 192.168.223.1:45900 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:27:51 192.168.223.1:1549 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:27:51 192.168.223.1:58991 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:27:58 192.168.223.1:19271 - "[1mOPTIONS /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:27:58 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:27:58 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:27:58 192.168.223.1:19271 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:28:24 192.168.223.1:53793 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:28:24 192.168.223.1:53793 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:28:24 192.168.223.1:53793 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:28:24 192.168.223.1:53793 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:28:29 192.168.223.1:14742 - "[1mOPTIONS /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:28:29 192.168.223.1:14742 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:34:45 192.168.223.1:38696 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:34:45 192.168.223.1:51659 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:34:45 192.168.223.1:51659 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:34:45 192.168.223.1:51659 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:34:45 192.168.223.1:51659 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:34:48 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:34:48 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:34:48 192.168.223.1:51659 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:34:48 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761222888:aa996ca3ed1d110b44a126456d688574bfefbd6d7b2167c180c57f6d82c39be8
+2025-10-23 20:34:48 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:34:48 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:34:48 [INFO] uvicorn.error: ('192.168.223.1', 1510) - "WebSocket /host/ws/terminal/1?token=1%3A1761222888%3Aaa996ca3ed1d110b44a126456d688574bfefbd6d7b2167c180c57f6d82c39be8" [accepted]
+2025-10-23 20:34:48 [INFO] uvicorn.error: connection open
+2025-10-23 20:34:50 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:34:50 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:34:50 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 20:35:25 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:26 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:26 192.168.223.1:0 - "[1mGET /monitor/host-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:26 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:26 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:26 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:26 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:26 192.168.223.1:0 - "[1mGET /logs/login/me?limit=1 HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:30 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:30 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:31 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:35 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:35 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:36 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:44 192.168.223.1:0 - "[1mGET /monitor/host-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:44 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:45 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:45 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:45 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:45 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:49 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:49 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:50 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:35:51 192.168.223.1:0 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:04 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:04 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:04 192.168.223.1:0 - "[1mGET /monitor/host-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:04 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:04 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:09 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:10 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:10 192.168.223.1:0 - "[1mGET /monitor/host-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:10 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:10 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:10 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:14 192.168.223.1:0 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.0[0m" [32m200 OK[0m
+2025-10-23 20:36:16 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:36:16 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:36:16 192.168.223.1:0 - "[1mPOST /host/connect_localhost HTTP/1.0[0m" [32m200 OK[0m
+2025-10-23 20:36:27 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:36:27 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:36:27 192.168.223.1:0 - "[1mPOST /host/connect_localhost HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:55 192.168.223.1:13288 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:36:55 192.168.223.1:13288 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:06 192.168.223.1:31726 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:06 192.168.223.1:37397 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:06 192.168.223.1:31726 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:06 192.168.223.1:37397 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:06 192.168.223.1:37397 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:06 192.168.223.1:37397 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:31 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:32 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:32 192.168.223.1:0 - "[1mGET /monitor/host-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:32 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:32 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:32 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:34 192.168.223.1:0 - "[1mGET /users/captcha HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:47 192.168.223.1:0 - "[1mPOST /users/login HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:47 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:47 192.168.223.1:0 - "[1mGET /monitor/network-traffic HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:47 192.168.223.1:0 - "[1mGET /monitor/host-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:47 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:47 192.168.223.1:0 - "[1mGET /users/me HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:47 192.168.223.1:0 - "[1mGET /monitor/disk-io HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:48 192.168.223.1:0 - "[1mGET /monitor/system-info HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:48 192.168.223.1:0 - "[1mGET /logs/login/me?limit=1 HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:51 192.168.223.1:0 - "[1mGET /host/?skip=0&limit=10 HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:37:52 192.168.223.1:0 - "[1mGET /host/1/status HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:14 192.168.223.1:0 - "[1mPOST /host/1/terminal_token HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:14 192.168.223.1:0 - "[1mGET /host/ws/terminal/1?token=1%3A1761223094%3A7fc7442e310ab513417029664924af1e37a0f701bf116dd2a123c2cccbe0ca02 HTTP/1.0[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-10-23 20:38:18 192.168.223.1:0 - "[1mPOST /host/1/terminal_token HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:18 192.168.223.1:0 - "[1mGET /host/ws/terminal/1?token=1%3A1761223098%3A030cdbc8afd29e3cb8a8fd28d2c2038a50d1f21e13c11fc6e83d432ac89a7dd8 HTTP/1.0[0m" [31m404 Not Found[0m
+2025-10-23 20:38:30 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:38:30 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:38:30 192.168.223.1:0 - "[1mPOST /host/1/ssh_test HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:32 192.168.223.1:0 - "[1mPUT /host/1 HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:32 192.168.223.1:0 - "[1mGET /host/?skip=0&limit=10 HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:32 192.168.223.1:0 - "[1mGET /host/1/status HTTP/1.0[0m" [32m200 OK[0m
+2025-10-23 20:38:33 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:38:33 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:38:33 192.168.223.1:0 - "[1mPOST /host/1/ssh_test HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:44 192.168.223.1:0 - "[1mPOST /host/1/terminal_token HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:44 192.168.223.1:0 - "[1mGET /host/ws/terminal/1?token=1%3A1761223124%3Ad1a415ec918d3b3e2507267813fdae0b2ff4b21f499480ddd5454dc13aea114f HTTP/1.0[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-10-23 20:38:45 192.168.223.1:0 - "[1mPOST /host/1/terminal_token HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:38:45 192.168.223.1:0 - "[1mGET /host/ws/terminal/1?token=1%3A1761223125%3A2e7193bf45e099af1cb1936c7dcbf2fdce0f58979709071baa73004ed50aaf02 HTTP/1.0[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-10-23 20:39:19 192.168.223.1:26833 - "[1mOPTIONS /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:39:19 192.168.223.1:26833 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:39:19 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761223159:f8408e6e09a8a3d06689652bbdb2a5ad6d380ee14546d3e9177af7e4810243df
+2025-10-23 20:39:19 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:39:19 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:39:19 [INFO] uvicorn.error: ('192.168.223.1', 19726) - "WebSocket /host/ws/terminal/1?token=1%3A1761223159%3Af8408e6e09a8a3d06689652bbdb2a5ad6d380ee14546d3e9177af7e4810243df" [accepted]
+2025-10-23 20:39:19 [INFO] uvicorn.error: connection open
+2025-10-23 20:39:22 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:39:22 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:39:22 [INFO] uvicorn.error: connection closed
+2025-10-23 20:39:37 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:39:37 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:39:37 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:39:37 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:39:37 192.168.223.1:0 - "[1mGET /logs/files HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:39:37 192.168.223.1:0 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:39:39 192.168.223.1:0 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.0[0m" [32m200 OK[0m
+2025-10-23 20:39:44 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:39:44 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:39:44 192.168.223.1:0 - "[1mPOST /host/connect_localhost HTTP/1.0[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:39:44 192.168.223.1:0 - "[1mGET /host/ws/terminal/1?token=1%3A1761223184%3A282e868628c658bf60231a5f80dd58fcc2a585a10cdc0249dab8cf9513aeef94 HTTP/1.0[0m" [31m404 Not Found[0m
+2025-10-23 20:43:13 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:43:13 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:43:13 192.168.223.1:0 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:43:13 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761223393:7c3e75dcf97b3904c5b58efde336401cda1677c6caf387d0561cc15ff4dd9fb0
+2025-10-23 20:43:13 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:43:13 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:43:13 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761223393%3A7c3e75dcf97b3904c5b58efde336401cda1677c6caf387d0561cc15ff4dd9fb0" [accepted]
+2025-10-23 20:43:13 [INFO] uvicorn.error: connection open
+2025-10-23 20:43:17 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:43:17 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:43:17 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 20:43:19 192.168.223.1:0 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:43:19 192.168.223.1:0 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:43:22 192.168.223.1:0 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:43:22 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761223402:31638c6f073502e1c110c34b7c189eebd729ca3fa835b4ef01238b1fcd0be99b
+2025-10-23 20:43:22 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:43:22 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:43:22 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761223402%3A31638c6f073502e1c110c34b7c189eebd729ca3fa835b4ef01238b1fcd0be99b" [accepted]
+2025-10-23 20:43:22 [INFO] uvicorn.error: connection open
+2025-10-23 20:44:37 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:44:37 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:44:37 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 20:44:39 192.168.223.1:0 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:44:42 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:44:42 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 20:44:42 192.168.223.1:0 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:44:42 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761223482:4e28fd588734fb056959542155a85238636e1fc85f498146b748ffd660537351
+2025-10-23 20:44:42 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:44:42 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:44:42 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761223482%3A4e28fd588734fb056959542155a85238636e1fc85f498146b748ffd660537351" [accepted]
+2025-10-23 20:44:42 [INFO] uvicorn.error: connection open
+2025-10-23 20:44:48 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:44:48 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:44:48 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 20:44:57 192.168.223.1:0 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=installurl.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:44:57 192.168.223.1:0 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:00 192.168.223.1:0 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:00 192.168.223.1:0 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:45:14 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:45:14 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:45:14 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:45:14 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:45:14 192.168.223.1:0 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:14 192.168.223.1:0 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:17 192.168.223.1:0 - "[1mGET /logs/access-config/latest HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:17 192.168.223.1:0 - "[1mGET /logs/access-content?log_type=access HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:45:19 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 20:45:19 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 20:45:19 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 20:45:19 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 20:45:19 192.168.223.1:0 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:19 192.168.223.1:0 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:24 192.168.223.1:0 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:29 192.168.223.1:0 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:34 192.168.223.1:0 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:34 192.168.223.1:0 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:36 192.168.223.1:0 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:36 192.168.223.1:0 - "[1mGET /system/env-config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:40 192.168.223.1:0 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:40 192.168.223.1:0 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 20:45:44 192.168.223.1:0 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 20:45:44 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761223544:e3d2f2386141b7007caacd0b7fb3f27b37008cd2456ea777a0f307faf7d2b4d9
+2025-10-23 20:45:44 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 20:45:44 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 20:45:44 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761223544%3Ae3d2f2386141b7007caacd0b7fb3f27b37008cd2456ea777a0f307faf7d2b4d9" [accepted]
+2025-10-23 20:45:44 [INFO] uvicorn.error: connection open
+2025-10-23 20:45:57 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 20:45:57 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 20:45:57 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 20:45:59 192.168.223.1:0 - "[1mGET /users/captcha HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:9201 - "[1mOPTIONS /monitor/system-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:54373 - "[1mOPTIONS /monitor/host-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:50317 - "[1mOPTIONS /monitor/network-traffic HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:31889 - "[1mOPTIONS /monitor/disk-io HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:63743 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:23250 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:9201 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:43 192.168.223.1:50317 - "[1mGET /monitor/host-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:54373 - "[1mGET /monitor/system-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:63743 - "[1mGET /monitor/disk-io HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:9201 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:31889 - "[1mGET /monitor/network-traffic HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:9201 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:9201 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:9201 - "[1mOPTIONS /logs/login/me?limit=1 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:44 192.168.223.1:9201 - "[1mGET /logs/login/me?limit=1 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:48 192.168.223.1:31889 - "[1mGET /monitor/disk-io HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:48 192.168.223.1:9201 - "[1mGET /monitor/network-traffic HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:49 192.168.223.1:54373 - "[1mGET /monitor/system-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:50 192.168.223.1:54373 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:50 192.168.223.1:54373 - "[1mOPTIONS /system/env-config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:50 192.168.223.1:54373 - "[1mGET /system/env-config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:54 192.168.223.1:54373 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:54 192.168.223.1:21206 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:54 192.168.223.1:21206 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:01:54 192.168.223.1:21206 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:02:04 192.168.223.1:12199 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:02:04 192.168.223.1:12199 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:02:04 192.168.223.1:12199 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:02:04 192.168.223.1:12199 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:02:07 192.168.223.1:12199 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:02:07 192.168.223.1:12199 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:02:08 192.168.223.1:12199 - "[1mGET /users/captcha HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:04:38 192.168.223.1:62813 - "[1mGET /users/captcha HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:10:57 192.168.223.1:44537 - "[1mGET /users/captcha HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:00 192.168.223.1:44537 - "[1mOPTIONS /users/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:00 192.168.223.1:44537 - "[1mPOST /users/login HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:00 192.168.223.1:44537 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:00 192.168.223.1:58273 - "[1mGET /monitor/host-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:01 192.168.223.1:44537 - "[1mGET /monitor/system-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:01 192.168.223.1:48180 - "[1mGET /monitor/network-traffic HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:01 192.168.223.1:26015 - "[1mGET /monitor/disk-io HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:01 192.168.223.1:27927 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:01 192.168.223.1:27927 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:01 192.168.223.1:27927 - "[1mGET /logs/login/me?limit=1 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:04 192.168.223.1:27927 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:11:04 192.168.223.1:27927 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:46 192.168.223.1:9171 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:46 192.168.223.1:9171 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:46 192.168.223.1:9171 - "[1mOPTIONS /system/env-config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:46 192.168.223.1:9171 - "[1mGET /system/env-config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:53 192.168.223.1:35293 - "[1mOPTIONS /logs/files HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 21:15:53 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 21:15:53 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 21:15:53 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 21:15:53 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 21:15:53 192.168.223.1:35293 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:53 192.168.223.1:35293 - "[1mOPTIONS /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:53 192.168.223.1:35293 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:55 192.168.223.1:35293 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:55 192.168.223.1:14476 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:55 192.168.223.1:35293 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:15:55 192.168.223.1:35293 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:16:30 192.168.223.1:55096 - "[1mOPTIONS /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:16:30 192.168.223.1:55096 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:16:30 192.168.223.1:55096 - "[1mOPTIONS /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:16:30 192.168.223.1:55096 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:17:19 192.168.223.1:6711 - "[1mOPTIONS /file/list?path=%2F HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:17:19 192.168.223.1:6711 - "[1mGET /file/list?path=%2F HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:17:28 192.168.223.1:61579 - "[1mGET /file/list?path=%2F HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:18:41 192.168.223.1:27226 - "[1mOPTIONS /file/download?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:18:41 192.168.223.1:27226 - "[1mGET /file/download?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:18:50 192.168.223.1:45413 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:18:50 192.168.223.1:45413 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:09 192.168.223.1:16891 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:09 192.168.223.1:52168 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:09 192.168.223.1:5053 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:09 192.168.223.1:5053 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:09 192.168.223.1:52168 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:09 192.168.223.1:16891 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:15 192.168.223.1:18967 - "[1mOPTIONS /logs/files HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 21:19:15 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 21:19:15 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 21:19:15 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 21:19:15 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 21:19:15 192.168.223.1:18967 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:15 192.168.223.1:18967 - "[1mOPTIONS /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:15 192.168.223.1:18967 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:20 192.168.223.1:9577 - "[1mOPTIONS /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:20 192.168.223.1:9577 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:23 192.168.223.1:9577 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:23 192.168.223.1:22124 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:24 192.168.223.1:9577 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:19:24 192.168.223.1:22124 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:21:52 192.168.223.1:53565 - "[1mOPTIONS /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:21:52 192.168.223.1:53565 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:21:52 192.168.223.1:53565 - "[1mOPTIONS /system/env-config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:21:52 192.168.223.1:53565 - "[1mGET /system/env-config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:21:56 192.168.223.1:53565 - "[1mOPTIONS /logs/files HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 21:21:56 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 21:21:56 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 21:21:56 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 21:21:56 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+[32mINFO[0m:     2025-10-23 21:21:56 192.168.223.1:53565 - "[1mGET /logs/files HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:21:56 192.168.223.1:53565 - "[1mOPTIONS /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:21:56 192.168.223.1:53565 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:22:01 192.168.223.1:49878 - "[1mGET /logs/content/app_2025-10-23.log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:22:03 192.168.223.1:49878 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:22:03 192.168.223.1:49878 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:23:34 192.168.223.1:10754 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:23:34 192.168.223.1:10754 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:19 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:21 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:23 192.168.223.1:60952 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:23 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:24 192.168.223.1:60952 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:24 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:26 192.168.223.1:60952 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:26 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:27 192.168.223.1:60952 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:27 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:28 192.168.223.1:60952 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:28 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:29 192.168.223.1:60952 - "[1mOPTIONS /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile&filename=File.vue HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:29 192.168.223.1:60952 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile&filename=File.vue HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:29 192.168.223.1:60952 - "[1mOPTIONS /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:29 192.168.223.1:60952 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:33 192.168.223.1:60952 - "[1mOPTIONS /file/content HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:33 192.168.223.1:60952 - "[1mPUT /file/content HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:33 192.168.223.1:60591 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:33 192.168.223.1:60952 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:49 192.168.223.1:14779 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:49 192.168.223.1:14779 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:50 192.168.223.1:14779 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:50 192.168.223.1:14779 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:52 192.168.223.1:14779 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:52 192.168.223.1:14779 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:53 192.168.223.1:14779 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:53 192.168.223.1:14779 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:54 192.168.223.1:14779 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:54 192.168.223.1:14779 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:55 192.168.223.1:14779 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:24:55 192.168.223.1:14779 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:03 192.168.223.1:55807 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:03 192.168.223.1:55807 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:55807 - "[1mOPTIONS /monitor/system-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:20905 - "[1mOPTIONS /monitor/host-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:62599 - "[1mOPTIONS /monitor/network-traffic HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:6813 - "[1mOPTIONS /monitor/disk-io HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:55807 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:20905 - "[1mGET /monitor/disk-io HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:6813 - "[1mGET /monitor/host-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:04 192.168.223.1:62599 - "[1mGET /monitor/network-traffic HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:05 192.168.223.1:27830 - "[1mGET /monitor/system-info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:08 192.168.223.1:62599 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Ffile HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:25:08 192.168.223.1:27830 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:43:54 192.168.223.1:38559 - "[1mOPTIONS /file/list?path=%2Fopt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:43:54 192.168.223.1:38559 - "[1mGET /file/list?path=%2Fopt HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:44:36 192.168.223.1:39223 - "[1mOPTIONS /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:44:36 192.168.223.1:39223 - "[1mGET /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:46:04 192.168.223.1:34381 - "[1mOPTIONS /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fvmtoolsd.service.requires HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:46:04 192.168.223.1:34381 - "[1mGET /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fvmtoolsd.service.requires HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:46:06 192.168.223.1:34381 - "[1mOPTIONS /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:46:07 192.168.223.1:34381 - "[1mGET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 21:47:14 192.168.223.1:16781 - "[1mOPTIONS /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 21:47:14 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:47:14 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 21:47:14 192.168.223.1:16781 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 21:47:14 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761227234:262ee80be08b825b7a52db3c7b1417c549536993e07ada1198cbbd95ca88d8b3
+2025-10-23 21:47:14 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:47:14 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 21:47:14 [INFO] uvicorn.error: ('192.168.223.1', 55425) - "WebSocket /host/ws/terminal/1?token=1%3A1761227234%3A262ee80be08b825b7a52db3c7b1417c549536993e07ada1198cbbd95ca88d8b3" [accepted]
+2025-10-23 21:47:14 [INFO] uvicorn.error: connection open
+2025-10-23 21:51:43 [INFO] root: Admin user already exists.
+2025-10-23 21:51:43 [INFO] root: Localhost SSH config already exists.
+2025-10-23 21:51:43 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 21:51:44 [INFO] uvicorn.error: Started server process [30311]
+2025-10-23 21:51:44 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 21:51:44 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 21:51:44 [ERROR] uvicorn.error: [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+2025-10-23 21:51:44 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 21:51:44 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 21:51:48 [INFO] root: Admin user already exists.
+2025-10-23 21:51:48 [INFO] root: Localhost SSH config already exists.
+2025-10-23 21:51:48 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 21:51:48 [INFO] uvicorn.error: Started server process [30325]
+2025-10-23 21:51:48 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 21:51:48 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 21:51:48 [ERROR] uvicorn.error: [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+2025-10-23 21:51:48 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 21:51:48 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 21:51:52 [INFO] root: Admin user already exists.
+2025-10-23 21:51:52 [INFO] root: Localhost SSH config already exists.
+2025-10-23 21:51:52 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 21:51:53 [INFO] uvicorn.error: Started server process [30334]
+2025-10-23 21:51:53 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 21:51:53 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 21:51:53 [ERROR] uvicorn.error: [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+2025-10-23 21:51:53 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 21:51:53 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 21:51:56 [INFO] uvicorn.error: Shutting down
+2025-10-23 21:51:56 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1012
+2025-10-23 21:51:56 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 21:51:56 [INFO] uvicorn.error: connection closed
+2025-10-23 21:51:56 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 21:51:56 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 21:51:56 [INFO] uvicorn.error: Finished server process [27312]
+2025-10-23 21:51:57 [INFO] root: Admin user already exists.
+2025-10-23 21:51:57 [INFO] root: Localhost SSH config already exists.
+2025-10-23 21:51:57 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 21:51:57 [INFO] uvicorn.error: Started server process [30346]
+2025-10-23 21:51:57 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 21:51:57 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 21:51:57 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-10-23 21:52:07 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:52:07 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 21:52:07 192.168.223.1:52815 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 21:52:07 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761227527:c6380f96fb15272fdc439b95461f5fca7de0da1e4dca4b9f6e555106764bc929
+2025-10-23 21:52:07 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:52:08 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 21:52:08 [INFO] uvicorn.error: ('192.168.223.1', 60648) - "WebSocket /host/ws/terminal/1?token=1%3A1761227527%3Ac6380f96fb15272fdc439b95461f5fca7de0da1e4dca4b9f6e555106764bc929" [accepted]
+2025-10-23 21:52:08 [INFO] uvicorn.error: connection open
+2025-10-23 21:52:36 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 21:52:36 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 21:52:36 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 21:53:48 192.168.223.1:18536 - "OPTIONS /file/create_file HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:53:48 192.168.223.1:18536 - "POST /file/create_file HTTP/1.1" 409 Conflict
+INFO:     2025-10-23 21:54:27 192.168.223.1:9092 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:54:27 192.168.223.1:52204 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:54:28 192.168.223.1:9092 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:54:28 192.168.223.1:52204 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:54:28 192.168.223.1:52589 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+2025-10-23 21:54:32 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:54:32 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 21:54:32 192.168.223.1:52589 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 21:54:32 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761227672:75288b81d20c121b9f96dd5ee08180c1d60b9f3605e4a9c83cb25be61e0aae18
+2025-10-23 21:54:32 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:54:32 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 21:54:32 [INFO] uvicorn.error: ('192.168.223.1', 45086) - "WebSocket /host/ws/terminal/1?token=1%3A1761227672%3A75288b81d20c121b9f96dd5ee08180c1d60b9f3605e4a9c83cb25be61e0aae18" [accepted]
+2025-10-23 21:54:32 [INFO] uvicorn.error: connection open
+2025-10-23 21:54:34 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 21:54:34 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 21:54:34 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 21:58:12 192.168.223.1:11135 - "OPTIONS /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:12 192.168.223.1:27483 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:13 192.168.223.1:11135 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:16 192.168.223.1:11135 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:16 192.168.223.1:27483 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:16 192.168.223.1:22938 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:19 192.168.223.1:27483 - "OPTIONS /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=Blackpotbpanel.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:19 192.168.223.1:27483 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=Blackpotbpanel.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:19 192.168.223.1:27483 - "OPTIONS /file/tree?path=%2Fetc%2Fsystemd%2Fsystem&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:19 192.168.223.1:27483 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:24 192.168.223.1:27483 - "OPTIONS /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=1panel-core.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:24 192.168.223.1:27483 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=1panel-core.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:24 192.168.223.1:27483 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:46 192.168.223.1:13222 - "OPTIONS /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=1panel-agent.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:46 192.168.223.1:13222 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=1panel-agent.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:58:46 192.168.223.1:13222 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:59:03 192.168.223.1:46081 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=Blackpotbpanel.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:59:03 192.168.223.1:46081 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:59:18 192.168.223.1:18008 - "OPTIONS /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 21:59:18 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:59:19 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 21:59:19 192.168.223.1:18008 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 21:59:19 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761227959:df169147c8eed4ad4663850fc30f7e3d20002512d9f0bc65894f5deb82a07edc
+2025-10-23 21:59:19 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:59:19 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 21:59:19 [INFO] uvicorn.error: ('192.168.223.1', 28802) - "WebSocket /host/ws/terminal/1?token=1%3A1761227959%3Adf169147c8eed4ad4663850fc30f7e3d20002512d9f0bc65894f5deb82a07edc" [accepted]
+2025-10-23 21:59:19 [INFO] uvicorn.error: connection open
+2025-10-23 21:59:27 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 21:59:27 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 21:59:27 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 21:59:28 192.168.223.1:20784 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:59:28 192.168.223.1:20784 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:59:28 192.168.223.1:20784 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:59:31 192.168.223.1:20784 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 21:59:31 192.168.223.1:52141 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+2025-10-23 21:59:34 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:59:34 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 21:59:34 192.168.223.1:52141 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 21:59:34 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761227974:dd6aad73f5ab481f012f977551c49b2de23725bafa3a5cf1c42385bfe96ee42e
+2025-10-23 21:59:34 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 21:59:34 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 21:59:34 [INFO] uvicorn.error: ('192.168.223.1', 2525) - "WebSocket /host/ws/terminal/1?token=1%3A1761227974%3Add6aad73f5ab481f012f977551c49b2de23725bafa3a5cf1c42385bfe96ee42e" [accepted]
+2025-10-23 21:59:34 [INFO] uvicorn.error: connection open
+2025-10-23 22:02:02 [INFO] uvicorn.error: Shutting down
+2025-10-23 22:02:02 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1012
+2025-10-23 22:02:02 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 22:02:02 [INFO] uvicorn.error: connection closed
+2025-10-23 22:02:02 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 22:02:02 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 22:02:02 [INFO] uvicorn.error: Finished server process [30346]
+2025-10-23 22:02:24 [INFO] root: Admin user already exists.
+2025-10-23 22:02:24 [INFO] root: Localhost SSH config already exists.
+2025-10-23 22:02:24 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 22:02:24 [INFO] uvicorn.error: Started server process [30877]
+2025-10-23 22:02:24 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 22:02:24 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 22:02:24 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     2025-10-23 22:02:30 192.168.223.1:19489 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:02:30 192.168.223.1:19489 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:02:32 192.168.223.1:19489 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:02:32 192.168.223.1:29321 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:02:32 192.168.223.1:37849 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:02:34 192.168.223.1:37849 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:02:43 192.168.223.1:21261 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem&filename=1panel-core.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:02:43 192.168.223.1:21261 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:02 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fetc%2Fsystemd HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:02 192.168.223.1:31286 - "GET /file/list?path=%2Fetc%2Fsystemd HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:03 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fetc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:03 192.168.223.1:31286 - "GET /file/list?path=%2Fetc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:04 192.168.223.1:31286 - "OPTIONS /file/list?path=%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:04 192.168.223.1:31286 - "GET /file/list?path=%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:05 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:07 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:07 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:08 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:08 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:10 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:10 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:11 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:11 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:12 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Fhosts HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:12 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Fhosts HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:15 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:16 192.168.223.1:31286 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:16 192.168.223.1:31286 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:17 192.168.223.1:31286 - "OPTIONS /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile&filename=FileEdit.vue HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:17 192.168.223.1:31286 - "GET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile&filename=FileEdit.vue HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:17 192.168.223.1:31286 - "OPTIONS /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:17 192.168.223.1:31286 - "GET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:20 192.168.223.1:31286 - "OPTIONS /file/content HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:20 192.168.223.1:31286 - "PUT /file/content HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:21 192.168.223.1:31286 - "GET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile&filename=FileEdit.vue HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:21 192.168.223.1:31286 - "GET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fcomponents%2Ffile&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:30 192.168.223.1:43558 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:30 192.168.223.1:43558 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:52 192.168.223.1:34759 - "OPTIONS /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:52 192.168.223.1:34759 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:56 192.168.223.1:34759 - "OPTIONS /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F&filename=Blackpotbpanel.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:56 192.168.223.1:34759 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F&filename=Blackpotbpanel.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:56 192.168.223.1:34759 - "OPTIONS /file/tree?path=%2Fetc%2Fsystemd%2Fsystem%2F&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:04:56 192.168.223.1:34759 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem%2F&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:03 192.168.223.1:14217 - "OPTIONS /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F&filename=syslog.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:03 192.168.223.1:14217 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F&filename=syslog.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:03 192.168.223.1:14217 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem%2F&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:10 192.168.223.1:22888 - "OPTIONS /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:10 192.168.223.1:22888 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:12 192.168.223.1:22888 - "OPTIONS /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants&filename=lvm2-monitor.service+-%3E+%2Fusr%2Flib%2Fsystemd%2Fsystem%2Flvm2-monitor.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:12 192.168.223.1:22888 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants&filename=lvm2-monitor.service+-%3E+%2Fusr%2Flib%2Fsystemd%2Fsystem%2Flvm2-monitor.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:12 192.168.223.1:22888 - "OPTIONS /file/tree?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:12 192.168.223.1:22888 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:18 192.168.223.1:42281 - "OPTIONS /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants&filename=iscsi-onboot.service+-%3E+%2Fusr%2Flib%2Fsystemd%2Fsystem%2Fiscsi-onboot.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:18 192.168.223.1:42281 - "GET /file/content?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants&filename=iscsi-onboot.service+-%3E+%2Fusr%2Flib%2Fsystemd%2Fsystem%2Fiscsi-onboot.service HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:18 192.168.223.1:42281 - "GET /file/tree?path=%2Fetc%2Fsystemd%2Fsystem%2F%2Fsysinit.target.wants&max_depth=2 HTTP/1.1" 200 OK
+2025-10-23 22:05:20 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:05:20 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 22:05:21 192.168.223.1:42281 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 22:05:21 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761228321:de1806c79abaf6d1c924289444fb7a9b8e0b061f383bf9d488f5b84be107b77e
+2025-10-23 22:05:21 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:05:21 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 22:05:21 [INFO] uvicorn.error: ('192.168.223.1', 59383) - "WebSocket /host/ws/terminal/1?token=1%3A1761228321%3Ade1806c79abaf6d1c924289444fb7a9b8e0b061f383bf9d488f5b84be107b77e" [accepted]
+2025-10-23 22:05:21 [INFO] uvicorn.error: connection open
+2025-10-23 22:05:24 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 22:05:24 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 22:05:24 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 22:05:25 192.168.223.1:42281 - "GET /file/list?path=%2Fetc%2Fsystemd%2Fsystem HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:29 192.168.223.1:42281 - "GET /file/list?path=%2Fetc%2Fsystemd HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:30 192.168.223.1:42281 - "GET /file/list?path=%2Fetc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:30 192.168.223.1:42281 - "GET /file/list?path=%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:32 192.168.223.1:42281 - "OPTIONS /file/list?path=%2Fapp HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:32 192.168.223.1:42281 - "GET /file/list?path=%2Fapp HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:34 192.168.223.1:42281 - "GET /file/list?path=%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:36 192.168.223.1:42281 - "OPTIONS /file/list?path=%2Fdev HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:36 192.168.223.1:42281 - "GET /file/list?path=%2Fdev HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:40 192.168.223.1:42281 - "OPTIONS /file/download?path=%2Fdev&filename=tty42 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:05:40 192.168.223.1:42281 - "GET /file/download?path=%2Fdev&filename=tty42 HTTP/1.1" 400 Bad Request
+INFO:     2025-10-23 22:06:14 192.168.223.1:1655 - "OPTIONS /file/download?path=%2Fdev&filename=hidraw0 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:06:14 192.168.223.1:1655 - "GET /file/download?path=%2Fdev&filename=hidraw0 HTTP/1.1" 400 Bad Request
+INFO:     2025-10-23 22:06:22 192.168.223.1:51577 - "GET /file/list?path=%2Fdev HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:06:27 192.168.223.1:51577 - "GET /file/list?path=%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:06:33 192.168.223.1:26062 - "OPTIONS /file/content?path=%2F&filename=bin+-%3E+usr%2Fbin HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:06:33 192.168.223.1:26062 - "GET /file/content?path=%2F&filename=bin+-%3E+usr%2Fbin HTTP/1.1" 400 Bad Request
+INFO:     2025-10-23 22:13:25 192.168.223.1:27947 - "OPTIONS /file/content?path=%2F&filename=bin+-%3E+usr%2Fbin HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:13:25 192.168.223.1:27947 - "GET /file/content?path=%2F&filename=bin+-%3E+usr%2Fbin HTTP/1.1" 400 Bad Request
+INFO:     2025-10-23 22:14:41 192.168.223.1:25983 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:41 192.168.223.1:25983 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:41 192.168.223.1:25983 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:41 192.168.223.1:25983 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:44 192.168.223.1:25983 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:44 192.168.223.1:25983 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 22:14:44 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761228884:96b81e469c3ec6942725198a488c2361df8031dae200eecd0e2a5f9d65a6e7a5
+2025-10-23 22:14:44 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:14:44 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 22:14:44 [INFO] uvicorn.error: ('192.168.223.1', 59885) - "WebSocket /host/ws/terminal/1?token=1%3A1761228884%3A96b81e469c3ec6942725198a488c2361df8031dae200eecd0e2a5f9d65a6e7a5" [accepted]
+2025-10-23 22:14:44 [INFO] uvicorn.error: connection open
+2025-10-23 22:14:46 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 22:14:46 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 22:14:46 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 22:14:51 192.168.223.1:1170 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:51 192.168.223.1:1170 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:57 192.168.223.1:32036 - "OPTIONS /logs/files HTTP/1.1" 200 OK
+2025-10-23 22:14:57 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 22:14:57 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 22:14:57 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 22:14:57 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+INFO:     2025-10-23 22:14:57 192.168.223.1:32036 - "GET /logs/files HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:57 192.168.223.1:32036 - "OPTIONS /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:14:57 192.168.223.1:32036 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:02 192.168.223.1:40145 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:07 192.168.223.1:40145 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:12 192.168.223.1:64831 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:17 192.168.223.1:64831 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:22 192.168.223.1:20956 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:27 192.168.223.1:20956 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:32 192.168.223.1:55565 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:37 192.168.223.1:55565 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:42 192.168.223.1:60382 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:47 192.168.223.1:60357 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:52 192.168.223.1:42934 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:55 192.168.223.1:42934 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:55 192.168.223.1:1468 - "OPTIONS /file/list?path=%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:55 192.168.223.1:1468 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:55 192.168.223.1:42934 - "GET /file/list?path=%2F HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:15:58 192.168.223.1:42934 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:01 192.168.223.1:18425 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:01 192.168.223.1:18425 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:02 192.168.223.1:18425 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:02 192.168.223.1:18425 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:04 192.168.223.1:18425 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:04 192.168.223.1:18425 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:05 192.168.223.1:18425 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Futils HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:05 192.168.223.1:18425 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Futils HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:06 192.168.223.1:18425 - "OPTIONS /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Futils&filename=locale.js HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:06 192.168.223.1:18425 - "GET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Futils&filename=locale.js HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:06 192.168.223.1:18425 - "OPTIONS /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Futils&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:06 192.168.223.1:18425 - "GET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Futils&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:09 192.168.223.1:18425 - "OPTIONS /file/content HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:09 192.168.223.1:18425 - "PUT /file/content HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:10 192.168.223.1:2511 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:10 192.168.223.1:48267 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Futils HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:10 192.168.223.1:2511 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:10 192.168.223.1:15379 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:13 192.168.223.1:15379 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:14 192.168.223.1:15379 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:14 192.168.223.1:15379 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:16 192.168.223.1:15379 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:20 192.168.223.1:28253 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:20 192.168.223.1:47613 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:20 192.168.223.1:65028 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:20 192.168.223.1:59419 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:20 192.168.223.1:28253 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:21 192.168.223.1:2058 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:21 192.168.223.1:59419 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:21 192.168.223.1:65028 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:21 192.168.223.1:47613 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:25 192.168.223.1:47613 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:25 192.168.223.1:65028 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:26 192.168.223.1:59419 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:27 192.168.223.1:59419 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:27 192.168.223.1:59419 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:33 192.168.223.1:58421 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 22:16:33 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761228993:eb888a190d398145e0bdfd259c664801dae76436607754bca7508babd251cc81
+2025-10-23 22:16:33 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:16:33 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 22:16:33 [INFO] uvicorn.error: ('192.168.223.1', 20239) - "WebSocket /host/ws/terminal/1?token=1%3A1761228993%3Aeb888a190d398145e0bdfd259c664801dae76436607754bca7508babd251cc81" [accepted]
+2025-10-23 22:16:33 [INFO] uvicorn.error: connection open
+2025-10-23 22:16:37 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 22:16:37 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 22:16:37 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 22:16:41 192.168.223.1:28249 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:16:41 192.168.223.1:28249 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:13 192.168.223.1:32686 - "GET /users/captcha HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:23 192.168.223.1:42617 - "OPTIONS /users/login HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:24 192.168.223.1:42617 - "POST /users/login HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:24 192.168.223.1:42617 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:42617 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:1327 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:14555 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:27127 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:11592 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:14555 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:14555 - "OPTIONS /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:25 192.168.223.1:14555 - "GET /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:29 192.168.223.1:14555 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:30 192.168.223.1:27127 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:30 192.168.223.1:11592 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:30 192.168.223.1:14555 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:30 192.168.223.1:14555 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:34 192.168.223.1:14555 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:34 192.168.223.1:14555 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:35 192.168.223.1:14555 - "OPTIONS /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:35 192.168.223.1:14555 - "GET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&filename=ssh.txt HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:36 192.168.223.1:14555 - "OPTIONS /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:36 192.168.223.1:14555 - "GET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&max_depth=2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:47 192.168.223.1:12718 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:47 192.168.223.1:44629 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:48 192.168.223.1:37736 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:48 192.168.223.1:55019 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:48 192.168.223.1:12870 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:48 192.168.223.1:44629 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:48 192.168.223.1:44629 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:48 192.168.223.1:44629 - "GET /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:49 192.168.223.1:44629 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:21:49 192.168.223.1:44629 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:12 192.168.223.1:20695 - "OPTIONS /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:12 192.168.223.1:20695 - "POST /host/ HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:13 192.168.223.1:20695 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:13 192.168.223.1:20695 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:13 192.168.223.1:22507 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:13 192.168.223.1:20695 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:16 192.168.223.1:20695 - "OPTIONS /host/2/ssh_test HTTP/1.1" 200 OK
+2025-10-23 22:22:16 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:22:17 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 22:22:17 192.168.223.1:22507 - "POST /host/2/ssh_test HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:22 192.168.223.1:22507 - "OPTIONS /host/2/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:22:22 192.168.223.1:22507 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-23 22:22:22 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761229342:c4897f5767bf97a3deaa72535536faa1c9c3eef97b1a49d2b91d72573c548ab9
+2025-10-23 22:22:22 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:22:22 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 22:22:22 [INFO] uvicorn.error: ('192.168.223.1', 43506) - "WebSocket /host/ws/terminal/2?token=2%3A1761229342%3Ac4897f5767bf97a3deaa72535536faa1c9c3eef97b1a49d2b91d72573c548ab9" [accepted]
+2025-10-23 22:22:22 [INFO] uvicorn.error: connection open
+2025-10-23 22:22:32 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 22:22:32 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-23 22:22:32 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 22:22:39 192.168.223.1:56564 - "OPTIONS /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 22:22:39 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:22:39 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 22:22:39 192.168.223.1:56564 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 22:22:39 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761229359:59a536b5a72f15b33762ca2ea5e85d5f0ce13c64e7c0c8eae175e056e7576a91
+2025-10-23 22:22:39 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:22:39 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 22:22:39 [INFO] uvicorn.error: ('192.168.223.1', 51927) - "WebSocket /host/ws/terminal/1?token=1%3A1761229359%3A59a536b5a72f15b33762ca2ea5e85d5f0ce13c64e7c0c8eae175e056e7576a91" [accepted]
+2025-10-23 22:22:39 [INFO] uvicorn.error: connection open
+2025-10-23 22:22:42 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 22:22:42 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 22:22:42 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 22:25:26 192.168.223.1:55378 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+2025-10-23 22:27:11 [INFO] uvicorn.error: Shutting down
+2025-10-23 22:27:11 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 22:27:11 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 22:27:11 [INFO] uvicorn.error: Finished server process [30877]
+2025-10-23 22:27:12 [INFO] root: Admin user already exists.
+2025-10-23 22:27:12 [INFO] root: Localhost SSH config already exists.
+2025-10-23 22:27:12 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 22:27:12 [INFO] uvicorn.error: Started server process [31551]
+2025-10-23 22:27:12 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 22:27:12 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 22:27:12 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     2025-10-23 22:27:25 192.168.223.1:49668 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:25 192.168.223.1:49668 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:28 192.168.223.1:49668 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:29 192.168.223.1:49668 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:29 192.168.223.1:17535 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:29 192.168.223.1:5650 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:29 192.168.223.1:12397 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:29 192.168.223.1:42360 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:29 192.168.223.1:5650 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:30 192.168.223.1:49668 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:30 192.168.223.1:17535 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:30 192.168.223.1:42360 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:30 192.168.223.1:12397 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:32 192.168.223.1:12397 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:32 192.168.223.1:12397 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:33 192.168.223.1:12397 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:33 192.168.223.1:12397 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:33 192.168.223.1:42360 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:36 192.168.223.1:42360 - "POST /host/2/terminal_token HTTP/1.1" 200 OK
+2025-10-23 22:27:36 [INFO] app.host.routers: WebSocket连接请求，host_id: 2, token: 2:1761229656:c5391c294e8551c23518c0142d194ef4104c6781e5b8740408cb4b0a3ec05fb3
+2025-10-23 22:27:36 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:27:37 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 22:27:37 [INFO] uvicorn.error: ('192.168.223.1', 4798) - "WebSocket /host/ws/terminal/2?token=2%3A1761229656%3Ac5391c294e8551c23518c0142d194ef4104c6781e5b8740408cb4b0a3ec05fb3" [accepted]
+2025-10-23 22:27:37 [INFO] uvicorn.error: connection open
+2025-10-23 22:27:38 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 22:27:38 [INFO] app.host.websocket_terminal: 连接 2_unknown 已清理
+2025-10-23 22:27:38 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 22:27:39 192.168.223.1:42360 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:39 192.168.223.1:42360 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:39 192.168.223.1:42360 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:45 192.168.223.1:27192 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:45 192.168.223.1:27192 - "PUT /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:45 192.168.223.1:27192 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:46 192.168.223.1:27192 - "OPTIONS /system/restart HTTP/1.1" 200 OK
+2025-10-23 22:27:46 [INFO] app.system.service: 开始重启服务...
+2025-10-23 22:27:46 [WARNING] app.system.service: systemctl命令未找到，使用模拟重启
+2025-10-23 22:27:47 [INFO] app.system.service: 服务重启完成（模拟）
+2025-10-23 22:27:47 [INFO] app.system.routers: 服务已成功重启，结果: {'status': 'success', 'message': '服务已成功重启（模拟）'}
+INFO:     2025-10-23 22:27:47 192.168.223.1:27192 - "POST /system/restart HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:53 192.168.223.1:1923 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:53 192.168.223.1:1923 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:27:53 192.168.223.1:1923 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:28:40 192.168.223.1:23953 - "OPTIONS /logs/files HTTP/1.1" 200 OK
+2025-10-23 22:28:40 [INFO] app.log.routers: Current file path: /opt/blackpotbpanel-v2/backend/app/log/routers.py
+2025-10-23 22:28:40 [INFO] app.log.routers: Computed log directory path: /opt/blackpotbpanel-v2/backend/logs
+2025-10-23 22:28:40 [INFO] app.log.routers: Does the log directory exist: True
+2025-10-23 22:28:40 [INFO] app.log.routers: Found log file: ['app_2025-10-23.log']
+INFO:     2025-10-23 22:28:40 192.168.223.1:23953 - "GET /logs/files HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:28:40 192.168.223.1:23953 - "OPTIONS /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:28:40 192.168.223.1:23953 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:28:46 192.168.223.1:13396 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:28:50 192.168.223.1:13396 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:28:56 192.168.223.1:12897 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:01 192.168.223.1:12897 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:06 192.168.223.1:15525 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:11 192.168.223.1:43045 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:16 192.168.223.1:43045 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:20 192.168.223.1:43045 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:25 192.168.223.1:43045 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:31 192.168.223.1:15505 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:36 192.168.223.1:15505 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:41 192.168.223.1:15505 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:46 192.168.223.1:15505 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:51 192.168.223.1:15505 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:29:56 192.168.223.1:15505 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:30:01 192.168.223.1:16874 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:30:06 192.168.223.1:16874 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:30:11 192.168.223.1:16874 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:30:16 192.168.223.1:16874 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:30:21 192.168.223.1:16874 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:30:26 192.168.223.1:42912 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:31:10 192.168.223.1:56422 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:32:10 192.168.223.1:42775 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:33:10 192.168.223.1:4527 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:33:30 192.168.223.1:45125 - "GET /logs/content/app_2025-10-23.log HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:33:32 192.168.223.1:45125 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:33:32 192.168.223.1:45125 - "OPTIONS /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:33:32 192.168.223.1:54941 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:33:32 192.168.223.1:45125 - "GET /host/2/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:53 192.168.223.1:1953 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:53 192.168.223.1:1953 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:53 192.168.223.1:1953 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:53 192.168.223.1:1953 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:56 192.168.223.1:1953 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:56 192.168.223.1:26867 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:56 192.168.223.1:1953 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:56 192.168.223.1:1953 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:43:57 192.168.223.1:1953 - "OPTIONS /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 22:43:58 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:43:58 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 22:43:58 192.168.223.1:26867 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 22:43:58 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761230638:5d509b830ec2fe2b4440f98385f32ff358bd9f0872d91242e6d02c01fce864be
+2025-10-23 22:43:58 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 22:43:58 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 22:43:58 [INFO] uvicorn.error: ('192.168.223.1', 24144) - "WebSocket /host/ws/terminal/1?token=1%3A1761230638%3A5d509b830ec2fe2b4440f98385f32ff358bd9f0872d91242e6d02c01fce864be" [accepted]
+2025-10-23 22:43:58 [INFO] uvicorn.error: connection open
+2025-10-23 22:46:09 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 22:46:09 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 22:46:09 [INFO] uvicorn.error: connection closed
+2025-10-23 22:50:10 [INFO] uvicorn.error: Shutting down
+2025-10-23 22:50:10 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 22:50:10 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 22:50:10 [INFO] uvicorn.error: Finished server process [31551]
+2025-10-23 22:53:55 [INFO] root: Admin user created successfully!
+2025-10-23 22:53:55 [INFO] root: Localhost SSH config created successfully!
+2025-10-23 22:53:55 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 22:53:55 [INFO] uvicorn.error: Started server process [32146]
+2025-10-23 22:53:55 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 22:53:55 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 22:53:55 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[0m:     2025-10-23 22:54:00 192.168.223.1:54950 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 22:54:00 192.168.223.1:54950 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 22:54:00 192.168.223.1:54950 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 22:54:00 192.168.223.1:54950 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 22:54:47 [INFO] uvicorn.error: Shutting down
+2025-10-23 22:54:47 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 22:54:47 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 22:54:47 [INFO] uvicorn.error: Finished server process [32146]
+2025-10-23 22:54:57 [INFO] root: Admin user already exists.
+2025-10-23 22:54:57 [INFO] root: Localhost SSH config already exists.
+2025-10-23 22:54:57 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 22:54:57 [INFO] uvicorn.error: Started server process [32179]
+2025-10-23 22:54:57 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 22:54:57 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 22:54:57 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     2025-10-23 22:55:09 192.168.223.1:34731 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:55:09 192.168.223.1:34731 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:55:09 192.168.223.1:44260 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 22:55:09 192.168.223.1:44260 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:02:31 192.168.223.1:59077 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:02:31 192.168.223.1:59077 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:03:11 192.168.223.1:41093 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:03:11 192.168.223.1:47210 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:03:11 192.168.223.1:47210 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:06:19 192.168.223.1:51893 - "OPTIONS /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:06:19 192.168.223.1:51893 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:06:20 192.168.223.1:51893 - "OPTIONS /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:06:20 192.168.223.1:51893 - "GET /host/1/status HTTP/1.1" 200 OK
+2025-10-23 23:07:30 [INFO] uvicorn.error: Shutting down
+2025-10-23 23:07:30 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 23:07:30 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 23:07:30 [INFO] uvicorn.error: Finished server process [32179]
+2025-10-23 23:08:01 [INFO] root: Admin user already exists.
+2025-10-23 23:08:01 [INFO] root: Localhost SSH config already exists.
+2025-10-23 23:08:01 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 23:08:01 [INFO] uvicorn.error: Started server process [1070]
+2025-10-23 23:08:01 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 23:08:01 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 23:08:01 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     2025-10-23 23:10:18 192.168.223.1:4530 - "OPTIONS /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:18 192.168.223.1:64623 - "OPTIONS /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:18 192.168.223.1:63464 - "OPTIONS /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:18 192.168.223.1:43316 - "OPTIONS /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:18 192.168.223.1:16451 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:18 192.168.223.1:45469 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:18 192.168.223.1:4530 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:43316 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:63464 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:64623 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:16451 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:45469 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:16451 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:16451 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:16451 - "OPTIONS /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:19 192.168.223.1:16451 - "GET /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:22 192.168.223.1:16451 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:22 192.168.223.1:16451 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:27 192.168.223.1:16451 - "OPTIONS /host/1/terminal_token HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:27 192.168.223.1:16451 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 23:10:27 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232227:eef2155093b9825d54143c95527928f134a429a338854d1a3959790b710edee7
+2025-10-23 23:10:27 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:10:27 [ERROR] app.host.websocket_terminal: SSH连接失败: No authentication methods available
+2025-10-23 23:10:27 [INFO] uvicorn.error: ('192.168.223.1', 22211) - "WebSocket /host/ws/terminal/1?token=1%3A1761232227%3Aeef2155093b9825d54143c95527928f134a429a338854d1a3959790b710edee7" 403
+2025-10-23 23:10:27 [INFO] uvicorn.error: connection rejected (403 Forbidden)
+2025-10-23 23:10:27 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:10:28 192.168.223.1:16451 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 23:10:28 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232228:b80210fce91648344e15bc8fdd2931a15c9836fded0ec91e73f74b113a501daf
+2025-10-23 23:10:28 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:10:28 [ERROR] app.host.websocket_terminal: SSH连接失败: No authentication methods available
+2025-10-23 23:10:28 [INFO] uvicorn.error: ('192.168.223.1', 16700) - "WebSocket /host/ws/terminal/1?token=1%3A1761232228%3Ab80210fce91648344e15bc8fdd2931a15c9836fded0ec91e73f74b113a501daf" 403
+2025-10-23 23:10:28 [INFO] uvicorn.error: connection rejected (403 Forbidden)
+2025-10-23 23:10:28 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:10:38 192.168.223.1:55966 - "OPTIONS /host/1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:38 192.168.223.1:55966 - "PUT /host/1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:38 192.168.223.1:55966 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:38 192.168.223.1:55966 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:10:39 192.168.223.1:55966 - "OPTIONS /host/1/ssh_test HTTP/1.1" 200 OK
+2025-10-23 23:10:39 [ERROR] app.host.routers: SSH连接测试失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+INFO:     2025-10-23 23:10:39 192.168.223.1:55966 - "POST /host/1/ssh_test HTTP/1.1" 500 Internal Server Error
+2025-10-23 23:10:52 [ERROR] app.host.routers: SSH连接测试失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+INFO:     2025-10-23 23:10:52 192.168.223.1:30302 - "POST /host/1/ssh_test HTTP/1.1" 500 Internal Server Error
+INFO:     2025-10-23 23:11:43 192.168.223.1:2994 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:11:43 192.168.223.1:35584 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:11:43 192.168.223.1:35584 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:11:43 192.168.223.1:35584 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:11:45 192.168.223.1:35584 - "OPTIONS /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 23:11:45 [ERROR] app.host.routers: 连接本机SSH失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+INFO:     2025-10-23 23:11:45 192.168.223.1:2994 - "POST /host/connect_localhost HTTP/1.1" 500 Internal Server Error
+2025-10-23 23:11:57 [INFO] uvicorn.error: Shutting down
+2025-10-23 23:11:57 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 23:11:57 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 23:11:57 [INFO] uvicorn.error: Finished server process [1070]
+2025-10-23 23:12:11 [INFO] root: Admin user already exists.
+2025-10-23 23:12:11 [INFO] root: Localhost SSH config already exists.
+2025-10-23 23:12:11 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 23:12:11 [INFO] uvicorn.error: Started server process [2458]
+2025-10-23 23:12:11 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 23:12:11 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 23:12:11 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-10-23 23:12:15 [ERROR] app.host.routers: 连接本机SSH失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:12:15 192.168.223.1:22047 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-10-23 23:12:18 192.168.223.1:22047 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:12:18 192.168.223.1:22047 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:12:21 192.168.223.1:22047 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:12:21 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232341:824039506a3becb729701baaf2130187e949d3c196b910d5fbb5322719ededaa
+2025-10-23 23:12:22 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:12:22 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:12:22 [INFO] uvicorn.error: ('192.168.223.1', 1091) - "WebSocket /host/ws/terminal/1?token=1%3A1761232341%3A824039506a3becb729701baaf2130187e949d3c196b910d5fbb5322719ededaa" [accepted]
+2025-10-23 23:12:22 [INFO] uvicorn.error: connection open
+2025-10-23 23:12:32 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:12:32 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:12:32 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 23:12:37 192.168.223.1:23972 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:12:37 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232357:7a4d7c3c76efe940a78755dc66b3d30756a3e53b42cee9a3ec5bd898f31c1da2
+2025-10-23 23:12:37 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:12:37 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:12:37 [INFO] uvicorn.error: ('192.168.223.1', 57033) - "WebSocket /host/ws/terminal/1?token=1%3A1761232357%3A7a4d7c3c76efe940a78755dc66b3d30756a3e53b42cee9a3ec5bd898f31c1da2" [accepted]
+2025-10-23 23:12:37 [INFO] uvicorn.error: connection open
+2025-10-23 23:12:39 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:12:39 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:12:39 [INFO] uvicorn.error: connection closed
+2025-10-23 23:12:41 [ERROR] app.host.routers: SSH连接测试失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:12:41 192.168.223.1:23972 - "[1mPOST /host/1/ssh_test HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-10-23 23:12:52 192.168.223.1:19632 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:12:52 192.168.223.1:7214 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:12:52 192.168.223.1:7214 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:12:55 192.168.223.1:7214 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:12:55 192.168.223.1:7214 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:12:57 [ERROR] app.host.routers: 连接本机SSH失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:12:57 192.168.223.1:7214 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-10-23 23:13:02 192.168.223.1:7214 - "[1mPUT /host/1 HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:13:02 [ERROR] app.host.routers: 连接本机SSH失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:13:02 192.168.223.1:7214 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [91m500 Internal Server Error[0m
+2025-10-23 23:16:37 [ERROR] app.host.routers: 连接本机SSH失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:16:37 192.168.223.1:58261 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-10-23 23:16:40 192.168.223.1:58261 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:16:40 192.168.223.1:58261 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:16:41 192.168.223.1:58261 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:16:41 192.168.223.1:58261 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:16:59 192.168.223.1:6034 - "[1mOPTIONS /host/1/ssh_test HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:16:59 [ERROR] app.host.routers: SSH连接测试失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:16:59 192.168.223.1:6034 - "[1mPOST /host/1/ssh_test HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-10-23 23:17:35 192.168.223.1:49088 - "[1mOPTIONS /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:17:35 192.168.223.1:49088 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:17:35 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232655:9fe6cbd5d7c7fc2654645f9dd2dc67c675f7eb5f65b6d9aa47038363031da237
+2025-10-23 23:17:35 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:17:35 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:17:36 [INFO] uvicorn.error: ('192.168.223.1', 52956) - "WebSocket /host/ws/terminal/1?token=1%3A1761232655%3A9fe6cbd5d7c7fc2654645f9dd2dc67c675f7eb5f65b6d9aa47038363031da237" [accepted]
+2025-10-23 23:17:36 [INFO] uvicorn.error: connection open
+2025-10-23 23:17:44 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:17:44 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:17:44 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 23:17:46 192.168.223.1:43243 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:17:46 192.168.223.1:47456 - "[1mOPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:17:46 192.168.223.1:47456 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:17:46 192.168.223.1:43243 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:17:48 192.168.223.1:43243 - "[1mOPTIONS /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:17:48 [ERROR] app.host.routers: 连接本机SSH失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:17:48 192.168.223.1:47456 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-10-23 23:17:54 192.168.223.1:61948 - "[1mOPTIONS /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:17:54 [ERROR] app.host.routers: 连接本机SSH失败: cannot import name 'SSHService' from partially initialized module 'app.host.ssh_service' (most likely due to a circular import) (/opt/blackpotbpanel-v2/backend/app/host/ssh_service.py)
+[32mINFO[0m:     2025-10-23 23:17:54 192.168.223.1:61948 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     2025-10-23 23:19:23 192.168.223.1:58592 - "[1mGET /host/connect_localhost HTTP/1.1[0m" [31m401 Unauthorized[0m
+2025-10-23 23:21:50 [INFO] uvicorn.error: Shutting down
+2025-10-23 23:21:50 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 23:21:50 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 23:21:50 [INFO] uvicorn.error: Finished server process [2458]
+2025-10-23 23:21:52 [INFO] root: Admin user already exists.
+2025-10-23 23:21:52 [INFO] root: Localhost SSH config already exists.
+2025-10-23 23:21:52 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 23:21:52 [INFO] uvicorn.error: Started server process [2757]
+2025-10-23 23:21:52 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 23:21:52 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 23:21:52 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[0m:     2025-10-23 23:21:55 192.168.223.1:59759 - "[1mOPTIONS /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:21:55 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:21:55 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 23:21:56 192.168.223.1:59759 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:21:56 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232915:134efc5355aa84f6fe7b05a74f249cb96c0c50eb7d5f628f7fd15b55502e8d0e
+2025-10-23 23:21:56 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:21:56 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:21:56 [INFO] uvicorn.error: ('192.168.223.1', 22117) - "WebSocket /host/ws/terminal/1?token=1%3A1761232915%3A134efc5355aa84f6fe7b05a74f249cb96c0c50eb7d5f628f7fd15b55502e8d0e" [accepted]
+2025-10-23 23:21:56 [INFO] uvicorn.error: connection open
+2025-10-23 23:21:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:21:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:21:58 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-10-23 23:21:59 192.168.223.1:59759 - "[1mOPTIONS /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:21:59 192.168.223.1:59759 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:21:59 192.168.223.1:59759 - "[1mOPTIONS /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:21:59 192.168.223.1:59759 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-10-23 23:22:04 192.168.223.1:59759 - "[1mOPTIONS /host/1/ssh_test HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:22:04 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:22:04 [INFO] paramiko.transport: Authentication (password) successful!
+[32mINFO[0m:     2025-10-23 23:22:04 192.168.223.1:62472 - "[1mPOST /host/1/ssh_test HTTP/1.1[0m" [32m200 OK[0m
+2025-10-23 23:22:13 [INFO] uvicorn.error: Shutting down
+2025-10-23 23:22:13 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-10-23 23:22:13 [INFO] uvicorn.error: Application shutdown complete.
+2025-10-23 23:22:13 [INFO] uvicorn.error: Finished server process [2757]
+2025-10-23 23:22:26 [INFO] root: Admin user already exists.
+2025-10-23 23:22:26 [INFO] root: Localhost SSH config already exists.
+2025-10-23 23:22:26 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-10-23 23:22:26 [INFO] uvicorn.error: Started server process [2876]
+2025-10-23 23:22:26 [INFO] uvicorn.error: Waiting for application startup.
+2025-10-23 23:22:26 [INFO] uvicorn.error: Application startup complete.
+2025-10-23 23:22:26 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     2025-10-23 23:22:41 192.168.223.1:63698 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 23:22:41 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232961:be88b529e993e112de60d1622cf89db05faf4f93b569987c0f0fda82c5b3ef74
+2025-10-23 23:22:41 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:22:41 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:22:41 [INFO] uvicorn.error: ('192.168.223.1', 50371) - "WebSocket /host/ws/terminal/1?token=1%3A1761232961%3Abe88b529e993e112de60d1622cf89db05faf4f93b569987c0f0fda82c5b3ef74" [accepted]
+2025-10-23 23:22:41 [INFO] uvicorn.error: connection open
+2025-10-23 23:22:45 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:22:45 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:22:45 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:22:49 192.168.223.1:27437 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:22:49 192.168.223.1:27437 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+2025-10-23 23:22:51 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:22:51 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 23:22:51 192.168.223.1:27437 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 23:22:51 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232971:d4d67033b177545d035bb03d526dfc569c43c9d253448cd6bb1160ba00d38532
+2025-10-23 23:22:51 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:22:51 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:22:51 [INFO] uvicorn.error: ('192.168.223.1', 58309) - "WebSocket /host/ws/terminal/1?token=1%3A1761232971%3Ad4d67033b177545d035bb03d526dfc569c43c9d253448cd6bb1160ba00d38532" [accepted]
+2025-10-23 23:22:51 [INFO] uvicorn.error: connection open
+2025-10-23 23:22:58 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:22:58 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:22:58 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:22:59 192.168.223.1:2886 - "OPTIONS /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:22:59 192.168.223.1:2886 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2 HTTP/1.1" 200 OK
+2025-10-23 23:23:00 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:23:00 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 23:23:00 192.168.223.1:2886 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 23:23:00 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761232980:71c0205fffd83a2c9989e39d1fe7ca20c55fdc46e68e20af676938bfb11c9ea9
+2025-10-23 23:23:00 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:23:00 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:23:00 [INFO] uvicorn.error: ('192.168.223.1', 33686) - "WebSocket /host/ws/terminal/1?token=1%3A1761232980%3A71c0205fffd83a2c9989e39d1fe7ca20c55fdc46e68e20af676938bfb11c9ea9" [accepted]
+2025-10-23 23:23:00 [INFO] uvicorn.error: connection open
+2025-10-23 23:23:03 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:23:03 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:23:03 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:23:37 192.168.223.1:62180 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:23:37 192.168.223.1:62180 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:23:37 192.168.223.1:62180 - "OPTIONS /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:23:37 192.168.223.1:62180 - "GET /system/env-config HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:04 192.168.223.1:0 - "GET /users/captcha HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:04 192.168.223.1:0 - "GET /users/me HTTP/1.1" 401 Unauthorized
+INFO:     2025-10-23 23:27:17 192.168.223.1:0 - "POST /users/login HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:17 192.168.223.1:0 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:18 192.168.223.1:0 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:18 192.168.223.1:0 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:19 192.168.223.1:0 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:19 192.168.223.1:0 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:19 192.168.223.1:0 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:19 192.168.223.1:0 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:19 192.168.223.1:0 - "GET /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:25 192.168.223.1:0 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:25 192.168.223.1:0 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:27:28 192.168.223.1:0 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 23:27:28 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761233248:b61eaa07377d7df84c8acde5cb1b7db66e58cc51ee1723e6b54665c0c9504565
+2025-10-23 23:27:28 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:27:28 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:27:28 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761233248%3Ab61eaa07377d7df84c8acde5cb1b7db66e58cc51ee1723e6b54665c0c9504565" [accepted]
+2025-10-23 23:27:28 [INFO] uvicorn.error: connection open
+2025-10-23 23:27:29 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:27:29 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:27:29 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:27:59 192.168.223.1:0 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+2025-10-23 23:28:01 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:28:01 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 23:28:01 192.168.223.1:0 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 23:28:01 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761233281:8b86f8a6c4e2837ae29a824d985b992df2d59815ec8389567bf1e773191ae302
+2025-10-23 23:28:01 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:28:02 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:28:02 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761233281%3A8b86f8a6c4e2837ae29a824d985b992df2d59815ec8389567bf1e773191ae302" [accepted]
+2025-10-23 23:28:02 [INFO] uvicorn.error: connection open
+2025-10-23 23:28:40 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:28:40 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:28:40 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:28:41 192.168.223.1:0 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:28:41 192.168.223.1:0 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:28:44 192.168.223.1:0 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 23:28:44 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761233324:faa7dff82aaac4788d89ea9601ffc14d868e6e1c535c64d2ba4322a2e1b52209
+2025-10-23 23:28:44 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:28:44 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:28:44 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761233324%3Afaa7dff82aaac4788d89ea9601ffc14d868e6e1c535c64d2ba4322a2e1b52209" [accepted]
+2025-10-23 23:28:44 [INFO] uvicorn.error: connection open
+2025-10-23 23:30:54 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1001
+2025-10-23 23:30:54 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:30:54 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /monitor/system-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /monitor/network-traffic HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /monitor/host-info HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /monitor/disk-io HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:30:58 192.168.223.1:0 - "GET /logs/login/me?limit=1 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:31:02 192.168.223.1:0 - "GET /host/?skip=0&limit=10 HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:31:02 192.168.223.1:0 - "GET /host/1/status HTTP/1.1" 200 OK
+INFO:     2025-10-23 23:31:05 192.168.223.1:0 - "POST /host/1/terminal_token HTTP/1.1" 200 OK
+2025-10-23 23:31:06 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761233465:1bd9d079287fba054e9377e95e1f7a450762f5727ca4121e81365eda54c93bde
+2025-10-23 23:31:06 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:31:06 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:31:06 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761233465%3A1bd9d079287fba054e9377e95e1f7a450762f5727ca4121e81365eda54c93bde" [accepted]
+2025-10-23 23:31:06 [INFO] uvicorn.error: connection open
+2025-10-23 23:31:07 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:31:07 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:31:07 [INFO] uvicorn.error: connection closed
+INFO:     2025-10-23 23:31:09 192.168.223.1:0 - "GET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1" 200 OK
+2025-10-23 23:31:11 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:31:11 [INFO] paramiko.transport: Authentication (password) successful!
+INFO:     2025-10-23 23:31:11 192.168.223.1:0 - "POST /host/connect_localhost HTTP/1.1" 200 OK
+2025-10-23 23:31:11 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1761233471:d077df4596d439dd009dc8ac6cd39490d4b7cd6b893195cb7a6f882c5521a98a
+2025-10-23 23:31:11 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-10-23 23:31:11 [INFO] paramiko.transport: Authentication (password) successful!
+2025-10-23 23:31:11 [INFO] uvicorn.error: ('192.168.223.1', 0) - "WebSocket /host/ws/terminal/1?token=1%3A1761233471%3Ad077df4596d439dd009dc8ac6cd39490d4b7cd6b893195cb7a6f882c5521a98a" [accepted]
+2025-10-23 23:31:11 [INFO] uvicorn.error: connection open
+2025-10-23 23:31:27 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-10-23 23:31:27 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-10-23 23:31:27 [INFO] uvicorn.error: connection closed

@@ -1,0 +1,620 @@
+2025-11-30 22:53:55 [INFO] init.appinit: Admin user created successfully!
+2025-11-30 22:53:55 [INFO] init.appinit: Localhost SSH config created successfully!
+2025-11-30 22:53:55 [INFO] init.appinit: Local Docker node created successfully!
+2025-11-30 22:53:55 [INFO] init.appinit: The private key content for the local SSH configuration has been updated
+2025-11-30 22:53:55 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-11-30 22:53:56 [INFO] uvicorn.error: Started server process [17686]
+2025-11-30 22:53:56 [INFO] uvicorn.error: Waiting for application startup.
+2025-11-30 22:53:56 [INFO] uvicorn.error: Application startup complete.
+2025-11-30 22:53:56 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[0m:     2025-11-30 22:54:00 127.0.0.1:54980 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:02 127.0.0.1:54988 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:02 127.0.0.1:54984 - "[1mGET /script/scripts?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:06 127.0.0.1:55000 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:06 127.0.0.1:54998 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:06 127.0.0.1:55004 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:06 127.0.0.1:55002 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fscripts&skip=0&limit=20 HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 22:54:06 127.0.0.1:55008 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:06 127.0.0.1:55012 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:11 127.0.0.1:55016 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:11 127.0.0.1:55020 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:13 127.0.0.1:55024 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:13 127.0.0.1:55028 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:16 127.0.0.1:55032 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:16 127.0.0.1:55036 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:30 127.0.0.1:55040 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fcomposeapp&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:30 127.0.0.1:55044 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fcomposeapp&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:31 127.0.0.1:55048 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:31 127.0.0.1:55052 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:44 127.0.0.1:55056 - "[1mGET /docs HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:54:44 127.0.0.1:55060 - "[1mGET /openapi.json HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:10 127.0.0.1:55064 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftlscert&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:10 127.0.0.1:55068 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftlscert&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:13 127.0.0.1:55072 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:13 127.0.0.1:55076 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:17 127.0.0.1:55082 - "[1mGET /container/nodes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:17 127.0.0.1:55084 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 22:55:17 [INFO] app.container.compose_service: Return the list of Compose projects from the cache, node ID: 1
+[32mINFO[0m:     2025-11-30 22:55:17 127.0.0.1:55088 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:19 127.0.0.1:55092 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:19 127.0.0.1:55096 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:21 127.0.0.1:55102 - "[1mGET /host/commands/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:21 127.0.0.1:55106 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:21 127.0.0.1:55110 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 22:55:21 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1764514521:23432e9d539d3b8fa3a5427e573dd16908eb15de65b79df4df0f1a727079247e
+2025-11-30 22:55:21 [INFO] app.host.websocket_terminal: 用户 unknown 尝试连接主机 1
+2025-11-30 22:55:21 [INFO] app.host.websocket_terminal: 尝试建立到主机 127.0.0.1:22 的SSH连接
+2025-11-30 22:55:21 [INFO] app.host.websocket_terminal: 开始创建SSH连接，主机: 127.0.0.1:22
+2025-11-30 22:55:21 [INFO] app.host.ssh_service: 成功加载ED25519格式密钥
+2025-11-30 22:55:21 [INFO] app.host.websocket_terminal: 成功加载SSH私钥
+2025-11-30 22:55:21 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 22:55:21 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 22:55:21 [INFO] app.host.websocket_terminal: 密钥认证成功
+2025-11-30 22:55:21 [INFO] app.host.websocket_terminal: SSH连接成功建立: 127.0.0.1:22
+2025-11-30 22:55:21 [INFO] app.host.websocket_terminal: SSH连接成功，主机 127.0.0.1:22
+2025-11-30 22:55:21 [INFO] uvicorn.error: ('127.0.0.1', 55114) - "WebSocket /host/ws/terminal/1?token=1%3A1764514521%3A23432e9d539d3b8fa3a5427e573dd16908eb15de65b79df4df0f1a727079247e" [accepted]
+2025-11-30 22:55:21 [INFO] uvicorn.error: connection open
+[32mINFO[0m:     2025-11-30 22:55:26 127.0.0.1:55126 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:26 127.0.0.1:55120 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:26 127.0.0.1:55128 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:26 127.0.0.1:55132 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:26 127.0.0.1:55138 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:26 127.0.0.1:55140 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:27 127.0.0.1:55144 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:31 127.0.0.1:55148 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:31 127.0.0.1:55152 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:37 127.0.0.1:55156 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fbackend&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:37 127.0.0.1:55160 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fbackend&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:38 127.0.0.1:55164 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fbackend%2Fdata&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:38 127.0.0.1:55168 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fbackend%2Fdata&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:40 127.0.0.1:55172 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fbackend&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:40 127.0.0.1:55176 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fbackend&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:41 127.0.0.1:55180 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:41 127.0.0.1:55184 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:43 127.0.0.1:55188 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:43 127.0.0.1:55192 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:50 127.0.0.1:55200 - "[1mGET /container/nodes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:50 127.0.0.1:55198 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 22:55:50 [INFO] app.container.compose_service: Return the list of Compose projects from the cache, node ID: 1
+[32mINFO[0m:     2025-11-30 22:55:50 127.0.0.1:55204 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:52 127.0.0.1:55208 - "[1mGET /container/nodes/1/containers HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:55:53 127.0.0.1:55212 - "[1mGET /container/nodes/1/images?page=1&page_size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:00 127.0.0.1:55216 - "[1mDELETE /container/nodes/1/images/sha256%3A12250bdd96e29fe977cd221f8b552643635063c62045f2a7bb759dc451742f32/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:01 127.0.0.1:55220 - "[1mGET /container/nodes/1/images?page=1&page_size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:04 127.0.0.1:55224 - "[1mPOST /container/nodes/1/images/pull HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:04 127.0.0.1:55228 - "[1mGET /container/operations/6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5/log/read HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:07 127.0.0.1:55238 - "[1mGET /container/operations/6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5/log/read HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:10 127.0.0.1:55268 - "[1mGET /container/operations/6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5/log/read HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:13 127.0.0.1:55272 - "[1mGET /container/operations/6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5/log/read HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:16 127.0.0.1:55276 - "[1mGET /container/operations/6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5/log/read HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 22:56:19 [INFO] app.container.images_service: Log file deleted: /opt/blackpotbpanel-v2/server/tmp/containerlog/pull_6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5.log
+2025-11-30 22:56:19 [INFO] app.container.images_service: Operation record cleaned: 6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5
+[32mINFO[0m:     2025-11-30 22:56:19 127.0.0.1:55280 - "[1mGET /container/operations/6fd6ba2e-1e4a-4a0b-ba19-cd16817e3dc5/log/read HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:20 127.0.0.1:55284 - "[1mGET /container/nodes/1/images?page=1&page_size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:23 127.0.0.1:55294 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:23 127.0.0.1:55292 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:23 127.0.0.1:55296 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:23 127.0.0.1:55300 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:23 127.0.0.1:55306 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:23 127.0.0.1:55308 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:24 127.0.0.1:55312 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:26 127.0.0.1:55316 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftmp&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:26 127.0.0.1:55320 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftmp&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:27 127.0.0.1:55324 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftmp%2Fcontainerlog&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:27 127.0.0.1:55328 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftmp%2Fcontainerlog&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:28 127.0.0.1:55332 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftmp&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:28 127.0.0.1:55336 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Ftmp&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:29 127.0.0.1:55340 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:29 127.0.0.1:55344 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:31 127.0.0.1:55348 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:31 127.0.0.1:55352 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:36 127.0.0.1:55358 - "[1mGET /script/scripts?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:56:39 127.0.0.1:55362 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 22:56:42 [INFO] uvicorn.error: ('127.0.0.1', 55366) - "WebSocket /script/execute/ws/execution_1764514649730_qjr2g0h31_1" [accepted]
+2025-11-30 22:56:42 [INFO] uvicorn.error: connection open
+2025-11-30 22:56:42 [INFO] app.script.routers: WebSocket接收到执行请求: 脚本ID 1, 主机列表 [1], 参数 
+2025-11-30 22:56:42 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 22:56:42 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 22:57:42 [ERROR] app.script.routers: WebSocket接收错误: 1005
+2025-11-30 22:57:42 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-11-30 22:57:43 127.0.0.1:55376 - "[1mGET /script/script-types HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 22:58:06 127.0.0.1:55382 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 22:58:08 [INFO] uvicorn.error: ('127.0.0.1', 55386) - "WebSocket /script/execute/ws/execution_1764514735716_rk8i62sm7_1" [accepted]
+2025-11-30 22:58:08 [INFO] uvicorn.error: connection open
+2025-11-30 22:58:08 [INFO] app.script.routers: WebSocket接收到执行请求: 脚本ID 3, 主机列表 [1], 参数 
+2025-11-30 22:58:08 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 22:58:08 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 22:58:16 [ERROR] app.script.routers: WebSocket接收错误: 1005
+2025-11-30 22:58:16 [INFO] uvicorn.error: connection closed
+2025-11-30 23:00:20 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1006
+2025-11-30 23:00:20 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-11-30 23:00:20 [INFO] uvicorn.error: connection closed
+2025-11-30 23:00:23 [INFO] uvicorn.error: Shutting down
+2025-11-30 23:00:23 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-11-30 23:00:23 [INFO] uvicorn.error: Application shutdown complete.
+2025-11-30 23:00:23 [INFO] uvicorn.error: Finished server process [17686]
+2025-11-30 23:00:25 [INFO] init.appinit: Admin user already exists.
+2025-11-30 23:00:25 [INFO] init.appinit: Localhost SSH config already exists.
+2025-11-30 23:00:25 [INFO] init.appinit: Local Docker node already exists.
+2025-11-30 23:00:25 [INFO] init.appinit: The private key content for the local SSH configuration has not changed, skipping update
+2025-11-30 23:00:25 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-11-30 23:00:26 [INFO] uvicorn.error: Started server process [18318]
+2025-11-30 23:00:26 [INFO] uvicorn.error: Waiting for application startup.
+2025-11-30 23:00:26 [INFO] uvicorn.error: Application startup complete.
+2025-11-30 23:00:26 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[0m:     2025-11-30 23:00:27 127.0.0.1:55394 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:00:28 127.0.0.1:55402 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:00:28 127.0.0.1:55400 - "[1mGET /script/scripts?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:00:30 127.0.0.1:55406 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:00:32 [INFO] uvicorn.error: ('127.0.0.1', 55410) - "WebSocket /script/execute/ws/execution_1764514879292_0ebl3xo58_1" [accepted]
+2025-11-30 23:00:32 [INFO] uvicorn.error: connection open
+2025-11-30 23:00:32 [INFO] app.script.routers: WebSocket接收到执行请求: 脚本ID 3, 主机列表 [1], 参数 
+2025-11-30 23:00:32 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 23:00:32 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 23:00:38 [ERROR] app.script.routers: WebSocket接收错误: 1005
+2025-11-30 23:00:38 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-11-30 23:04:37 127.0.0.1:55418 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [31m404 Not Found[0m
+2025-11-30 23:04:43 [INFO] uvicorn.error: Shutting down
+2025-11-30 23:04:43 [INFO] uvicorn.error: Waiting for application shutdown.
+2025-11-30 23:04:43 [INFO] uvicorn.error: Application shutdown complete.
+2025-11-30 23:04:43 [INFO] uvicorn.error: Finished server process [18318]
+2025-11-30 23:04:45 [INFO] init.appinit: Admin user already exists.
+2025-11-30 23:04:45 [INFO] init.appinit: Localhost SSH config already exists.
+2025-11-30 23:04:45 [INFO] init.appinit: Local Docker node already exists.
+2025-11-30 23:04:45 [INFO] init.appinit: The private key content for the local SSH configuration has not changed, skipping update
+2025-11-30 23:04:46 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-11-30 23:04:46 [INFO] uvicorn.error: Started server process [18435]
+2025-11-30 23:04:46 [INFO] uvicorn.error: Waiting for application startup.
+2025-11-30 23:04:46 [INFO] uvicorn.error: Application startup complete.
+2025-11-30 23:04:46 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[0m:     2025-11-30 23:04:49 127.0.0.1:55422 - "[1mGET /docs HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:04:49 127.0.0.1:55426 - "[1mGET /openapi.json HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:04:53 127.0.0.1:55430 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:04:53 127.0.0.1:55434 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:04:54 127.0.0.1:55440 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:04:57 127.0.0.1:55444 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:04 127.0.0.1:55448 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:38 127.0.0.1:55452 - "[1mPOST /script/script-types/create HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:38 127.0.0.1:55456 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:41 127.0.0.1:55460 - "[1mPOST /script/script-types/2/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:41 127.0.0.1:55464 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:44 127.0.0.1:55468 - "[1mPOST /script/script-types/2/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:44 127.0.0.1:55472 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:05:49 127.0.0.1:55476 - "[1mPOST /script/3/update HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:06:00 127.0.0.1:55480 - "[1mPOST /script/3/update HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:07:03 127.0.0.1:55484 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:07 127.0.0.1:55488 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:17 127.0.0.1:55492 - "[1mPOST /script/create HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:17 127.0.0.1:55496 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:24 127.0.0.1:55500 - "[1mPOST /script/scripts/4/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:24 127.0.0.1:55504 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:28 127.0.0.1:55508 - "[1mPOST /script/scripts/4/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:28 127.0.0.1:55512 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:35 127.0.0.1:55516 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:07:38 [INFO] uvicorn.error: ('127.0.0.1', 55520) - "WebSocket /script/execute/ws/execution_1764515305107_xuyw01z2h_1" [accepted]
+2025-11-30 23:07:38 [INFO] uvicorn.error: connection open
+2025-11-30 23:07:38 [INFO] app.script.routers: WebSocket接收到执行请求: 脚本ID 3, 主机列表 [1], 参数 
+2025-11-30 23:07:38 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 23:07:38 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 23:07:45 [ERROR] app.script.routers: WebSocket接收错误: 1005
+2025-11-30 23:07:45 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-11-30 23:07:54 127.0.0.1:55532 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:54 127.0.0.1:55534 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:54 127.0.0.1:55536 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:54 127.0.0.1:55540 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:54 127.0.0.1:55548 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:54 127.0.0.1:55546 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:54 127.0.0.1:55552 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:58 127.0.0.1:55556 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:07:58 127.0.0.1:55560 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:08:28 127.0.0.1:55564 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:08:33 127.0.0.1:55568 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fcron HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:05 127.0.0.1:55578 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:05 127.0.0.1:55572 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:05 127.0.0.1:55580 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:05 127.0.0.1:55588 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:05 127.0.0.1:55590 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:05 127.0.0.1:55592 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:05 127.0.0.1:55596 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55600 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55606 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55614 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55608 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55616 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55620 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55624 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55628 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:37 127.0.0.1:55632 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:41 127.0.0.1:55636 - "[1mGET /file/download_tasks HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:45 127.0.0.1:55640 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:10:45 127.0.0.1:55644 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:12:01 127.0.0.1:55648 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:12:16 127.0.0.1:55652 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:12:17 127.0.0.1:55656 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:12:19 127.0.0.1:55660 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:13:40 127.0.0.1:55666 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:13:50 127.0.0.1:55670 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:13:52 127.0.0.1:55674 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fcomposeapp HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:37 127.0.0.1:55678 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55690 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55682 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55692 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55694 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55698 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55702 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55706 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:38 127.0.0.1:55710 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:51 127.0.0.1:55714 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:14:51 127.0.0.1:55718 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:15:18 127.0.0.1:55722 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:15:18 127.0.0.1:55726 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:15:21 127.0.0.1:55730 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:16:14 127.0.0.1:55734 - "[1mGET /firewall/info HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:16:17 127.0.0.1:55738 - "[1mPOST /host/ssh/log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:16:17 127.0.0.1:55742 - "[1mGET /host/ssh/config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:16:17 127.0.0.1:55746 - "[1mGET /host/ssh/config/file HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:16:19 127.0.0.1:55750 - "[1mGET /firewall/info HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:17:28 127.0.0.1:55758 - "[1mGET /container/nodes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:28 127.0.0.1:55756 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:17:29 [INFO] app.container.compose_service: Return the list of Compose projects from the cache, node ID: 1
+[32mINFO[0m:     2025-11-30 23:17:29 127.0.0.1:55762 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:32 127.0.0.1:55766 - "[1mGET /container/nodes/1/containers HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:33 127.0.0.1:55770 - "[1mGET /container/nodes/1/images?page=1&page_size=10 HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:17:34 [INFO] app.container.compose_service: Return the list of Compose projects from the cache, node ID: 1
+[32mINFO[0m:     2025-11-30 23:17:34 127.0.0.1:55774 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:34 127.0.0.1:55778 - "[1mGET /container/nodes/1/containers HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:17:35 [INFO] app.container.compose_service: Return the list of Compose projects from the cache, node ID: 1
+[32mINFO[0m:     2025-11-30 23:17:35 127.0.0.1:55782 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:47 127.0.0.1:55792 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:47 127.0.0.1:55790 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:47 127.0.0.1:55794 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:47 127.0.0.1:55798 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:47 127.0.0.1:55802 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:47 127.0.0.1:55806 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:47 127.0.0.1:55810 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:54 127.0.0.1:55814 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:54 127.0.0.1:55818 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:55 127.0.0.1:55822 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:55 127.0.0.1:55826 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:56 127.0.0.1:55830 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:56 127.0.0.1:55834 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:58 127.0.0.1:55838 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:17:58 127.0.0.1:55842 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:01 127.0.0.1:55846 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:01 127.0.0.1:55850 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:10 127.0.0.1:55854 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&filename=Firewall.vue HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:10 127.0.0.1:55858 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:13 127.0.0.1:55862 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:13 127.0.0.1:55866 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:14 127.0.0.1:55870 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:14 127.0.0.1:55874 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:18 127.0.0.1:55878 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&filename=Basic.vue HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:18 127.0.0.1:55882 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:23 127.0.0.1:55886 - "[1mPUT /file/content HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:25 127.0.0.1:55890 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&filename=BlackWhite.vue HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:25 127.0.0.1:55894 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:31 127.0.0.1:55898 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&filename=Basic.vue HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:31 127.0.0.1:55902 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:35 127.0.0.1:55906 - "[1mGET /firewall/info HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:18:38 127.0.0.1:55916 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:38 127.0.0.1:55920 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:38 127.0.0.1:55922 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:38 127.0.0.1:55918 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:38 127.0.0.1:55926 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:38 127.0.0.1:55930 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fwaf&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:38 127.0.0.1:55934 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:40 127.0.0.1:55938 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:40 127.0.0.1:55942 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:41 127.0.0.1:55946 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:41 127.0.0.1:55950 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:42 127.0.0.1:55954 - "[1mGET /file/content?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&filename=Firewall.vue HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:42 127.0.0.1:55958 - "[1mGET /file/tree?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&max_depth=2 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:44 127.0.0.1:55962 - "[1mPUT /file/content HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:50 127.0.0.1:55966 - "[1mPUT /file/content HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:18:55 127.0.0.1:55970 - "[1mPUT /file/content HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:02 127.0.0.1:55974 - "[1mPUT /file/content HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:07 127.0.0.1:55978 - "[1mPOST /host/ssh/log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:07 127.0.0.1:55982 - "[1mGET /host/ssh/config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:07 127.0.0.1:55986 - "[1mGET /host/ssh/config/file HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:08 127.0.0.1:55990 - "[1mGET /service/processes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:09 127.0.0.1:55994 - "[1mGET /service/network/connections HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:10 127.0.0.1:55998 - "[1mGET /service/processes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:11 127.0.0.1:56006 - "[1mPOST /host/ssh/log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:11 127.0.0.1:56002 - "[1mGET /host/ssh/config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:11 127.0.0.1:56010 - "[1mGET /host/ssh/config/file HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:11 127.0.0.1:56014 - "[1mGET /service/processes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:13 127.0.0.1:56018 - "[1mGET /service/network/connections HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:16 127.0.0.1:56022 - "[1mGET /service/processes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:17 127.0.0.1:56026 - "[1mPOST /host/ssh/log HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:17 127.0.0.1:56030 - "[1mGET /host/ssh/config HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:17 127.0.0.1:56034 - "[1mGET /host/ssh/config/file HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:19 127.0.0.1:56038 - "[1mGET /service/processes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:26 127.0.0.1:56048 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:26 127.0.0.1:56044 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:26 127.0.0.1:56054 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:26 127.0.0.1:56052 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:26 127.0.0.1:56060 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:26 127.0.0.1:56062 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:19:26 127.0.0.1:56066 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:09 127.0.0.1:56070 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56088 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56082 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56080 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56078 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56090 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56100 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fhost&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56094 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Ffrontend%2Fsrc%2Fviews%2Fsecurity&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:10 127.0.0.1:56102 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:13 127.0.0.1:56106 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:13 127.0.0.1:56110 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:20:14 127.0.0.1:56114 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:22:30 127.0.0.1:56124 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:22:30 127.0.0.1:56128 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:07 127.0.0.1:56142 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:07 127.0.0.1:56146 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:07 127.0.0.1:56150 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:08 127.0.0.1:56154 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:08 127.0.0.1:56158 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:09 127.0.0.1:56162 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:10 127.0.0.1:56166 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:10 127.0.0.1:56170 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:14 127.0.0.1:56174 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:17 127.0.0.1:56178 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:17 127.0.0.1:56182 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:27:19 127.0.0.1:56186 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:33:40 [INFO] uvicorn.error: Shutting down
+2025-11-30 23:33:40 [INFO] uvicorn.error: Finished server process [18435]
+2025-11-30 23:33:40 [ERROR] uvicorn.error: Traceback (most recent call last):
+  File "/opt/blackpotbpanel-v2/venv/lib/python3.11/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/blackpotbpanel-v2/venv/lib/python3.11/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-11-30 23:33:45 [INFO] init.appinit: Admin user already exists.
+2025-11-30 23:33:45 [INFO] init.appinit: Localhost SSH config already exists.
+2025-11-30 23:33:45 [INFO] init.appinit: Local Docker node already exists.
+2025-11-30 23:33:45 [INFO] init.appinit: The private key content for the local SSH configuration has not changed, skipping update
+2025-11-30 23:33:45 [WARNING] uvicorn.error: Current configuration will not reload as not all conditions are met, please refer to documentation.
+2025-11-30 23:33:45 [INFO] uvicorn.error: Started server process [19862]
+2025-11-30 23:33:45 [INFO] uvicorn.error: Waiting for application startup.
+2025-11-30 23:33:45 [INFO] uvicorn.error: Application startup complete.
+2025-11-30 23:33:45 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[0m:     2025-11-30 23:33:49 127.0.0.1:56190 - "[1mGET /docs HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:33:49 127.0.0.1:56194 - "[1mGET /openapi.json HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:09 127.0.0.1:56198 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:09 127.0.0.1:56202 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:11 127.0.0.1:56206 - "[1mGET /file/list?path=%2Fopt&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:11 127.0.0.1:56210 - "[1mGET /file/list?path=%2Fopt&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:15 127.0.0.1:56214 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:15 127.0.0.1:56218 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:17 127.0.0.1:56222 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:17 127.0.0.1:56226 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:27 127.0.0.1:56230 - "[1mPOST /file/create_directory HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:27 127.0.0.1:56234 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:27 127.0.0.1:56238 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:28 127.0.0.1:56242 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:28 127.0.0.1:56246 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:36 127.0.0.1:56250 - "[1mPOST /file/create_file HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:36 127.0.0.1:56254 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:36 127.0.0.1:56258 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:40 127.0.0.1:56262 - "[1mPOST /file/create_file HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:40 127.0.0.1:56266 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:40 127.0.0.1:56270 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:35:51 127.0.0.1:56274 - "[1mDELETE /file/delete_batch HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+[32mINFO[0m:     2025-11-30 23:36:06 127.0.0.1:56278 - "[1mDELETE /file/delete_batch HTTP/1.1[0m" [31m405 Method Not Allowed[0m
+[32mINFO[0m:     2025-11-30 23:36:54 127.0.0.1:56282 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:36:56 127.0.0.1:56292 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:36:56 127.0.0.1:56290 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:36:56 127.0.0.1:56294 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:36:56 127.0.0.1:56298 - "[1mGET /users/me HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:36:56 127.0.0.1:56302 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:36:56 127.0.0.1:56306 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:25 127.0.0.1:56310 - "[1mPOST /file/delete_batch HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:25 127.0.0.1:56314 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:25 127.0.0.1:56318 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:27 127.0.0.1:56322 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:27 127.0.0.1:56326 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:29 127.0.0.1:56330 - "[1mPOST /system/config/recycle/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:30 127.0.0.1:56334 - "[1mPOST /system/config/recycle/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:41 127.0.0.1:56338 - "[1mPOST /file/recycle/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:41 127.0.0.1:56342 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:46 127.0.0.1:56346 - "[1mGET /file/list?path=%2F HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:37:57 127.0.0.1:56350 - "[1mGET /file/list?path=%2F HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:01 127.0.0.1:56354 - "[1mGET /file/list?path=%2Fhome HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:02 127.0.0.1:56358 - "[1mGET /file/list?path=%2Fhome%2Fwww HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:06 127.0.0.1:56362 - "[1mPOST /file/recycle/restore HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:06 127.0.0.1:56366 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:08 127.0.0.1:56370 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:15 127.0.0.1:56374 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:15 127.0.0.1:56378 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:17 127.0.0.1:56382 - "[1mGET /file/list?path=%2F&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:17 127.0.0.1:56386 - "[1mGET /file/list?path=%2F&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:32 127.0.0.1:56390 - "[1mGET /file/list?path=%2Fhome&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:32 127.0.0.1:56394 - "[1mGET /file/list?path=%2Fhome&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:33 127.0.0.1:56398 - "[1mGET /file/list?path=%2Fhome%2Fwww&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:33 127.0.0.1:56402 - "[1mGET /file/list?path=%2Fhome%2Fwww&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:40 127.0.0.1:56406 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:40 127.0.0.1:56410 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:42 127.0.0.1:56414 - "[1mPOST /system/config/recycle/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:42 127.0.0.1:56418 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:47 127.0.0.1:56422 - "[1mPOST /file/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:47 127.0.0.1:56426 - "[1mGET /file/list?path=%2Fhome%2Fwww&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:47 127.0.0.1:56430 - "[1mGET /file/list?path=%2Fhome%2Fwww&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:48 127.0.0.1:56434 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:48 127.0.0.1:56438 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:50 127.0.0.1:56442 - "[1mPOST /system/config/recycle/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:50 127.0.0.1:56446 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:52 127.0.0.1:56450 - "[1mGET /file/list?path=%2Fhome&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:52 127.0.0.1:56454 - "[1mGET /file/list?path=%2Fhome&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:53 127.0.0.1:56458 - "[1mGET /file/list?path=%2F&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:38:53 127.0.0.1:56462 - "[1mGET /file/list?path=%2F&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:05 127.0.0.1:56466 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:05 127.0.0.1:56470 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:18 127.0.0.1:56474 - "[1mPOST /file/permissions_batch HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:18 127.0.0.1:56478 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:18 127.0.0.1:56482 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:29 127.0.0.1:56486 - "[1mPOST /file/permissions_batch HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:29 127.0.0.1:56490 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:29 127.0.0.1:56494 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:30 127.0.0.1:56498 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:39:30 127.0.0.1:56502 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:18 127.0.0.1:56512 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:18 127.0.0.1:56506 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:18 127.0.0.1:56514 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:18 127.0.0.1:56520 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:18 127.0.0.1:56522 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:25 127.0.0.1:56526 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:25 127.0.0.1:56530 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:27 127.0.0.1:56536 - "[1mGET /host/commands/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:27 127.0.0.1:56540 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:27 127.0.0.1:56544 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:40:27 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1764517227:2082211682b301c74187a9aaf3a0909ca103bab3bbcef699c37dbb424f89e607
+2025-11-30 23:40:27 [INFO] app.host.websocket_terminal: 用户 unknown 尝试连接主机 1
+2025-11-30 23:40:27 [INFO] app.host.websocket_terminal: 尝试建立到主机 127.0.0.1:22 的SSH连接
+2025-11-30 23:40:27 [INFO] app.host.websocket_terminal: 开始创建SSH连接，主机: 127.0.0.1:22
+2025-11-30 23:40:27 [INFO] app.host.ssh_service: 成功加载ED25519格式密钥
+2025-11-30 23:40:27 [INFO] app.host.websocket_terminal: 成功加载SSH私钥
+2025-11-30 23:40:27 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 23:40:27 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 23:40:27 [INFO] app.host.websocket_terminal: 密钥认证成功
+2025-11-30 23:40:27 [INFO] app.host.websocket_terminal: SSH连接成功建立: 127.0.0.1:22
+2025-11-30 23:40:27 [INFO] app.host.websocket_terminal: SSH连接成功，主机 127.0.0.1:22
+2025-11-30 23:40:27 [INFO] uvicorn.error: ('127.0.0.1', 56548) - "WebSocket /host/ws/terminal/1?token=1%3A1764517227%3A2082211682b301c74187a9aaf3a0909ca103bab3bbcef699c37dbb424f89e607" [accepted]
+2025-11-30 23:40:27 [INFO] uvicorn.error: connection open
+[32mINFO[0m:     2025-11-30 23:40:55 127.0.0.1:56554 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:55 127.0.0.1:56558 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:57 127.0.0.1:56564 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:57 127.0.0.1:56568 - "[1mGET /host/commands/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:40:57 127.0.0.1:56572 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:40:57 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1764517257:bbb4a95f0e3ea4d905ccab75e733eaf01a2683a055fc17c1cd8cc4760400ef6f
+2025-11-30 23:40:57 [INFO] app.host.websocket_terminal: 用户 unknown 尝试连接主机 1
+2025-11-30 23:40:57 [INFO] app.host.websocket_terminal: 尝试建立到主机 127.0.0.1:22 的SSH连接
+2025-11-30 23:40:57 [INFO] app.host.websocket_terminal: 开始创建SSH连接，主机: 127.0.0.1:22
+2025-11-30 23:40:57 [INFO] app.host.ssh_service: 成功加载ED25519格式密钥
+2025-11-30 23:40:57 [INFO] app.host.websocket_terminal: 成功加载SSH私钥
+2025-11-30 23:40:57 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 23:40:57 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 23:40:57 [INFO] app.host.websocket_terminal: 密钥认证成功
+2025-11-30 23:40:57 [INFO] app.host.websocket_terminal: SSH连接成功建立: 127.0.0.1:22
+2025-11-30 23:40:57 [INFO] app.host.websocket_terminal: SSH连接成功，主机 127.0.0.1:22
+2025-11-30 23:40:57 [INFO] uvicorn.error: ('127.0.0.1', 56576) - "WebSocket /host/ws/terminal/1?token=1%3A1764517257%3Abbb4a95f0e3ea4d905ccab75e733eaf01a2683a055fc17c1cd8cc4760400ef6f" [accepted]
+2025-11-30 23:40:57 [INFO] uvicorn.error: connection open
+[32mINFO[0m:     2025-11-30 23:41:09 127.0.0.1:56582 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:41:09 127.0.0.1:56586 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:41:10 127.0.0.1:56592 - "[1mGET /script/scripts/list?skip=0&limit=10 HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:41:12 127.0.0.1:56596 - "[1mGET /script/scripts/list?skip=0&limit=10 HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:41:33 127.0.0.1:56600 - "[1mGET /script/scripts/list?skip=0&limit=10 HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:44:06 127.0.0.1:56604 - "[1mGET /script/scripts/list?skip=0&limit=10 HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     2025-11-30 23:44:16 127.0.0.1:56608 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:21 127.0.0.1:56612 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:24 127.0.0.1:56616 - "[1mPOST /script/scripts/1/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:24 127.0.0.1:56620 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:29 127.0.0.1:56624 - "[1mPOST /script/scripts/2/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:29 127.0.0.1:56628 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:37 127.0.0.1:56632 - "[1mPOST /script/create HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:37 127.0.0.1:56636 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:41 127.0.0.1:56640 - "[1mPOST /script/scripts/4/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:41 127.0.0.1:56644 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:43 127.0.0.1:56648 - "[1mPOST /script/scripts/4/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:43 127.0.0.1:56652 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:45 127.0.0.1:56656 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:56 127.0.0.1:56660 - "[1mPOST /script/script-types/create HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:44:56 127.0.0.1:56664 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:00 127.0.0.1:56668 - "[1mPOST /script/script-types/2/update HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:01 127.0.0.1:56672 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:03 127.0.0.1:56676 - "[1mPOST /script/script-types/2/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:03 127.0.0.1:56680 - "[1mGET /script/script-types/list HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:19 127.0.0.1:56684 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:19 127.0.0.1:56688 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:22 127.0.0.1:56696 - "[1mGET /host/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:22 127.0.0.1:56698 - "[1mGET /host/commands/ HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:22 127.0.0.1:56702 - "[1mPOST /host/1/terminal_token HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:45:22 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1764517522:a6d9e1afdbc24020801e47e29552cf7e5893516d2642d73e7819dd9b02f8f567
+2025-11-30 23:45:22 [INFO] app.host.websocket_terminal: 用户 unknown 尝试连接主机 1
+2025-11-30 23:45:22 [INFO] app.host.websocket_terminal: 尝试建立到主机 127.0.0.1:22 的SSH连接
+2025-11-30 23:45:22 [INFO] app.host.websocket_terminal: 开始创建SSH连接，主机: 127.0.0.1:22
+2025-11-30 23:45:22 [INFO] app.host.ssh_service: 成功加载ED25519格式密钥
+2025-11-30 23:45:22 [INFO] app.host.websocket_terminal: 成功加载SSH私钥
+2025-11-30 23:45:22 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 23:45:22 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 23:45:22 [INFO] app.host.websocket_terminal: 密钥认证成功
+2025-11-30 23:45:22 [INFO] app.host.websocket_terminal: SSH连接成功建立: 127.0.0.1:22
+2025-11-30 23:45:22 [INFO] app.host.websocket_terminal: SSH连接成功，主机 127.0.0.1:22
+2025-11-30 23:45:22 [INFO] uvicorn.error: ('127.0.0.1', 56706) - "WebSocket /host/ws/terminal/1?token=1%3A1764517522%3Aa6d9e1afdbc24020801e47e29552cf7e5893516d2642d73e7819dd9b02f8f567" [accepted]
+2025-11-30 23:45:22 [INFO] uvicorn.error: connection open
+[32mINFO[0m:     2025-11-30 23:45:23 127.0.0.1:56712 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:23 127.0.0.1:56716 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:24 127.0.0.1:56722 - "[1mGET /script/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:28 127.0.0.1:56730 - "[1mGET /container/nodes HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:28 127.0.0.1:56728 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:45:29 [INFO] app.container.compose_service: Return the list of Compose projects from the cache, node ID: 1
+[32mINFO[0m:     2025-11-30 23:45:29 127.0.0.1:56734 - "[1mGET /container/nodes/1/info HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:30 127.0.0.1:56738 - "[1mGET /container/nodes/1/images?page=1&page_size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:31 127.0.0.1:56742 - "[1mGET /container/nodes/1/networks?page=1&page_size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:32 127.0.0.1:56746 - "[1mGET /container/nodes/1/images?page=1&page_size=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:33 127.0.0.1:56750 - "[1mGET /container/nodes/1/containers HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:34 127.0.0.1:56754 - "[1mGET /host/?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:34 127.0.0.1:56758 - "[1mGET /host/1/status HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:38 127.0.0.1:56770 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:38 127.0.0.1:56768 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:38 127.0.0.1:56772 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:38 127.0.0.1:56776 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:45:38 127.0.0.1:56780 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:45:42 [INFO] app.host.ssh_service: 成功加载ED25519格式密钥
+2025-11-30 23:45:43 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 23:45:43 [INFO] paramiko.transport: Authentication (publickey) successful!
+[32mINFO[0m:     2025-11-30 23:45:43 127.0.0.1:56784 - "[1mPOST /host/connect_localhost HTTP/1.1[0m" [32m200 OK[0m
+2025-11-30 23:45:43 [INFO] app.host.routers: WebSocket连接请求，host_id: 1, token: 1:1764517543:ad1cdd81d6965cd2271a0ab44e3d818ba3f749c81db2d2f8867dd6cf9b44df92
+2025-11-30 23:45:43 [INFO] app.host.websocket_terminal: 用户 unknown 尝试连接主机 1
+2025-11-30 23:45:43 [INFO] app.host.websocket_terminal: 尝试建立到主机 127.0.0.1:22 的SSH连接
+2025-11-30 23:45:43 [INFO] app.host.websocket_terminal: 开始创建SSH连接，主机: 127.0.0.1:22
+2025-11-30 23:45:43 [INFO] app.host.ssh_service: 成功加载ED25519格式密钥
+2025-11-30 23:45:43 [INFO] app.host.websocket_terminal: 成功加载SSH私钥
+2025-11-30 23:45:43 [INFO] paramiko.transport: Connected (version 2.0, client OpenSSH_8.0)
+2025-11-30 23:45:43 [INFO] paramiko.transport: Authentication (publickey) successful!
+2025-11-30 23:45:43 [INFO] app.host.websocket_terminal: 密钥认证成功
+2025-11-30 23:45:43 [INFO] app.host.websocket_terminal: SSH连接成功建立: 127.0.0.1:22
+2025-11-30 23:45:43 [INFO] app.host.websocket_terminal: SSH连接成功，主机 127.0.0.1:22
+2025-11-30 23:45:43 [INFO] uvicorn.error: ('127.0.0.1', 56790) - "WebSocket /host/ws/terminal/1?token=1%3A1764517543%3Aad1cdd81d6965cd2271a0ab44e3d818ba3f749c81db2d2f8867dd6cf9b44df92" [accepted]
+2025-11-30 23:45:43 [INFO] uvicorn.error: connection open
+2025-11-30 23:46:08 [ERROR] app.host.websocket_terminal: WebSocket接收错误: 1005
+2025-11-30 23:46:08 [INFO] app.host.websocket_terminal: 连接 1_unknown 已清理
+2025-11-30 23:46:08 [INFO] uvicorn.error: connection closed
+[32mINFO[0m:     2025-11-30 23:46:09 127.0.0.1:56796 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:09 127.0.0.1:56800 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:12 127.0.0.1:56804 - "[1mPOST /file/recycle/clear HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:12 127.0.0.1:56808 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:14 127.0.0.1:56812 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:19 127.0.0.1:56816 - "[1mPOST /file/create_file HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:19 127.0.0.1:56820 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:19 127.0.0.1:56824 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:23 127.0.0.1:56828 - "[1mPOST /file/create_directory HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:23 127.0.0.1:56832 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:23 127.0.0.1:56836 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:30 127.0.0.1:56840 - "[1mPOST /file/delete_batch HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:30 127.0.0.1:56844 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:30 127.0.0.1:56848 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:33 127.0.0.1:56852 - "[1mPOST /file/delete HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:33 127.0.0.1:56856 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:33 127.0.0.1:56860 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:35 127.0.0.1:56864 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:35 127.0.0.1:56868 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:40 127.0.0.1:56872 - "[1mPOST /file/recycle/restore_batch HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:40 127.0.0.1:56876 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:43 127.0.0.1:56880 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:44 127.0.0.1:56884 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:44 127.0.0.1:56888 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:48 127.0.0.1:56892 - "[1mPOST /file/delete_batch HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:48 127.0.0.1:56896 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:48 127.0.0.1:56900 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver%2Fztest&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:49 127.0.0.1:56904 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:49 127.0.0.1:56908 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:55 127.0.0.1:56912 - "[1mPOST /file/recycle/delete_batch HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:55 127.0.0.1:56916 - "[1mGET /file/recycle/list?skip=0&limit=10 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:46:56 127.0.0.1:56920 - "[1mGET /system/config/recycle HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:47:47 127.0.0.1:56924 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=20 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     2025-11-30 23:47:47 127.0.0.1:56928 - "[1mGET /file/list?path=%2Fopt%2Fblackpotbpanel-v2%2Fserver&skip=0&limit=1000 HTTP/1.1[0m" [32m200 OK[0m
