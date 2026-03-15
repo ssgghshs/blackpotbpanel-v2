@@ -5,11 +5,11 @@
       <span class="footer-separator">|</span>
       <a class="footer-item" href="https://doc.blackpotbp.cc/" target="_blank"><icon-file />{{ t('doc') }}</a>
       <span class="footer-separator">|</span>
-      <a class="footer-item" href="https://github.com/BlackPotBP/BlackPotBPanel" target="_blank">
+      <a class="footer-item" href="https://github.com/ssgghshs/blackpotbpanel-v2" target="_blank">
         <icon-github />
       </a>
       <span class="footer-separator">|</span>
-      <a class="footer-item" href="https://gitee.com/ssgghshs/blackpotbpanel" target="_blank">
+      <a class="footer-item" href="https://gitee.com/ssgghshs/blackpotbpanel-v2" target="_blank">
         <Gitee />
       </a>
     </nav>
