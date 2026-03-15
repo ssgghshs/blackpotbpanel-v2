@@ -76,7 +76,7 @@ python main.py
 - 定时任务
 - 剧本执行
 - linux的防火墙管理（firewall/ufw）
-- WAF管理
+- WAF管理（网站功能）
 - 访问日志/操作日志
 
 ## 国际化
